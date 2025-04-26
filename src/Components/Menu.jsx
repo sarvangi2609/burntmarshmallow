@@ -10,6 +10,7 @@ import Clenning from "./Dropdowns/Clenning";
 import Lighting from "./Dropdowns/Lighting";
 import BabyKids from "./Dropdowns/Baby&Kids";
 import More from "./Dropdowns/More";
+import Ideas from "./Dropdowns/Ideas";
 
 const Menu = () => {
   return (
@@ -18,26 +19,24 @@ const Menu = () => {
         <ul className="menu-list">
 
           <li>
-                <span>Furniture</span>
-                <div className="dropdown">
-                  <Furniture />
-                </div>
-          </li>
-
-          <li> 
-          <span>Rugs</span>
-          <div className="dropdown">
-            <Rugs />
-          </div>
-            
+            <span>Furniture</span>
+            <div className="dropdown">
+              <Furniture />
+            </div>
           </li>
 
           <li>
-         <span>Outdoor</span>
-         <div className="dropdown">
-              <OutDoor />
-         </div>
+            <span>Rugs</span>
+            <div className="dropdown">
+              <Rugs />
+            </div>
+          </li>
 
+          <li>
+            <span>Outdoor</span>
+            <div className="dropdown">
+              <OutDoor />
+            </div>
           </li>
 
           <li>
@@ -45,45 +44,41 @@ const Menu = () => {
             <div className="dropdown">
               <Bedding />
             </div>
-
           </li>
 
           <li>
             <span>Bath</span>
-          <div className="dropdown">
-            <Bath />
-          </div>
-
+            <div className="dropdown">
+              <Bath />
+            </div>
           </li>
 
           <li>
-          <span>Kitchen</span>
+            <span>Kitchen</span>
             <div className="dropdown">
               <Kitchen />
             </div>
-
           </li>
 
           <li>
-          <span>Decor</span>
-              <div className="dropdown">
-              <Decore />
-              </div>
-          </li>
-
-          <li>
-          <span>Storage & Cleaning</span>
+            <span>Decor</span>
             <div className="dropdown">
-            <Clenning />
+              <Decore />
             </div>
           </li>
 
           <li>
-          <span>Lighting</span>
-          <div className="dropdown">
-            <Lighting />
-          </div>
+            <span>Storage & Cleaning</span>
+            <div className="dropdown">
+              <Clenning />
+            </div>
+          </li>
 
+          <li>
+            <span>Lighting</span>
+            <div className="dropdown">
+              <Lighting />
+            </div>
           </li>
 
           <li>
@@ -91,34 +86,35 @@ const Menu = () => {
             <div className="dropdown">
               <BabyKids />
             </div>
-          
           </li>
 
           <li>
-            <span>More</span> 
+            <span>More</span>
             <div className="dropdown">
               <More />
-              </div>        
-
+            </div>
           </li>
 
-          {/* <li>
-          <ul>
+          <li>
+            {/* <ul>
   <li>Living Room</li>
   <li>Bedroom</li>
   <li>Dining Room</li>
   <li>Patio</li>
-</ul>
+</ul> */}
+            <span>Ideas</span>
+            <div className="dropdown">
+              <Ideas />
+            </div>
+          </li>
 
-          </li> */}
-
-          {/* <li>
+          <li>
             <span>Sales & Deals</span>
-          </li> */}
+          </li>
 
-          
         </ul>
       </div>
+
     </>
   );
 };
