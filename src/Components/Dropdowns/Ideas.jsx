@@ -4,7 +4,11 @@ import React from 'react'
 
 const Ideas = () => {
   return (
-    <div>Ideas</div>
+    <>
+      <div className="drop">
+        <ul className="drop-ul"></ul>
+      </div>
+    </>
   )
 }
 

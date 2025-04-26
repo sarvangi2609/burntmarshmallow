@@ -2,7 +2,15 @@ import React from 'react'
 
 const Sales = () => {
   return (
-    <div>Sales</div>
+    <>
+      <div className="drop">
+        <ul className="drop-ul">
+
+
+       
+        </ul>
+      </div>
+    </>
   )
 }
 
