@@ -18,10 +18,12 @@ const Header = () => {
 
             <div className="left">
             <ul className="logolist">
-                <li><a href=""><img src={logo1} alt="" /></a></li>
-                <li><a href=""><img src={logo2} alt="" /></a></li>
-                <li><a href=""><img src={logo3} alt="" /></a></li>
-                <li><a href=""><img src={logo4} alt="" /></a></li>
+                <li><a href="https://www.bedbathandbeyond.com/"><img src={logo1} alt="" /></a></li>
+
+                <li><a href="https://buybuybaby.bedbathandbeyond.com/"><img src={logo2} alt="" /></a></li>
+
+                <li><a href="https://www.overstock.com/"><img src={logo3} alt="" /></a></li>
+                <li><a href="https://beyond.com/"><img src={logo4} alt="" /></a></li>
             </ul>
             </div>
 

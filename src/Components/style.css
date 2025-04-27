@@ -17,7 +17,7 @@
 
 .logolist{
     width: 25%;
-    height: 32px;
+    height: 2p3x;
     display: flex;
     align-items: center;
     padding-left: 0%;
@@ -76,7 +76,18 @@
     height: 34px;
     margin-right: 12px;
     position: relative;
+    display: flex;
 }
+
+.search .search-icon{
+    position: absolute;
+    left: 573.5px;
+    height: 34px;
+    width: 32px;
+    background-color: #1a4e8a;
+    border-radius: 0px 10px 10px 0px;
+}
+
 
 .search input{
     height: 100%;
@@ -85,10 +96,9 @@
 
 .lists{
     width: 28%;
-    /* background-color: azure; */
 }
 .lists .icons{
-    /* width: 85%; */
+    width: 85%;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -97,7 +107,6 @@
     font-size: 11px;
     text-align: center;
 }
-
 
 /* menuu */
 
@@ -151,6 +160,88 @@
     width: 30%;
     height: auto;
     background-color: bisque;
+}
+
+
+/* Home */
+
+.section1{
+    height: 220px;
+    width: 98%;
+    margin: 40px 1%;
+    background-image: url(https://ak1.ostkcdn.com/img/mxc/20250426_MOPS_1400x250_VP_MultiBanner_Medium_Desktop_ChrisKnight.jpg?imwidth=1920);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section2{
+    height: 220px;
+    width: 98%;
+    margin: 40px 1%;
+    background-image: url(https://ak1.ostkcdn.com/img/mxc/04082025-MOPS-1400x250_HP_MultiBanner_Medium_Desktop_BBB_FlashPriceDrops.jpg?imwidth=1920);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section3{
+    height: 220px;
+    width: 98%;
+    margin: 40px 1%;
+    background-image: url(https://ak1.ostkcdn.com/img/mxc/04152025_MOPS_1400x250_VP_MultiBanner_Medium_Desktop_MothersDay.jpg?imwidth=1920);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section4{
+    height: 220px;
+    width: 98%;
+    margin: 40px 1%;
+    background-image: url(https://ak1.ostkcdn.com/img/mxc/04222025_VP_MOPS_1400x250_VP_MultiBanner_Medium_Desktop_BuiltInUSA.jpg?imwidth=1920);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section5{
+    height: 220px;
+    width: 98%;
+    margin: 40px 1%;
+    background-image: url(https://ak1.ostkcdn.com/img/mxc/03192025_VP_BuyBuy_Banner_Desktop.jpg?imwidth=1920);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section6{
+    height: 220px;
+    width: 98%;
+    margin: 40px 1%;
+    background-image: url(https://ak1.ostkcdn.com/img/mxc/20250421-NONMEMBER_WR_50off250_HP_1400x250.jpg?imwidth=1920);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section7{
+    height: 220px;
+    width: 98%;
+    margin: 40px 1%;
+    background-image: url(https://ak1.ostkcdn.com/img/mxc/08212023-MOPS-SFwR-HomepagePromoBanner-1400x250_Desktop.jpg?imwidth=1920);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner
+{
+    height: 485px;
+    width: 98%;
+    margin: 40px 1%;
+    background-image: url(https://ak1.ostkcdn.com/img/mxc/04152025_MOPS_1400x550_HP_MultiBanner_Large_Desktop_Rugs_34995756.jpg?imwidth=1920);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 /* slider */

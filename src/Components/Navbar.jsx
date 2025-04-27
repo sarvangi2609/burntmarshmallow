@@ -5,6 +5,7 @@ import { CiUser } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
 import { CiBellOn } from "react-icons/ci";
 import { CiGift } from "react-icons/ci";
+import { IoIosSearch } from "react-icons/io";
 import { LiaCartArrowDownSolid } from "react-icons/lia";
 import Menu from './Menu';
 
@@ -23,7 +24,8 @@ const Navbar = () => {
         </div>
 
         <div className="search">
-        <input type="text" placeholder="Find all things home &amp; beyond"  />
+        <input type="text" placeholder="Find all things home &amp; beyond" style={{padding:"10px",borderRadius:"10px",border:"1px solid #dadcdf",width:"600px",fontSize:"16px"}}  />
+        <div className="search-icon"><IoIosSearch style={{fontSize:"22px",position:"absolute",top:"5px",left:"3px",color:"white"}} /></div>
         </div>
 
         <div>
