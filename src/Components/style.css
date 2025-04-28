@@ -364,6 +364,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 16px;
+    border-bottom: 1px solid #626669;
 }
 
 .media .social{
@@ -393,5 +394,81 @@
     display: inline;
     width: 110px;
     font-size: 14px;
+    padding: 0px 10px;
+}
+
+.footer-container{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.footer-container .foot{
+    height: 400px;
+    width: 260px;
+    margin: auto;
+}
+
+.foot li{
+    padding: 10px 0px;
+}
+
+.footer-container .foot .footul a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.applinks
+{
+    height: 32px;
+    background-color: #002855;
+}
+
+.applinkul{
+    width: 80%;
+    margin: auto;
+    line-height: 31px;
+}
+
+.applinks .applinkul a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    padding: 0px 10px;
+}
+
+.legalcontainer{
+    height: 350px;
+    background-color: #2f3337;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.legalcontainer .container{
+    height: 145px;
+    width: 500px;
+    margin: 20px 10px;
+    padding: 10px 20px;
+}
+.legalcontains{
+
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px 105px;
+
+}
+.containar-ul{
+    width: 130%;
+}
+.containar-ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
     padding: 0px 10px;
 }
