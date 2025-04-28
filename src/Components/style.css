@@ -98,7 +98,7 @@
     width: 28%;
 }
 .lists .icons{
-    width: 85%;
+    width: 98%;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -106,6 +106,36 @@
     stroke: #2f3337;
     font-size: 11px;
     text-align: center;
+}
+.icons-list{
+    position: relative;
+}
+
+/* navbar dropdowns */
+.nav-drop{
+    position: absolute;
+    width: 500%;
+    height: auto;
+    margin-left: 0px;
+    left: -40px;
+    border: 1px solid black;
+    background-color: white;
+    
+}
+.nav-drop .navdrop-ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.navdrop-ul li{
+    width: 100%;
+    list-style: none;
+    height: auto;
+    padding: 10px;
 }
 
 /* menuu */
@@ -120,12 +150,12 @@
     line-height: 37px;
     list-style: none;
     align-items: center;
-    padding-right: 20px;
+    padding:0px 10px;
     border-top: 1px solid grey;
+    margin: auto;
 }
 .menu-list ul{
     list-style: none;
-    /* position: relative; */
 }
 
 .dropdown {
@@ -144,7 +174,6 @@
     width: 80%;
     height: auto;
     background-color: aqua;
-    margin-top: 20px;
     margin-left: 10px;
     left: 0px;
 }
@@ -318,4 +347,51 @@
     /* background-color: aliceblue; */
     border-radius: 10px;
     margin: auto;
+}
+
+
+/* Footer */
+
+.footer{
+    height: 900px;
+    background-color: #545658;
+    color : white;
+}
+
+.footer .media{
+    height: 85px;
+    padding: 15px 105px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.media .social{
+    width: 527px;
+}
+
+.media .mobile{
+    width: 527px;
+}
+
+.media-icons ul{
+    list-style: none;
+    display: flex;
+    margin-right: 148px;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.media-icons ul a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+}
+
+.media-icons ul a div{
+    display: inline;
+    width: 110px;
+    font-size: 14px;
+    padding: 0px 10px;
 }
