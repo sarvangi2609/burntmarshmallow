@@ -11,9 +11,8 @@ const Home = () => {
         className="slider"
         style={{
           height: "450px",
-          width: "95%",
-          backgroundColor: "red",
-          margin: "35px",
+          width: "98%",
+          margin:"2% 1%"
         }}
       >
         <Slider />

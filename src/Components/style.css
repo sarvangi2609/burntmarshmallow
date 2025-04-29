@@ -243,10 +243,8 @@ width: 70%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* margin: 20px; */
 }
 .drop-ul div{
-    /* background-color: red; */
     width: 150px;
 }
 
@@ -370,38 +368,45 @@ width: 70%;
 
 /* slider */
 
-
-/* .mainslide {
-    width: 100%;
-    height: 450px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+.slide1{
+    background-image: url(https://ak1.ostkcdn.com/img/mxc/04212025-MOPS-COOP-A2-MBL_04.22.jpg?imwidth=1920
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.leftimg {
-    position: absolute;
-    width: 40%;
-    height: 100%;
-    background-color: aliceblue;
+.slide2{
+    background-image: url(https://ak1.ostkcdn.com/img/mxc/04212025-MOPS-COOP-A3-MBL_04.22.jpg?imwidth=1920
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.leftimg img {
-    width: 100%;
-    height: 100%;
+.slide3{
+    background-image: url( https://ak1.ostkcdn.com/img/mxc/04212025-MOPS-COOP-A4-MBL_04.22.jpg?imwidth=1920
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.rightimg {
-    width: 60%;
-    height: 100%;
-    position: absolute;
+.slide4{
+    background-image: url(https://ak1.ostkcdn.com/img/mxc/20250423_JOINNOW_50off250_BBBDays_768x768_MobileA1.jpg?imwidth=1920
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.rightimg img {
-    width: 100%;
-    height: 100%;
-
-} */
+.slide5{
+    background-image: url(https://ak1.ostkcdn.com/img/mxc/20250426_MOPS_768x768_Domestic_Mobile_A1_BBBDays.jpg?imwidth=1920  
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
 /* saleproduct */
