@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function UserDropDown() {
     return (
       <>
@@ -5,13 +7,14 @@ export function UserDropDown() {
       <div className="nav-drop">
         <ul className="navdrop-ul">
 
-            <li> <h4>Sign In</h4> 
+            <li>  <Link to="/userprofile" style={{textDecoration:"none"}}><h4>Sign In</h4></Link>  
                 <div style={{padding:"10px 0px"}}>View your account and check your order status.</div>
             </li>
 
-            {/* <Dropdown.Divider  /> */}
+            <hr />
 
-            <li> <h4>Create Account</h4> 
+            <li>
+            <Link to="/userprofile" style={{textDecoration:"none"}}><h4>Create Account</h4> </Link>   
                 <div style={{padding:"10px 0px"}}>Track orders, save items to lists and more!</div>
             </li>
 

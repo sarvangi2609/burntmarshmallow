@@ -1,9 +1,9 @@
 
 import './App.css'
+import AllRoutes from './Components/AllRoutes'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
 import Navbar from './Components/Navbar'
-import Home from './Pages/Home'
 
 function App() {
 
@@ -12,8 +12,7 @@ function App() {
 
        <Header />
        <Navbar />
-
-       <Home />
+        <AllRoutes />
 
        <Footer />
 

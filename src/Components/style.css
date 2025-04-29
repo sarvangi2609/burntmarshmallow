@@ -283,6 +283,65 @@ width: 70%;
     text-decoration: none;
 }
 
+/* signup */
+
+.signup{
+    height: 400px;
+    width: 290px;
+    margin: 30px;
+}
+
+.signin{
+    height: 400px;
+    width: 290px;
+    margin: 30px;
+}
+
+ .form-container{
+    height: 351px;
+    width: 380px;
+}
+
+.form-container input{
+    height: 42px;
+    width: 350px;
+    margin: 10px;
+    padding-left: 10px ;
+}
+
+.form-container button{
+    height: 42px;
+    width: 90%;
+    margin: 10px;
+    background-color: #f9fafb;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* userprofile */
+
+.linkcard{
+    height: 105px;
+    width: 720px;
+    margin: auto;
+    background-color: #e3f3ff;
+}
+
+.userprofile{
+    width: 780px;
+    margin: auto;
+    display: flex;
+    /* background-color: red; */
+}
+
+.userprofile hr {
+    height: 80%;
+    width: 1px;
+    background-color: black;
+    border: none;
+    margin: 0 10px; 
+  }
+
 
 
 /* Home */
