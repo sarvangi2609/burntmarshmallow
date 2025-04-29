@@ -1,12 +1,14 @@
 import React from "react";
+import LeftSideDrop from './LeftSideDrop'
 
 const Clenning = () => {
   return (
     <>
       <div className="drop">
+
         <ul className="drop-ul">
 
-          <li>
+          <div>
             <h4>Storage and Organization</h4>
             <ul>
               <li>Outdoor Storage</li>
@@ -18,9 +20,9 @@ const Clenning = () => {
               <li>Storage Furniture</li>
               <li>Safes</li>
             </ul>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <h4>Vacuums</h4>
             <ul>
               <li>Stick Vacuums</li>
@@ -29,9 +31,9 @@ const Clenning = () => {
               <li>Canister Vacuums</li>
               <li>Upright Vacuums</li>
             </ul>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <h4>Home Essentials</h4>
             <ul>
               <li>Heating</li>
@@ -40,9 +42,14 @@ const Clenning = () => {
               <li>Sewing Machines</li>
               <li>Craft Machines</li>
             </ul>
-          </li>
+          </div>
           
         </ul>
+
+        <div className="leftdrop">
+          <LeftSideDrop />
+        </div>
+
       </div>
     </>
   );

@@ -20,77 +20,82 @@ const Menu = () => {
 
           <li>
             <span>Furniture</span>
-            <div className="dropdown">
+            <div className="menu-dropdown">
               <Furniture />
             </div>
           </li>
 
           <li>
             <span>Rugs</span>
-            <div className="dropdown">
+            <div className="menu-dropdown">
               <Rugs />
             </div>
           </li>
 
           <li>
             <span>Outdoor</span>
-            <div className="dropdown">
+            <div className="menu-dropdown">
               <OutDoor />
             </div>
           </li>
 
           <li>
             <span>Bedding</span>
-            <div className="dropdown">
+            <div className="menu-dropdown">
               <Bedding />
             </div>
           </li>
 
           <li>
             <span>Bath</span>
-            <div className="dropdown">
+            <div className="menu-dropdown">
               <Bath />
             </div>
           </li>
 
           <li>
             <span>Kitchen</span>
-            <div className="dropdown">
+            <div className="menu-dropdown">
               <Kitchen />
             </div>
           </li>
 
           <li>
             <span>Decor</span>
-            <div className="dropdown">
+            <div className="menu-dropdown"
+            style={{left:"-200px"}}>
               <Decore />
             </div>
           </li>
 
           <li>
             <span>Storage & Cleaning</span>
-            <div className="dropdown">
+            <div className="menu-dropdown"
+            style={{left:"-250px"}}>
               <Clenning />
             </div>
           </li>
 
           <li>
             <span>Lighting</span>
-            <div className="dropdown">
+            <div className="menu-dropdown"
+            style={{left:"-450px"}}>
               <Lighting />
             </div>
           </li>
 
           <li>
             <span>Baby&Kids</span>
-            <div className="dropdown">
+            <div className="menu-dropdown"
+            style={{left:"-550px"}}>
               <BabyKids />
             </div>
           </li>
 
           <li>
             <span>More</span>
-            <div className="dropdown">
+            <div className="menu-dropdown"
+            style={{left:"-600px"}}>
               <More />
             </div>
           </li>
@@ -103,13 +108,18 @@ const Menu = () => {
   <li>Patio</li>
 </ul> */}
             <span>Ideas</span>
-            <div className="dropdown">
+            <div className="menu-dropdown"
+            style={{left:"-700px"}}>
               <Ideas />
             </div>
           </li>
 
           <li>
             <span>Sales & Deals</span>
+            <div className="menu-dropdown"
+            style={{left:"-750px"}}>
+              <Ideas />
+            </div>
           </li>
 
         </ul>

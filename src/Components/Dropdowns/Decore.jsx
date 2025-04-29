@@ -1,12 +1,14 @@
 import React from 'react'
+import LeftSideDrop from './LeftSideDrop'
 
 const Decore = () => {
   return (
     <>
       <div className="drop">
+
         <ul className="drop-ul">
 
-        <li>
+        <div>
           <h4>Mirrors</h4>
         <ul>
           <li>Wall Mirrors</li>
@@ -19,9 +21,9 @@ const Decore = () => {
           <li>Window Pane Mirrors</li>
           <li>Rectangle Mirrors</li>
         </ul>
-      </li>
+      </div>
 
-      <li>
+      <div>
         <h4>Decorative Accessories</h4>
         <ul>
           <li>Decorative Objects</li>
@@ -33,9 +35,9 @@ const Decore = () => {
           <li>Clocks</li>
           <li>Statues and Sculptures</li>
         </ul>
-      </li>
+      </div>
 
-      <li>
+      <div>
         <h4>Art</h4>
         <ul>
           <li>Framed Prints</li>
@@ -48,9 +50,9 @@ const Decore = () => {
           <li>Wall Accents</li>
           <li>Wall Art Sets</li>
         </ul>
-      </li>
+      </div>
 
-      <li>
+      <div>
         <h4>Faux Plants and Flowers</h4>
         <ul>
           <li>Faux Flowers</li>
@@ -60,9 +62,9 @@ const Decore = () => {
           <li>Planters</li>
           <li>Wreaths</li>
         </ul>
-      </li>
+      </div>
 
-      <li>
+      <div>
         <h4>Window Treatments</h4>
         <ul>
           <li>Curtains and Drapes</li>
@@ -74,9 +76,9 @@ const Decore = () => {
           <li>Valances</li>
           <li>Stained Glass Panels</li>
         </ul>
-      </li>
+      </div>
 
-      <li>
+      <div>
         <h4>Throw Pillows</h4>
         <ul>
           <li>Decorative Pillows</li>
@@ -86,9 +88,13 @@ const Decore = () => {
           <li>Pillow Covers</li>
           <li>Pillow Inserts</li>
         </ul>
-      </li>
+      </div>
 
     </ul>
+
+    <div className="leftdrop">
+          <LeftSideDrop />
+        </div>
       </div>
     </>
   )

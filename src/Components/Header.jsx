@@ -1,5 +1,3 @@
-
-
 import React from 'react'
 import '../Components/style.css'
 import { FaTruckFast } from "react-icons/fa6";
@@ -23,7 +21,8 @@ const Header = () => {
                 <li><a href="https://buybuybaby.bedbathandbeyond.com/"><img src={logo2} alt="" /></a></li>
 
                 <li><a href="https://www.overstock.com/"><img src={logo3} alt="" /></a></li>
-                <li><a href="https://beyond.com/"><img src={logo4} alt="" /></a></li>
+
+                <li><a href="https://beyond.com/"><img src={logo4} alt=""/></a></li>
             </ul>
             </div>
 

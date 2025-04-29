@@ -1,13 +1,13 @@
 import React from "react";
+import LeftSideDrop from './LeftSideDrop'
 
 const BabyKids = () => {
   return (
     <>
       <div className="drop">
         <ul className="drop-ul">
-
-          <li>
-           <h4> Baby Furniture</h4>
+          <div>
+            <h4> Baby Furniture</h4>
             <ul>
               <li>Cribs</li>
               <li>Bassinets and Cradles</li>
@@ -17,8 +17,9 @@ const BabyKids = () => {
               <li>Changing Tables</li>
               <li>Nursery Decor</li>
             </ul>
-          </li>
-          <li>
+          </div>
+
+          <div>
             <h4>Baby Travel</h4>
             <ul>
               <li>Car Seats and Bases</li>
@@ -30,8 +31,9 @@ const BabyKids = () => {
               <li>Diaper Bags</li>
               <li>Baby Travel Cribs</li>
             </ul>
-          </li>
-          <li>
+          </div>
+
+          <div>
             <h4>Strollers</h4>
             <ul>
               <li>Full Size Strollers</li>
@@ -41,8 +43,9 @@ const BabyKids = () => {
               <li>Lightweight Strollers</li>
               <li>Stroller Accessories</li>
             </ul>
-          </li>
-          <li>
+          </div>
+
+          <div>
             <h4>Nursing and Feeding</h4>
             <ul>
               <li>Bottle Warmers</li>
@@ -50,8 +53,9 @@ const BabyKids = () => {
               <li>High Chairs & Boosters</li>
               <li>Baby Tableware</li>
             </ul>
-          </li>
-          <li>
+          </div>
+
+          <div>
             <h4>Kids</h4>
             <ul>
               <li>Kids Beds</li>
@@ -63,8 +67,9 @@ const BabyKids = () => {
               <li>Kids Bookshelves</li>
               <li>Toy Boxes & Storage</li>
             </ul>
-          </li>
-          <li>
+          </div>
+
+          <div>
             <h4>Baby Gear</h4>
             <ul>
               <li>Playmats</li>
@@ -72,16 +77,21 @@ const BabyKids = () => {
               <li>Baby Bouncers</li>
               <li>Baby Walkers</li>
             </ul>
-          </li>
-          <li>
+          </div>
+
+          <div>
             <h4>More Ways to Shop</h4>
             <ul>
               <li>Featured Sales</li>
               <li>New Arrivals</li>
               <li>Flash Price Drops</li>
             </ul>
-          </li>
+          </div>
         </ul>
+
+        <div className="leftdrop">
+          <LeftSideDrop />
+        </div>
       </div>
     </>
   );

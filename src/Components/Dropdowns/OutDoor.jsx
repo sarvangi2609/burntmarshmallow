@@ -1,12 +1,14 @@
 import React from "react";
+import LeftSideDrop from './LeftSideDrop'
 
 const OutDoor = () => {
   return (
     <>
       <div className="drop">
+
         <ul className="drop-ul">
 
-          <li>
+          <div>
             <h4>Patio Furniture </h4>
             <ul>
             <li>Patio Furniture Sets</li>
@@ -20,9 +22,9 @@ const OutDoor = () => {
             <li>Hammocks and Swings</li>
             <li>Best Sellers</li>
             </ul>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <h4>Outdoor Decore</h4>
             <ul>
             <li>Fire Pits</li>
@@ -34,9 +36,9 @@ const OutDoor = () => {
             <li>Outdoor Cushions and Throw Pillows</li>
             <li>Planters</li>
             </ul>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <h4>Outdoor Shades and Structure</h4>
 <ul>
 <li>Patio Umbrellas</li>
@@ -46,9 +48,9 @@ const OutDoor = () => {
             <li>Outdoor Canopies and Tents</li>
             <li>Best Sellers</li>
 </ul>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <h4>Garden</h4>
            <ul> <li>Outdoor Storage</li>
             <li>Greenhouses</li>
@@ -58,9 +60,9 @@ const OutDoor = () => {
             <li>Lawn Sprinklers</li>
             <li>Fencing and Privacy Screens</li>
             <li>Composters</li></ul>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <h4>Grill and Outdoor Cooking</h4>
            <ul>
            <li>Gas Grills</li>
@@ -69,9 +71,9 @@ const OutDoor = () => {
             <li>Grilling Accessories</li>
             <li>Grilling Tools and Cookware</li>
            </ul>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <h4>Sports and Outdoors</h4>
             <li>Cycling</li>
             <li>Hot Tubs and Spas</li>
@@ -82,16 +84,21 @@ const OutDoor = () => {
             <li>Swimming Pools</li>
             <li>Swing Sets</li>
             <li>Trampolines</li>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <li>Featured Sales</li>
             <li>New Arrivals</li>
             <li>Flash Price Drops</li>
             <li>Built In The USA</li>
-          </li>
+          </div>
 
         </ul>
+
+        <div className="leftdrop">
+          <LeftSideDrop />
+        </div>
+
       </div>
     </>
   );

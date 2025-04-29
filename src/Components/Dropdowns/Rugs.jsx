@@ -1,12 +1,13 @@
 import React from "react";
+import LeftSideDrop from './LeftSideDrop'
 
 const Rugs = () => {
   return (
     <>
       <div className="drop">
-        <ul className="drop-ul">
 
-          <li>
+        <ul className="drop-ul">
+          <div>
             <h4>All Rugs</h4>
             <ul>
               <li>Traditional Rugs</li>
@@ -18,10 +19,10 @@ const Rugs = () => {
               <li>Rug Pads</li>
               <li>Rug Samples</li>
             </ul>
-          </li>
+          </div>
 
-          <li>
-           <h4> Shop by Material</h4>
+          <div>
+            <h4> Shop by Material</h4>
             <ul>
               <li>Wool Rugs</li>
               <li>Jute Rugs</li>
@@ -31,9 +32,9 @@ const Rugs = () => {
               <li>Leather Rugs</li>
               <li>Synthetic Rugs</li>
             </ul>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <h4>Shop by Size</h4>
             <ul>
               <li>2x3 Rugs</li>
@@ -47,9 +48,9 @@ const Rugs = () => {
               <li>Runners</li>
               <li>Round Rugs</li>
             </ul>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <h4>Shop by Room</h4>
             <ul>
               <li>Living Room Rugs</li>
@@ -61,9 +62,9 @@ const Rugs = () => {
               <li>Kids Room Rugs</li>
               <li>Office Rugs</li>
             </ul>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <h4>Shop by Color</h4>
             <ul>
               <li>Blue Rugs</li>
@@ -75,9 +76,9 @@ const Rugs = () => {
               <li>Red Rugs</li>
               <li>Multicolor Rugs</li>
             </ul>
-          </li>
+          </div>
 
-          <li>
+          <div>
             <h4>Other Links</h4>
             <ul>
               <li>Rug Buying Guide</li>
@@ -86,9 +87,13 @@ const Rugs = () => {
               <li>Clearance Rugs</li>
               <li>New Arrivals</li>
             </ul>
-          </li>
-          
+          </div>
         </ul>
+
+        <div className="leftdrop">
+          <LeftSideDrop />
+        </div>
+
       </div>
     </>
   );

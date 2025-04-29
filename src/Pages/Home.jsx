@@ -1,5 +1,6 @@
 import React from "react";
 import Salpro from "../Components/Home/Salpro";
+import Slider from "../Components/Home/Slider";
 // import SimpleSlider from '../Components/Slider'
 
 const Home = () => {
@@ -15,7 +16,7 @@ const Home = () => {
           margin: "35px",
         }}
       >
-        {/* <SimpleSlider /> */}
+        <Slider />
       </div>
 
       <div className="salepro">

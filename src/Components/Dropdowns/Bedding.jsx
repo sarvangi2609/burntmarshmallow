@@ -1,12 +1,14 @@
 import React from "react";
+import LeftSideDrop from './LeftSideDrop'
 
 const Bedding = () => {
   return (
     <>
       <div className="drop">
+
         <ul className="drop-ul">
 
-          <li>
+          <div>
             
               <h4>Bedding Sets</h4>
               <ul>
@@ -18,9 +20,9 @@ const Bedding = () => {
                 <li>Daybed Cover Sets</li>
               </ul>
            
-          </li>
+          </div>
 
-          <li>
+          <div>
             
               <h4>Sheets and Pillowcases</h4>
               <ul>
@@ -31,9 +33,9 @@ const Bedding = () => {
                 <li>Flat Bed Sheets</li>
               </ul>
             
-          </li>
+          </div>
 
-          <li>
+          <div>
             
               <h4>Mattresses</h4>
               <ul>
@@ -48,9 +50,9 @@ const Bedding = () => {
                 <li>Best Sellers</li>
               </ul>
             
-          </li>
+          </div>
 
-          <li>
+          <div>
             <h4> Bedding Essentials</h4>
             
               <ul>
@@ -62,9 +64,9 @@ const Bedding = () => {
                 <li>Baby Bedding</li>
                 <li>Bed Canopies</li>
               </ul>
-          </li>
+          </div>
 
-          <li>
+          <div>
             
              <h4> Mattress Pads and Toppers</h4>
               <ul>
@@ -73,9 +75,9 @@ const Bedding = () => {
                 <li>Mattress Pads</li>
               </ul>
           
-          </li>
+          </div>
 
-          <li>
+          <div>
             <h4>Blankets</h4>
               
               <ul>
@@ -84,9 +86,14 @@ const Bedding = () => {
                 <li>Weighted Blankets</li>
               </ul>
            
-          </li>
+          </div>
 
         </ul>
+
+        <div className="leftdrop">
+          <LeftSideDrop />
+        </div>
+
       </div>
     </>
   );

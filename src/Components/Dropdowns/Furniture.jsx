@@ -1,6 +1,7 @@
 
 
 import React from 'react'
+import LeftSideDrop from './LeftSideDrop'
 
 const Furniture = () => {
   return (
@@ -8,8 +9,9 @@ const Furniture = () => {
     <>
 
     <div className="drop">
+
     <ul className='drop-ul'>
-                  <li>
+                  <div>
                     <h4>Living Room Furniture</h4>
                     <ul>
                       <li>Sofas and Couches</li>
@@ -22,9 +24,9 @@ const Furniture = () => {
                       <li>TV Stands</li>
                       <li>Best Sellers</li>
                     </ul>
-                  </li>
+                  </div>
 
-                  <li>
+                  <div>
                     <h4>Bedroom Furniture</h4>
                     <ul>
                       <li>Beds</li>
@@ -37,9 +39,9 @@ const Furniture = () => {
                       <li>Mattresses</li>
                       <li>Kids Beds</li>
                     </ul>
-                  </li>
+                  </div>
 
-                  <li>
+                  <div>
                     <h4>Dining, Kitchen and Bar</h4>
                     <ul>
                       <li>Kitchen and Dining Sets</li>
@@ -53,8 +55,13 @@ const Furniture = () => {
                       <li>Kitchen Furniture</li>
                       <li>Best Sellers</li>
                     </ul>
-                  </li>
+                  </div>
     </ul>
+
+    <div className="leftdrop">
+    <LeftSideDrop />
+    </div>
+
     </div>
 
     </>

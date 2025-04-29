@@ -8,14 +8,14 @@ import { CiGift } from "react-icons/ci";
 import { IoIosSearch } from "react-icons/io";
 import { LiaCartArrowDownSolid } from "react-icons/lia";
 import Menu from './Menu';
-import UserDropDown from './Dropdowns/Accounts';
+import {UserDropDown,UserDropDownAfterSignin, ListDropDown} from './Dropdowns/Accounts';
 
 const Navbar = () => {
   return (
 
     <>
 
-    <div className="navbar">
+    <div className="navbar ps-3">
 
         <div className="logo">
             {/* <img src={logo} alt="" style={{backgroundColor:"#1A4E8A"}} /> */}
@@ -39,13 +39,17 @@ const Navbar = () => {
             <ul className="icons">
                 <li className='icons-list'>
                     <Link to="/"><CiUser style={{height:"30px",width:"30px",color: "#2f3337"}} /></Link><span style={{display:"block"}}>Account</span>
-                    <div className="dropdown">
+                    <div className="nav-dropdown">
                     <UserDropDown />
+                    {/* <UserDropDownAfterSignin /> */}
                     </div>
                     </li>
                 
 
-                <li><Link to="/"><CiHeart style={{height:"30px",width:"30px",color: "#2f3337"}}/></Link><span style={{display:"block"}}>Lists</span></li>
+                <li><Link to="/"><CiHeart style={{height:"30px",width:"30px",color: "#2f3337"}}/></Link><span style={{display:"block"}}>Lists</span>
+                <div className="nav-dropdown">
+                    <ListDropDown />
+                    </div></li>
 
                 <li><Link to="/"><CiBellOn style={{height:"30px",width:"30px",color: "#2f3337"}} /></Link><span style={{display:"block"}}>Notifications</span></li>
 

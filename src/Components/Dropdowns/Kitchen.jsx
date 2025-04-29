@@ -1,14 +1,16 @@
 
 import React from 'react'
+import LeftSideDrop from './LeftSideDrop'
 
 const Kitchen = () => {
   return (
     <>
       <div className="drop">
+
         <ul className="drop-ul">
 
    
-      <li>
+      <div>
         <h4>Dinnerware</h4>
         <ul>
           <li>Dinnerware Sets</li>
@@ -21,9 +23,9 @@ const Kitchen = () => {
           <li>Drinking Glasses</li>
           <li>Wine Glasses</li>
         </ul>
-      </li>
+      </div>
 
-      <li>
+      <div>
        <h4> Kitchen Furniture</h4>
         <ul>
           <li>Counter and Bar Stools</li>
@@ -36,9 +38,9 @@ const Kitchen = () => {
           <li>Bar Tables</li>
           <li>Pantry Cabinets</li>
         </ul>
-      </li>
+      </div>
 
-      <li>
+      <div>
        <h4> Coffee and Tea</h4>
         <ul>
           <li>Coffee Makers</li>
@@ -47,9 +49,9 @@ const Kitchen = () => {
           <li>French Press</li>
           <li>Tea Kettle</li>
         </ul>
-      </li>
+      </div>
 
-      <li>
+      <div>
         <h4>Cookware and Bakeware</h4>
         <ul>
           <li>Cookware Sets</li>
@@ -61,9 +63,9 @@ const Kitchen = () => {
           <li>Kitchen Tools</li>
           <li>Cutlery</li>
         </ul>
-      </li>
+      </div>
 
-      <li>
+      <div>
         <h4>Kitchen Appliances</h4>
         <ul>
           <li>Mixers</li>
@@ -76,9 +78,9 @@ const Kitchen = () => {
           <li>Toasters</li>
           <li>Slow Cookers</li>
         </ul>
-      </li>
+      </div>
 
-      <li>
+      <div>
         <h4>Kitchen Fixtures</h4>
         <ul>
           <li>Kitchen Sinks</li>
@@ -86,9 +88,9 @@ const Kitchen = () => {
           <li>Kitchen Cabinets</li>
           <li>Backsplash</li>
         </ul>
-      </li>
+      </div>
 
-      <li>
+      <div>
         <h4>More Ways to Shop</h4>
         <ul>
           <li>Featured Sales</li>
@@ -96,10 +98,15 @@ const Kitchen = () => {
           <li>Flash Price Drops</li>
           <li>Built In The USA</li>
         </ul>
-      </li>
+      </div>
     
 
         </ul>
+
+        <div className="leftdrop">
+          <LeftSideDrop />
+        </div>
+
       </div>
   </>
   )

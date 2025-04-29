@@ -6,7 +6,7 @@ const More = () => {
       <div className="drop">
         <ul className="drop-ul">
           
-            <li>
+            <div>
               <h4>Holiday</h4>
               <ul>
                 <li>Valentine's Day</li>
@@ -16,9 +16,9 @@ const More = () => {
                 <li>Christmas</li>
                 <li>Hanukkah</li>
               </ul>
-            </li>
+            </div>
 
-            <li>
+            <div>
               <h4>Small Space Living</h4>
               <ul>
                 <li>Sofas</li>
@@ -30,9 +30,9 @@ const More = () => {
                 <li>Lift Top Coffee Tables</li>
                 <li>College Living</li>
               </ul>
-            </li>
+            </div>
 
-            <li>
+            <div>
               <h4>Exercise Equipment</h4>
               <ul>
                 <li>Home Gym Systems</li>
@@ -44,9 +44,9 @@ const More = () => {
                 <li>Yoga and Pilates</li>
                 <li>Home Gym Mats</li>
               </ul>
-            </li>
+            </div>
 
-            <li>
+            <div>
               <h4>Flooring and Wall</h4>
               <ul>
                 <li>Wallpaper</li>
@@ -57,9 +57,9 @@ const More = () => {
                 <li>Hardwood Flooring</li>
                 <li>Laminate Flooring</li>
               </ul>
-            </li>
+            </div>
 
-            <li>
+            <div>
               <h4>Pets Supplies</h4>
               <ul>
                 <li>Cat Supplies</li>
@@ -68,9 +68,9 @@ const More = () => {
                 <li>Chicken Supplies</li>
                 <li>Small Pet Supplies</li>
               </ul>
-            </li>
+            </div>
 
-            <li>
+            <div>
               <h4>Gifts</h4>
               <ul>
                 <li>Gifts by Interest</li>
@@ -78,7 +78,7 @@ const More = () => {
                 <li>Gifts by Recipient</li>
                 <li>Gift Cards</li>
               </ul>
-            </li>
+            </div>
             
           </ul>
       </div>
