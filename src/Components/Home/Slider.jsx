@@ -389,6 +389,102 @@ export const HostingPro = () => {
 
 
 
+{/* <div style={{ width: "100%", height: "530px", marginTop: "80px" }}>
+
+
+
+<div style={{ width: "100%", height: "500px", marginTop: "80px" }}>
+  <div
+    id="carouselExampleDark2"
+    className="carousel carousel-dark slide"
+    data-bs-ride="carousel"
+  >
+    
+    <div className="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#carouselExampleDark2"
+        data-bs-slide-to="0"
+        className="active"
+        aria-current="true"
+        aria-label="Slide group 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleDark2"
+        data-bs-slide-to="1"
+        aria-label="Slide group 2"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleDark2"
+        data-bs-slide-to="2"
+        aria-label="Slide group 3"
+      ></button>
+    </div>
+
+    <div className="carousel-inner">
+      
+      <div className="carousel-item active">
+        <div className="row g-0">
+          <div className="col-6 col-md-3">
+            <img src="/IMAGES/img6.jpg" className="d-block w-100" alt="Slide 1" />
+          </div>
+          <div className="col-6 col-md-3">
+            <img src="/IMAGES/img7.jpg" className="d-block w-100" alt="Slide 2" />
+          </div>
+          <div className="col-6 col-md-3">
+            <img src="/IMAGES/img8.jpg" className="d-block w-100" alt="Slide 3" />
+          </div>
+          <div className="col-6 col-md-3">
+            <img src="/IMAGES/img9.jpg" className="d-block w-100" alt="Slide 4" />
+          </div>
+        </div>
+      </div>
+
+     
+      <div className="carousel-item">
+        <div className="row g-0">
+          <div className="col-6 col-md-3">
+            <img src="/IMAGES/img10.jpg" className="d-block w-100" alt="Slide 5" />
+          </div>
+          <div className="col-6 col-md-3">
+            <img src="/IMAGES/img11.jpg" className="d-block w-100" alt="Slide 6" />
+          </div>
+          <div className="col-6 col-md-3">
+            <img src="/IMAGES/img12.jpg" className="d-block w-100" alt="Slide 7" />
+          </div>
+          <div className="col-6 col-md-3">
+            <img src="/IMAGES/img13.jpg" className="d-block w-100" alt="Slide 8" />
+          </div>
+        </div>
+      </div>
+
+      <div className="carousel-item">
+        <div className="row g-0">
+          <div className="col-6 col-md-3">
+            <img src="/IMAGES/img14.jpg" className="d-block w-100" alt="Slide 9" />
+          </div>
+          <div className="col-6 col-md-3">
+            <img src="/IMAGES/img15.jpg" className="d-block w-100" alt="Slide 10" />
+          </div>
+          <div className="col-6 col-md-3">
+            <img src="/IMAGES/img16.jpg" className="d-block w-100" alt="Slide 11" />
+          </div>
+          <div className="col-6 col-md-3">
+            <img src="/IMAGES/img17.jpg" className="d-block w-100" alt="Slide 12" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+</div> */}
+
+
 
 
 

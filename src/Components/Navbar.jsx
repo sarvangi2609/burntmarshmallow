@@ -10,6 +10,9 @@ import { LiaCartArrowDownSolid } from "react-icons/lia";
 import Menu from './Menu';
 import {UserDropDown,UserDropDownAfterSignin, ListDropDown} from './Dropdowns/Accounts';
 import UnderBanner from './UnderBanner';
+import Popup from 'reactjs-popup';
+import UserProfile from './Profile/UserProfile';
+import PopUp from './PopUp';
 
 const Navbar = () => {
   return (
@@ -38,7 +41,17 @@ const Navbar = () => {
 
             <ul className="icons">
                 <li className='icons-list'>
-                    <Link to="/userprofile"><CiUser style={{height:"30px",width:"30px",color: "#2f3337"}} /></Link><span style={{display:"block"}}>Account</span>
+                    {/* <Link to="/"> */}
+                    <Popup trigger={<CiUser style={{height:"30px",width:"30px",color: "#2f3337"}} className='popup' />} position="right center">
+                    <div className="popup-card">
+                    <PopUp />
+                    </div>
+                    </Popup>
+
+                    {/* <CiUser style={{height:"30px",width:"30px",color: "#2f3337"}} /> */}
+                    
+                    {/* </Link> */}
+                    <span style={{display:"block"}}>Account</span>
                     <div className="nav-dropdown">
                     <UserDropDown />
                     {/* <UserDropDownAfterSignin /> */}
