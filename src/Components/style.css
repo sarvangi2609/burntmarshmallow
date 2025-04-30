@@ -527,6 +527,173 @@ width: 70%;
     background-size: cover;
 }
 
+.limited-product{
+    height: 450px;
+    width: 98%;
+    margin: auto;
+}
+
+.limited-pro{
+  height: 350px;
+  margin-top: 30px;
+}
+
+.limit-protext{
+  height: 50px;
+  width: 100%;
+
+}
+
+.inner-slide1{
+  background-image: url(https://ak1.ostkcdn.com/img/mxc/04282024-MOPS-C1_coop.jpg?imwidth=480);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 295px;
+  width: 295px;
+}
+.inner-slide2{
+  background-image: url(https://ak1.ostkcdn.com/img/mxc/04252024-MOPS-Domestic_C2.jpg?imwidth=480);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 295px;
+  width: 295px;
+
+}
+.inner-slide3{
+  background-image: url(	https://ak1.ostkcdn.com/img/mxc/04252024-MOPS-Domestic_C5.jpg?imwidth=480);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 295px;
+  width: 295px;
+}
+.inner-slide4{
+  background-image: url(https://ak1.ostkcdn.com/img/mxc/03112025-MOPS-C1_KitchenTabletop.jpg?imwidth=480);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 295px;
+  width: 295px;
+}
+.inner-slide5{
+  background-image: url(https://ak1.ostkcdn.com/img/mxc/04252024-MOPS-Domestic_C3.jpg?imwidth=480);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 295px;
+  width: 295px;
+}
+.inner-slide6{
+  background-image: url(https://ak1.ostkcdn.com/img/mxc/05162024-MOPS-Domestic_C6.jpg?imwidth=480);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 295px;
+  width: 295px;
+}
+
+.hosting-product{
+  height: 400px;
+  width: 98%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.hosting-pro{
+height: 350px;
+margin-top: 30px;
+}
+
+.think-product{
+  height: 400px;
+  width: 98%;
+  margin: auto;
+  background-color: red;
+}
+
+.think-pro{
+  height: 300px;
+  margin-top: 40px;
+  background-color: yellow;
+}
+
+.trending-product{
+  height: 530px;
+  width: 98%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: red;
+}
+.trending-pro{
+  height: 430px;
+  margin-top: 40px;
+  background-color: yellow;
+}
+
+.category-product{
+  height: 630px;
+  width: 98%;
+  margin: 40px auto;
+}
+.category-pro{
+  height: 530px;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-pro .cat-product{
+  height: 240px;
+  width: 192px;
+  font-size: 18px;
+}
+
+.cat-product img{
+  height: 192px;
+  width: 191px;
+}
+
+.cat-product span{
+  display: block;
+  text-align: center;
+}
+
+.trending-serch{
+  height: 400px;
+  width: 98%;
+  margin: 40px auto;
+
+}
+.tre-search{
+  height: 320px;
+  margin: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-box{
+  height: 52px;
+  width: 400px;
+  text-align: center;
+  background-color:#F5F6F7;
+}
+
+.search-box span{
+  /* background-color: red; */
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  color:#545658;
+  margin: 10px 0px;
+}
+
+
+
 
 .banner
 {
@@ -623,17 +790,36 @@ width: 70%;
     margin: auto;
 } */
 
+/* underfooter */
+
+.underfooter{
+  height: 120px;
+  background-color:#F5F6F7;
+
+}
+.footer-boxes{
+  display: flex;
+  padding: 20px 0px;
+  justify-content: space-between;
+  width: 57%;
+  margin: auto;
+}
+.underfooterbox{
+  height: 80px;
+  width: 20%;
+}
+
 
 /* Footer */
 
 .footer{
-    height: 900px;
+    height: auto;
     background-color: #545658;
     color : white;
 }
 
 .footer .media{
-    height: 85px;
+    height: 90px;
     padding: 15px 105px;
     display: flex;
     justify-content: space-between;
@@ -672,7 +858,7 @@ width: 70%;
 }
 
 .footer-container{
-    height: 500px;
+    height: 550px;
     width: 80%;
     margin: auto;
     margin-top: 10px;

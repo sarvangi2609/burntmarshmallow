@@ -1,20 +1,19 @@
 import React from "react";
-import Salpro from "../Components/Home/Salpro";
-import Slider from "../Components/Home/Slider";
+import { HeroSection, HostingPro, LimitedPro } from "../Components/Home/Slider";
+import UnderFooter from "../Components/UnderFooter";
 
 const Home = () => {
   return (
     <>
-
       <div
         className="slider"
         style={{
           height: "450px",
           width: "98%",
-          margin:"2% 1%",
+          margin: "2% 1%",
         }}
       >
-        <Slider />
+        <HeroSection />
       </div>
 
       {/* <div className="salepro">
@@ -43,7 +42,38 @@ const Home = () => {
 
       {/* limited-time deals */}
 
+      <div className="limited-product ">
+        <div className="contnent text-center">
+          <h1>limited-time deals</h1>
+        </div>
+
+        <div className="limited-pro">
+          <LimitedPro />
+
+          <div className="limit-protext d-flex justify-content-between">
+            <div className="protext w-25 text-center">
+              {" "}
+              Save on Safavieh rugs & <br />
+              patio furniture
+            </div>
+            <div className="protext  w-25 text-center">Bedding</div>
+            <div className="protext  w-25 text-center">Bath</div>
+            <div className="protext  w-25 text-center">Kitchen & Dining</div>
+          </div>
+        </div>
+      </div>
+
       {/* must-haves for hosting */}
+
+      <div className="hosting-product">
+        <div className="contnent text-center">
+          <h1>must-haves for hosting</h1>
+        </div>
+
+        <div className="hosting-pro">
+          <HostingPro />
+        </div>
+      </div>
 
       <div className="banner">
         <img
@@ -74,7 +104,29 @@ const Home = () => {
 
       {/* things we know you'll love */}
 
+      <div className="think-product">
+        <div className="contnent text-center">
+          <h1>things we know you'll love</h1>
+        </div>
+
+        <div className="think-pro">
+          
+        </div>
+      </div>
+
       {/* trending this season */}
+
+      <div className="trending-product">
+        <div className="contnent text-center">
+          <h1>trending this season</h1>
+        </div>
+
+        <div className="trending-pro">
+          
+        </div>
+      </div>
+
+
 
       <div className="section5">
         <img
@@ -103,9 +155,122 @@ const Home = () => {
         />
       </div>
 
+
       {/* shop by category */}
 
+      <div className="category-product">
+
+      <div className="contnent text-center">
+          <h1>shop by category</h1>
+        </div>
+
+        <div className="category-pro">
+
+          <div className="cat-product">
+            <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame3.jpg?imwidth=1920" alt="" />
+            <span>Bedding</span>
+          </div>
+
+          <div className="cat-product">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame6.jpg?imwidth=1920" alt="" />
+          <span>Kitchen</span>
+          </div>
+
+          <div className="cat-product">
+          <img src="https://ak1.ostkcdn.com/img/mxc/07252023_MOPS_HP_Bath.jpg?imwidth=1920" alt="" />
+          <span>Bath</span>
+          </div>
+
+          <div className="cat-product">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame7.jpg?imwidth=1920" alt="" />
+          <span>Outdoor</span>
+          </div>
+
+          <div className="cat-product">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame1.jpg?imwidth=1920" alt="" />
+          <span>Furniture</span>
+          </div>
+
+          <div className="cat-product">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame2.jpg?imwidth=1920" alt="" />
+          <span>Area Rugs</span>
+          </div>
+
+          <div className="cat-product">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame8.jpg?imwidth=1920" alt="" />
+          <span>Home Improvement</span>
+          </div>
+
+          <div className="cat-product">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame10.jpg?imwidth=1920" alt="" />
+          <span>Mattresses</span>
+          </div>
+
+          <div className="cat-product">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame4.jpg?imwidth=1920" alt="" />
+          <span>Home Decor</span>
+          </div>
+
+          <div className="cat-product">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame11.jpg?imwidth=1920" alt="" />
+          <span>Lighting</span>
+          </div>
+
+          <div className="cat-product">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame9_v2.jpg?imwidth=1920" alt="" />
+          <span>Storage</span>
+          </div>
+
+          <div className="cat-product">
+          <img src="https://ak1.ostkcdn.com/img/mxc/07272023_516x516_BeautifulFinds_ShopAllDeals.jpg?imwidth=1920" alt="" />
+          <span>Shop All Deals</span>
+          </div>
+          
+        </div>
+
+      </div>
+
+
+
       {/* trending searches */}
+
+      <div className="trending-serch">
+        <div className="contnent text-center">
+          <h1>trending searches</h1>
+        </div>
+
+        <div className="tre-search">
+        
+          <div className="search-box"><span>Garden Sculptures</span></div>
+
+          <div className="search-box"><span>Patio Coffee Tables</span></div>
+
+          <div className="search-box"><span>Outdoor Daybeds</span></div>
+
+          <div className="search-box"><span> Adirondack Chairs</span></div>
+
+          <div className="search-box"><span>Gazebos</span></div>
+
+          <div className="search-box"><span>Outdoor Rocking Chairs</span></div>
+
+          <div className="search-box"><span>Outdoor Sectional Sofas</span></div>
+
+          <div className="search-box"><span>Gas Grills</span></div>
+
+          <div className="search-box"><span>Patio Furniture Covers</span></div>
+
+          <div className="search-box"><span>Trampolines</span></div>
+
+          <div className="search-box"><span>Sheds</span></div>
+
+          <div className="search-box"><span>Outdoor Lighting</span></div>
+          
+        </div>
+      </div>
+
+        <div className="semifooter">
+          <UnderFooter />
+        </div>
 
     </>
   );

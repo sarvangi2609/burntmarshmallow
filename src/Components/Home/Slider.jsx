@@ -1,8 +1,10 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-const Slider = () => {
+export const HeroSection = () => {
   return (
     <>
       <div
@@ -10,8 +12,8 @@ const Slider = () => {
         className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div className="carousel-indicators">
 
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
@@ -44,12 +46,9 @@ const Slider = () => {
             data-bs-slide-to="4"
             aria-label="Slide 5"
           ></button>
-  
         </div>
 
-
         <div className="carousel-inner">
-
           <div className="carousel-item slide1">
             <img
               src="https://ak1.ostkcdn.com/img/mxc/04242025-MOPS-A3-DSK_fullWidth_04.22.svg?imwidth=1920"
@@ -90,10 +89,7 @@ const Slider = () => {
               alt="..."
             />
           </div>
-
-
         </div>
-
 
         <button
           className="carousel-control-prev"
@@ -125,4 +121,277 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export const LimitedPro = () => {
+  return (
+    <>
+      <div
+        id="carouselExampleCaptions"
+        className="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div className="carousel-inner" style={{ height: "300px" }}>
+
+          <div className="carousel-item active">
+
+            <div className="inner-carousel d-flex justify-content-between">
+              <div className="inner-slide1">
+                <img
+                  src="https://ak1.ostkcdn.com/img/mxc/02102025-MOPS-exclusiveSavings.svg?imwidth=1920"
+                  className="d-block w-100"
+                  alt="..."
+                />
+              </div>
+
+              <div className="inner-slide2">
+                <img
+                  src="https://ak1.ostkcdn.com/img/mxc/11192024-MOPS-Upto_25.svg?imwidth=1920"
+                  className="d-block w-100"
+                  alt="..."
+                />
+              </div>
+
+              <div className="inner-slide3">
+                <img
+                  src="https://ak1.ostkcdn.com/img/mxc/11192024-MOPS-Upto_20.svg?imwidth=1920"
+                  className="d-block w-100"
+                  alt="..."
+                />
+              </div>
+
+              <div className="inner-slide4">
+                <img
+                  src="https://ak1.ostkcdn.com/img/mxc/11192024-MOPS-Upto_20.svg?imwidth=1920"
+                  className="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+
+          </div>
+
+          <div className="carousel-item">
+
+            <div className="inner-carousel d-flex justify-content-between">
+
+            <div className="inner-slide3">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/11192024-MOPS-Upto_20.svg?imwidth=1920"
+                className="d-block w-100"
+                alt="..."
+              />
+            </div>
+
+            <div className="inner-slide4">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/11192024-MOPS-Upto_20.svg?imwidth=1920"
+                className="d-block w-100"
+                alt="..."
+              />
+            </div>
+
+            <div className="inner-slide5">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/11192024-MOPS-Upto_20.svg?imwidth=1920"
+                className="d-block w-100"
+                alt="..."
+              />
+            </div>
+
+            <div className="inner-slide6">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/11192024-MOPS-Upto_20.svg?imwidth=1920"
+                className="d-block w-100"
+                alt="..."
+              />
+            </div>
+
+
+            </div>
+           
+
+          </div>
+
+        </div>
+
+        <button
+          className="carousel-control-prev bg-dark"
+          style={{ height: "44px", width: "34px", marginTop: "10%" }}
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          className="carousel-control-next bg-dark"
+          style={{ height: "44px", width: "34px", marginTop: "10%" }}
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
+        </button>
+        
+      </div>
+    </>
+  );
+};
+
+export const HostingPro = () => {
+  return (
+    <>
+      <div
+        id="carouselExampleCaptions"
+        className="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div className="carousel-inner" style={{ height: "300px" }}>
+
+          <div className="carousel-item active">
+
+            <div className="inner-carousel d-flex justify-content-between">
+ 
+                <img
+                  src="https://ak1.ostkcdn.com/img/mxc/04152025_MOPS_340x340_Domestic_CookingSets_44318371.jpg?imwidth=480"
+                  className="d-block w-100"
+                  alt="..."
+                  height={295}
+                  width={295}
+                />
+
+
+
+                <img
+                  src="https://ak1.ostkcdn.com/img/mxc/04152025_MOPS_340x340_Domestic_Dinnerware_25490660.jpg?imwidth=480"
+                  className="d-block w-100"
+                  alt="..."
+                  height={295}
+                  width={295}
+                />
+ 
+
+
+                <img
+                  src="https://ak1.ostkcdn.com/img/mxc/04152025_MOPS_340x340_Domestic_OutDecor_38028131.jpg?imwidth=480"
+                  className="d-block w-100"
+                  alt="..."
+                  height={295}
+                  width={295}
+                />
+
+
+
+                <img
+                  src="https://ak1.ostkcdn.com/img/mxc/04152025_MOPS_340x340_Domestic_OutLighting_40123415.jpg?imwidth=480"
+                  className="d-block w-100"
+                  alt="..."
+                  height={295}
+                  width={295}
+                />
+
+
+            </div>
+
+          </div>
+
+          <div className="carousel-item">
+
+            <div className="inner-carousel d-flex justify-content-between">
+
+
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/04152025_MOPS_340x340_Domestic_OutDecor_38028131.jpg?imwidth=480"
+                className="d-block w-100"
+                alt="..."
+                height={295}
+                width={295}
+              />
+
+
+
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/04152025_MOPS_340x340_Domestic_OutLighting_40123415.jpg?imwidth=480"
+                className="d-block w-100"
+                alt="..."
+                height={295}
+                width={295}
+              />
+
+
+
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/04152025_MOPS_340x340_Domestic_ShadesStructures_38852887.jpg?imwidth=480"
+                className="d-block w-100"
+                alt="..."
+                height={295}
+                width={295}
+              />
+
+
+
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/04152025_MOPS_340x340_Domestic_OutDining_17256281.jpg?imwidth=480"
+                className="d-block w-100"
+                alt="..."
+                height={295}
+                width={295}
+              />
+
+
+
+            </div>
+           
+          </div>
+
+        </div>
+
+        <button
+          className="carousel-control-prev bg-dark"
+          style={{ height: "44px", width: "34px", marginTop: "10%" }}
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          className="carousel-control-next bg-dark"
+          style={{ height: "44px", width: "34px", marginTop: "10%" }}
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
+        </button>
+        
+      </div>
+    </>
+  );
+};
+
+
+
+
+
+
+
+
+

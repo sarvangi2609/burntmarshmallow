@@ -21,7 +21,7 @@ const SignUp = () => {
         <input type="text" placeholder='Email' /> <br />
 
         <input type="password" placeholder='password' style={{position:"relative"}}/>
-        <span style={{position:"absolute" ,top:"463px",left:"600px"}}>
+        <span style={{position:"absolute" ,top:"520px",left:"600px"}}>
           <FaEye />
         {/* <FaEyeSlash /> */}
         </span>
