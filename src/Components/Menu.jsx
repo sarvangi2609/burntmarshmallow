@@ -11,6 +11,7 @@ import Lighting from "./Dropdowns/Lighting";
 import BabyKids from "./Dropdowns/Baby&Kids";
 import More from "./Dropdowns/More";
 import Ideas from "./Dropdowns/Ideas";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
@@ -19,7 +20,7 @@ const Menu = () => {
         <ul className="menu-list">
 
           <li>
-            <span>Furniture</span>
+            <Link to="/furniture" style={{textDecoration:"none"}}><span>Furniture</span></Link>
             <div className="menu-dropdown">
               <Furniture />
             </div>
