@@ -9,6 +9,7 @@ import { IoIosSearch } from "react-icons/io";
 import { LiaCartArrowDownSolid } from "react-icons/lia";
 import Menu from './Menu';
 import {UserDropDown,UserDropDownAfterSignin, ListDropDown} from './Dropdowns/Accounts';
+import UnderBanner from './UnderBanner';
 
 const Navbar = () => {
   return (
@@ -26,7 +27,7 @@ const Navbar = () => {
 
         <div className="search">
         <input type="text" placeholder="Find all things home &amp; beyond" style={{padding:"10px",borderRadius:"10px",border:"1px solid #dadcdf",width:"600px",fontSize:"16px"}}  />
-        <div className="search-icon"><IoIosSearch style={{fontSize:"22px",position:"absolute",top:"5px",left:"3px",color:"white"}} /></div>
+        <div className="search-icon"><IoIosSearch style={{fontSize:"25px",position:"absolute",top:"4px",left:"5px",color:"white"}} /></div>
         </div>
 
         <div>
@@ -62,6 +63,8 @@ const Navbar = () => {
     </div>
 
     <Menu />
+
+    <UnderBanner />
     
     </>
     

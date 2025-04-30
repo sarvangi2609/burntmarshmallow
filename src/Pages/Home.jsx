@@ -1,7 +1,6 @@
 import React from "react";
 import Salpro from "../Components/Home/Salpro";
 import Slider from "../Components/Home/Slider";
-// import SimpleSlider from '../Components/Slider'
 
 const Home = () => {
   return (
@@ -12,15 +11,15 @@ const Home = () => {
         style={{
           height: "450px",
           width: "98%",
-          margin:"2% 1%"
+          margin:"2% 1%",
         }}
       >
         <Slider />
       </div>
 
-      <div className="salepro">
+      {/* <div className="salepro">
         <Salpro />
-      </div>
+      </div> */}
 
       <div className="section">
         <div className="section1">

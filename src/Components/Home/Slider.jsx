@@ -54,7 +54,6 @@ const Slider = () => {
             <img
               src="https://ak1.ostkcdn.com/img/mxc/04242025-MOPS-A3-DSK_fullWidth_04.22.svg?imwidth=1920"
               className="d-block w-100"
-
               alt="..."
             />
           </div>
@@ -87,6 +86,7 @@ const Slider = () => {
             <img
               src="https://ak1.ostkcdn.com/img/mxc/20250426_MOPS_1400x550_Domestic_Desktop_A1_BBBDays.svg?imwidth=1920"
               className="d-block w-100"
+              height={442}
               alt="..."
             />
           </div>

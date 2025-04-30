@@ -21,7 +21,7 @@ const Salpro = () => {
                 style={{
                   color: "white",
                   textDecoration: "none",
-                  fontSize: "24px",
+                  fontSize: "20px",
                 }}
               >
                 BB&B Days Flash Sale

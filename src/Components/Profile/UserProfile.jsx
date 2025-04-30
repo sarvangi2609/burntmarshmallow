@@ -3,6 +3,8 @@ import logo1 from '../../assets/logo1.svg'
 import logo2 from '../../assets/logo2.svg'
 import logo3 from '../../assets/logo3.svg'
 import logo4 from '../../assets/logo4.svg'
+import { FcGoogle } from "react-icons/fc";
+import { FaFacebook } from "react-icons/fa";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
 
@@ -53,6 +55,19 @@ const UserProfile = () => {
           <hr />
 
           <SignIn />
+        </div>
+
+        <div className="lines">
+          <div className="line1"></div>
+          <span>OR</span>
+          <div className="line2"></div>
+        </div>
+
+        <div className="loginbtns">
+
+            <button><FcGoogle style={{fontSize:"25px"}} /> Continue with Google</button> <br />
+            <button><FaFacebook style={{color:"#0076be",fontSize:"22px"}} /> Continue with Facebook</button>
+
         </div>
 
       </div>

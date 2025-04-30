@@ -82,9 +82,9 @@
 
 .search .search-icon{
     position: absolute;
-    left: 573.5px;
+    left: 563.5px;
     height: 34px;
-    width: 32px;
+    width: 36px;
     background-color: #1a4e8a;
     border-radius: 0px 10px 10px 0px;
 }
@@ -283,17 +283,68 @@ width: 70%;
     text-decoration: none;
 }
 
+/* underbanner */
+
+.underbanner{
+    height: 56px;
+    width: 100%;
+    background-color: #002855;
+}
+.underbanner-container{
+    /* width: 80%; */
+    /* background-color: black; */
+    height: 56px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.underbanner-container .container{
+        width: 417px;
+        height: 38px;
+}
+.underbanner-container .container h6{
+    font-size: 13px;
+}
+.underbanner-container .container p{
+    font-size: 12px;
+}
+
+.underbanner-container .hr1 {
+    height: 6%;
+    width: 1px;
+    background-color: white;
+    border: none;
+    position: absolute;
+    left: 30%;
+    margin-top: 15px;
+  }
+
+  .underbanner-container .hr2 {
+    height: 6%;
+    width: 1px;
+    background-color: white;
+    border: none;
+    position: absolute;
+    left: 65%;
+    margin-top: 15px;
+  }
+
+
+
 /* signup */
 
 .signup{
-    height: 400px;
-    width: 290px;
+    height: 350px;
+    width: 490px;
     margin: 30px;
 }
 
 .signin{
-    height: 400px;
-    width: 290px;
+    height: 350px;
+    width: 490px;
     margin: 30px;
 }
 
@@ -329,18 +380,82 @@ width: 70%;
 
 .userprofile{
     width: 780px;
+    height: 400px;
     margin: auto;
     display: flex;
-    /* background-color: red; */
+
 }
 
 .userprofile hr {
-    height: 80%;
+    height: 35%;
     width: 1px;
     background-color: black;
     border: none;
-    margin: 0 10px; 
+    position: absolute;
+    left: 54%;
+    margin-top: 80px;
   }
+
+  .lines{
+    position: relative;
+  }
+
+  .line1{
+    display: flex;
+    content: '';
+    width: 30%;
+    border-bottom: 1px solid #dadcdf;
+    display: block;
+    margin: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+  }
+
+  .line2{
+    display: flex;
+    content: '';
+    width: 30%;
+    border-bottom: 1px solid #dadcdf;
+    display: block;
+    margin: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 55%;
+  }
+
+  .lines span{
+    display: flex;
+    width: 30%;
+    display: block;
+    margin: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 51.50%;
+    color: #626669;
+  }
+
+  .loginbtns{
+    height: 170px;
+    width: 780px;
+    margin: 20px 0px 20px 24%;
+  }
+
+  .loginbtns button{
+    height: 44px;
+    width: 380px;
+    margin-left: 24%;
+    margin-top: 12px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #2f3337;
+    border: 1px solid #2f3337;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+
 
 
 
@@ -430,6 +545,8 @@ width: 70%;
 .slide1{
     background-image: url(https://ak1.ostkcdn.com/img/mxc/04212025-MOPS-COOP-A2-MBL_04.22.jpg?imwidth=1920
     );
+    background-color: #0076be;
+    height: 442px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -470,10 +587,10 @@ width: 70%;
 
 /* saleproduct */
 
-.salpro{
+/* .salpro{
     height: 400px;
     margin: 20px;
-    background-color: aliceblue;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -482,7 +599,6 @@ width: 70%;
 .salpro .left {
     height: 300px;  
     width: 240px;
-    /* background-color: red; */
     padding:10px 0px;
 }
 
@@ -503,10 +619,9 @@ width: 70%;
 .right .card{
     height: 280px;
     width: 80%;
-    /* background-color: aliceblue; */
     border-radius: 10px;
     margin: auto;
-}
+} */
 
 
 /* Footer */
