@@ -298,7 +298,6 @@
       "ratingCount": 54
     }
   ],
-
   "furnitures": [
     {
       "id": 1,
@@ -316,7 +315,6 @@
       "tags": [
         "Featured"
       ]
-
     },
     {
       "id": 2,
@@ -357,7 +355,7 @@
       "urgencyMessaging": "High Satisfaction",
       "optionCount": "4 options",
       "currentPrice": "From $179.74",
-      "title":"INK+IVY Bailey Taupe Boucle Flip Top Storage Bench",
+      "title": "INK+IVY Bailey Taupe Boucle Flip Top Storage Bench",
       "category": "Home Office Furniture"
     },
     {
@@ -926,7 +924,13 @@
       "category": "Patio Furniture",
       "tags": []
     }
+  ],
+  "Auth": [
+    {
+      "email": "sp@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "id": 1
+    }
   ]
-
-  
 }

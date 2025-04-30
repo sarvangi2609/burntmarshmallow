@@ -1,27 +1,58 @@
 
 
-import React from 'react'
+import React, { useState } from 'react'
 import { MdLockOutline } from "react-icons/md";
 import { FaUserPlus } from "react-icons/fa6";
 import { IoIosInformationCircleOutline } from "react-icons/io";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
+import { useDispatch, useSelector } from 'react-redux'
+import { handleSignUp } from '../../Redux/Auth/Action';
 
 
 const SignUp = () => {
+
+  const initialState = {
+    email:"",
+    password :""
+  }
+
+  const [formdata,setformdata] = useState(initialState)
+  const {email,password} = formdata;
+  const  datafromstore = useSelector(state=>state.auth)
+  console.log(datafromstore)
+  const dispatch = useDispatch()
+
+  const handleChange = (e)=>{
+      setformdata({...formdata,[e.target.name]:e.target.value})
+  }
+
+  const handleSubmit = (e)=>{
+    e.preventDefault();
+
+    dispatch(handleSignUp(formdata))
+    alert("Your was Profile Created")
+    setformdata(initialState);
+ 
+  }
+
+
   return (
     <>
 
-    <div className="signup">
+    <div className="signup" onSubmit={handleSubmit}>
 
       <form className="form-container">
 
         <h5 className='ps-3 pt-3'><FaUserPlus /> Create Account</h5>
 
-        <input type="text" placeholder='Email' /> <br />
+        <input type="email" placeholder='Email'
+        value={email} name="email" onChange={handleChange} /> <br />
 
-        <input type="password" placeholder='password' style={{position:"relative"}}/>
-        <span style={{position:"absolute" ,top:"520px",left:"600px"}}>
+        <input type="password" 
+        value={password} name="password" onChange={handleChange}
+        placeholder='password' style={{position:"relative"}}/>
+        <span style={{position:"absolute" ,top:"502px",left:"600px"}}>
           <FaEye />
         {/* <FaEyeSlash /> */}
         </span>
