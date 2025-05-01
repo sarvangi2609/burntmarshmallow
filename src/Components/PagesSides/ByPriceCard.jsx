@@ -22,6 +22,7 @@ const ByPriceCard = () => {
 
   return (
     <>
+        <h2 className='m-4'>Shop {categoryData.category} by Price</h2>
       <section className="shop-by-price">
         {categoryData &&
           categoryData?.sections["by Price"].map((item, index) => (

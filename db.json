@@ -1320,7 +1320,26 @@
               "price":"$150"
             }
   
+          ],
+          "by Size":[
+            {
+              "name": "King Bedding Sets",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_PopCat_5_kingbedding.jpg?imwidth=400"
+            },
+            {
+              "name": "Queen Bedding Sets",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_PopCat_6_queenbedding.jpg?imwidth=400"
+            },
+            {
+              "name": "Full Bedding Sets",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_PopCat_7_fullbedding.jpg?imwidth=400"
+            },
+            {
+              "name": "Twin Bedding Sets",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_PopCat_8_twinbedding.jpg?imwidth=400"
+            }
           ]
+          
         
       }
     },

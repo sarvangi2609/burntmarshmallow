@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react";
+
+
+import  { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-const PopularCard = () => {
+const ByShopCard = () => {
   const { category } = useParams();
   const [categories, setCategories] = useState([]);
 
@@ -22,22 +24,29 @@ const PopularCard = () => {
 
   return (
     <>
-      <div className="popular">
-        <h2 className='mb-4'>Popular {categoryData.category} Categories</h2>
-        <div className="popular-categories d-flex flex-wrap">
-          {categoryData &&
-            categoryData?.sections["Popular Categories"].map((item, index) => (
-              <div key={index}>
-                <div className="category-card">
-                  <img src={item.image_url} alt="Living Room Furniture" />
+    <div className="shop-more">
+    <h2 className="m-5 text-center">Shop More {categoryData.category}</h2>
+    <div className="category-filter d-flex flex-wrap">
+        {categoryData &&
+          categoryData?.sections["Shop More"].map((item, index) => (
+            <div key={index}>
+  
+                <div className="cat-list">
+                  <img
+                    src={item.image_url}
+                    alt="not found"
+                  />
                   <span>{item.name}</span>
                 </div>
-              </div>
-            ))}
-        </div>
+
+            </div>
+          ))}
       </div>
+
+    </div>
+
     </>
   );
 };
 
-export default PopularCard;
+export default ByShopCard;

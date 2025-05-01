@@ -1,18 +1,12 @@
+import { useEffect, useState } from "react";
 
-
-import  { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-
-const BySizeCard = () => {
-  const { category } = useParams();
+const BySizeCard = ({ category }) => {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3000/dynamicPage")
       .then((response) => response.json())
-      .then((data) => {
-        setCategories(data);
-      });
+      .then((data) => setCategories(data));
   }, []);
 
   const selectedCategory =
@@ -20,28 +14,26 @@ const BySizeCard = () => {
 
   const categoryData = categories.find((c) => c.category === selectedCategory);
 
-  if (!categoryData) return <div>Loading...</div>;
-
-  return (
-    <>
+  // Don't render if "by Size" section does not exist
+  if(!categoryData || !categoryData.sections?.["by Size"])
+   return null ;
+  else
+   return (
+    <div className="bysize text-center">
+      <h2 className="m-5">Shop Popular {categoryData.category} Sizes</h2>
       <div className="size-filter d-flex flex-wrap">
-        {categoryData &&
-          categoryData?.sections["by Size"].map((item, index) => (
-            <div key={index}>
-  
-                <div className="size-list">
-                  <img
-                    src={item.image_url}
-                    alt="Living Room Furniture"
-                  />
-                  <span>{item.name}</span>
-                </div>
-
+        {categoryData.sections["by Size"].map((item, index) => (
+          <div key={index}>
+            <div className="size-list">
+              <img src={item.image_url} alt={item.name} />
+              <span>{item.name}</span>
             </div>
-          ))}
+          </div>
+        ))}
       </div>
-    </>
+    </div>
   );
 };
 
 export default BySizeCard;
+
