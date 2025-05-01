@@ -56,7 +56,7 @@ const ProductDetails = () => {
     style={{
       display: "flex",
       flexWrap: "wrap",
-      justifyContent: "center",
+      justifyContent:"space-between",
       gap: "20px",
       padding: "20px",
     }}
@@ -68,7 +68,11 @@ const ProductDetails = () => {
           title={el.title}
           image={el.progressiveImageLoader_img}
           id={el.id}
-          price={el.currentPrice}
+          price={el.compPriceTooltipTrigger}
+          option={el.optionCount}
+          msg={el.urgencyMessaging}
+          saleprice={el.currentPrice}
+          rating={el.rating}
         />
       ))}
 </div>

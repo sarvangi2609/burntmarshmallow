@@ -1,8 +1,10 @@
 
 import React from 'react'
+import '../page.css'
 import { useDispatch, useSelector } from 'react-redux'
+import { FaRegHeart } from "react-icons/fa";
 
-const ProductCard = ({id,image,price,title}) => {
+const ProductCard = ({id,image,price,saleprice,title,option,msg,rating}) => {
     const  { currentUser } = useSelector(state=>state.auth)
 
     // const dispatch = useDispatch()
@@ -12,17 +14,36 @@ const ProductCard = ({id,image,price,title}) => {
 
         <div className="productcard">
 
-        <div style={{border: '1px solid black',
-    textAlign: 'center',
-    padding: '15px',
-    background: 'white',
-    width: '300px'}}>
+        <div>
 
-      <img src={image} alt="" height={300} width={300} />
+          <div className="image" style={{position:"relative"}}>
+          <img src={image} alt="" height={120} width={120}  />
+          <FaRegHeart style={{position:"absolute" ,right:"20px",top:"10px",fontSize:"22px"}} />
+          </div>
 
-      <h5>{title}</h5>
+     
 
-      <h4>{price}</h4>
+      <div className="msg d-flex justify-content-between">
+
+      <span style={{color:"#1a4e8a"}} >{msg}</span>
+
+      <span >{option}</span>
+
+      </div>
+
+    <div className="prices text-start">
+      <span className="saleprice pe-2 " style={{color:"#ed0000",fontSize:"16px" ,fontWeight:"700"}}>{saleprice}</span>
+      <span className="price" style={{fontSize:"12px",textDecoration:"line-through",borderBottom:"1px dashed",color:"#626669"}}>{price}</span>
+    </div>
+
+    <div className='salebtn '>Sale</div>
+
+    <div className="rate p-2">{rating}</div>
+
+    <p>{title}</p>
+
+
+      {/* <h4 className='fs-6'>{price}</h4> */}
 
 
       {currentUser ?.role =="admin" &&<button style={{ margin: '5px',

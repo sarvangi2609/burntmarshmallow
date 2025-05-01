@@ -1,0 +1,40 @@
+
+
+.productcard{
+
+    width: 225px;
+    height: 470px;
+    text-align: center;
+
+}
+
+.productcard img{
+    height: 223px;
+    width: 223px;
+}
+
+.productcard .msg span{
+
+    font-size: 12px;
+    font-weight: 700;
+
+}
+ .productcard .salebtn{
+    display: inline-block;
+    padding: 6px 8px;
+    border-radius: 4px;
+    background: #ed0000;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    margin: 4px 200px 4px 0;
+ }
+
+ .productcard p{
+    font-size: 12px;
+    line-height: 20px;
+    max-height: 62px;
+    overflow: hidden;
+    width: 95%;
+    text-align: start;
+ }
