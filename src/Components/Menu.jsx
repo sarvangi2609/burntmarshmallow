@@ -13,56 +13,74 @@ import More from "./Dropdowns/More";
 import Ideas from "./Dropdowns/Ideas";
 import { Link } from "react-router-dom";
 
-const Menu = () => {
+const Menu = ({  }) => {
   return (
     <>
       <div className="menu">
         <ul className="menu-list">
 
           <li>
-            <Link to="/furniture" style={{textDecoration:"none"}}><span>Furniture</span></Link>
+            <Link to="/furniture" style={{textDecoration:"none"}}>
+            <span >Furniture</span>
+            </Link>
             <div className="menu-dropdown">
               <Furniture />
             </div>
           </li>
 
           <li>
-            <span>Rugs</span>
+          <Link to="/rugs" style={{textDecoration:"none"}}>
+          <span>Rugs</span>
+          </Link>
             <div className="menu-dropdown">
               <Rugs />
             </div>
           </li>
 
           <li>
-            <span>Outdoor</span>
+          <Link to="/outdoor" style={{textDecoration:"none"}}>
+          <span>Outdoor</span>
+          </Link>
+            
             <div className="menu-dropdown">
               <OutDoor />
             </div>
           </li>
 
           <li>
-            <span>Bedding</span>
+          <Link to="/bedding" style={{textDecoration:"none"}}>
+          <span>Bedding</span>
+          </Link>
             <div className="menu-dropdown">
               <Bedding />
             </div>
           </li>
 
           <li>
-            <span>Bath</span>
+          <Link to="/bath" style={{textDecoration:"none"}}>
+          <span>Bath</span>
+          </Link>
+            
             <div className="menu-dropdown">
               <Bath />
             </div>
           </li>
 
           <li>
-            <span>Kitchen</span>
+          <Link to="/kitchen" style={{textDecoration:"none"}}>
+          <span>Kitchen</span>
+          </Link>
+            
             <div className="menu-dropdown">
               <Kitchen />
             </div>
           </li>
 
           <li>
-            <span>Decor</span>
+          <Link to="/decore" style={{textDecoration:"none"}}>
+          <span>Decor</span>
+          </Link>
+            
             <div className="menu-dropdown"
             style={{left:"-200px"}}>
               <Decore />
@@ -70,7 +88,10 @@ const Menu = () => {
           </li>
 
           <li>
-            <span>Storage & Cleaning</span>
+          <Link to="/storage" style={{textDecoration:"none"}}>
+          <span>Storage & Cleaning</span>
+          </Link>
+            
             <div className="menu-dropdown"
             style={{left:"-250px"}}>
               <Clenning />
@@ -78,7 +99,10 @@ const Menu = () => {
           </li>
 
           <li>
-            <span>Lighting</span>
+          <Link to="/lighting" style={{textDecoration:"none"}}>
+          <span>Lighting</span>
+          </Link>
+            
             <div className="menu-dropdown"
             style={{left:"-450px"}}>
               <Lighting />
@@ -86,7 +110,10 @@ const Menu = () => {
           </li>
 
           <li>
-            <span>Baby&Kids</span>
+          <Link to="/Baby and Kids Home Goods" style={{textDecoration:"none"}}>
+          <span>Baby&Kids</span>
+          </Link>
+           
             <div className="menu-dropdown"
             style={{left:"-550px"}}>
               <BabyKids />

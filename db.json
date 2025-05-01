@@ -298,6 +298,1767 @@
       "ratingCount": 54
     }
   ],
+
+  "dynamicPage" :[
+
+    {
+      "category": "Furniture",
+      "sections": {
+        "Featured Categories": [
+          {
+            "name": "Shop All Furniture on Sale",
+            "url": "https://www.bedbathandbeyond.com/c/furniture?t=24352&promotion=on+sale"
+          },
+          {
+            "name": "Shop New Arrivals",
+            "url": "https://www.bedbathandbeyond.com/c/furniture?t=24352&promotion=new+products"
+          },
+          {
+            "name": "Bedroom Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/bedroom-furniture?t=24356"
+          },
+          {
+            "name": "Dining Room Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/dining-kitchen-bar-furniture/dining-furniture?t=24414"
+          },
+          {
+            "name": "Kitchen Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/dining-kitchen-bar-furniture/kitchen-furniture?t=24360"
+          },
+          {
+            "name": "Bar Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/dining-kitchen-bar-furniture/bar-furniture?t=24413"
+          },
+          {
+            "name": "Living Room Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/living-room-furniture?t=24359"
+          },
+          {
+            "name": "Bathroom Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/bathroom-furniture?t=24355"
+          },
+          {
+            "name": "Home Office Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/home-office-furniture?t=24358"
+          },
+          {
+            "name": "Kids Bedroom and Nursery",
+            "url": "https://www.bedbathandbeyond.com/c/kids/kids-bedroom-furniture?t=24475"
+          },
+          {
+            "name": "Mattresses",
+            "url": "https://www.bedbathandbeyond.com/c/mattresses?t=24351"
+          },
+          {
+            "name": "Patio Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/patio-furniture?t=7908"
+          }
+        ],
+        "Popular Categories": [
+          {
+            "name": "Living Room Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/living-room-furniture?t=24359",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_PopCat_1.jpg?imwidth=400"
+          },
+          {
+            "name": "Bedroom Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/bedroom-furniture?t=24356",
+             "image_url":"https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_PopCat_2.jpg?imwidth=400"
+          },
+          {
+            "name": "Dining Room Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/dining-kitchen-bar-furniture/dining-furniture?t=24414",
+             "image_url":"https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_PopCat_3.jpg?imwidth=400"
+          },
+          {
+            "name": "Kitchen Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/dining-kitchen-bar-furniture/kitchen-furniture?t=24360",
+             "image_url":"https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_PopCat_4.jpg?imwidth=400"
+          },
+          {
+            "name": "Patio Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/patio-furniture?t=7908",
+             "image_url":"https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_PopCat_5.jpg?imwidth=400"
+          },
+          {
+            "name": "Small Space Furniture",
+            "url": "https://www.bedbathandbeyond.com/small-spaces",
+             "image_url":"https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_PopCat_6.jpg?imwidth=400"
+          },
+          {
+            "name": "Home Office Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/home-office-furniture?t=24358",
+             "image_url":"https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_PopCat_7.jpg?imwidth=400"
+          },
+          {
+            "name": "Mattresses",
+            "url": "https://www.bedbathandbeyond.com/c/mattresses?t=24351",
+          "image_url":"https://ak1.ostkcdn.com/img/mxc/10152024_WINTER_EG_furniture_PopCat_Mattresses.jpg?imwidth=400"
+          },
+          {
+            "name": "Bathroom Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/bathroom-furniture?t=24355",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_PopCat_9.jpg?imwidth=400"
+          },
+          {
+            "name": "Living Room Seating",
+            "url": "https://www.bedbathandbeyond.com/c/living-room-furniture/living-room-seating?t=24453",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_PopCat_10.jpg?imwidth=400"
+          },
+          {
+            "name": "Game Room Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/game-room-furniture?t=31265",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_PopCat_11.jpg?imwidth=400"
+          },
+          {
+            "name": "Kids Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/kids/kids-bedroom-furniture?t=24475",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_PopCat_12.jpg?imwidth=400"
+          }
+        ],
+
+        "Shop More": [
+          {
+            "name": "Shop All Furniture on Sale",
+            "url": "https://www.bedbathandbeyond.com/c/furniture?t=24352&promotion=on+sale",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/08012023-SPMOD-Sale.jpg?imwidth=200"
+          },
+          {
+            "name": "Sofas & Couches",
+            "url": "https://www.bedbathandbeyond.com/c/living-room-seating/sofas?t=24464",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular1.jpg?imwidth=200"
+          },
+          {
+            "name": "Sectional Sofas",
+            "url": "https://www.bedbathandbeyond.com/c/living-room-seating/sectional-sofas?t=24463",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular2.jpg?imwidth=200"
+          },
+          {
+            "name": "Living Room Sets",
+            "url": "https://www.bedbathandbeyond.com/c/living-room-seating/living-room-sets?t=24445",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular3.jpg?imwidth=200"
+          },
+          {
+            "name": "Coffee Tables",
+            "url": "https://www.bedbathandbeyond.com/c/living-room-tables/coffee-tables?t=24449",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular4.jpg?imwidth=200"
+          },
+          {
+            "name": "Loveseats",
+            "url": "https://www.bedbathandbeyond.com/c/living-room-seating/loveseats?t=24465",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular5.jpg?imwidth=200"
+          },
+          {
+            "name": "Accent Chairs",
+            "url": "https://www.bedbathandbeyond.com/c/living-room-seating/accent-chairs?t=24454",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular6.jpg?imwidth=200"
+          },
+          {
+            "name": "Dining Sets",
+            "url": "https://www.bedbathandbeyond.com/c/dining-furniture/dining-sets?t=24424",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/12242020-gnp-furniture-219x219_shop_more_diningrm.jpg?imwidth=200"
+          },
+          {
+            "name": "Dining Tables",
+            "url": "https://www.bedbathandbeyond.com/c/dining-furniture/dining-tables?t=24426",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular8.jpg?imwidth=200"
+          },
+          {
+            "name": "Kitchen & Dining Chairs",
+            "url": "https://www.bedbathandbeyond.com/c/dining-furniture/dining-chairs?t=24422",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular9.jpg?imwidth=200"
+          },
+          {
+            "name": "Buffets and Sideboards",
+            "url": "https://www.bedbathandbeyond.com/c/dining-furniture/buffets-sideboards?t=24420",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular10.jpg?imwidth=200"
+          },
+          {
+            "name": "Counter and Bar Stools",
+            "url": "https://www.bedbathandbeyond.com/c/bar-furniture/counter-bar-stools?t=24416",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular11.jpg?imwidth=200"
+          },
+          {
+            "name": "Beds",
+            "url": "https://www.bedbathandbeyond.com/c/beds-headboards/beds?t=24407",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular12.jpg?imwidth=200"
+          },
+          {
+            "name": "Bedroom Sets",
+            "url": "https://www.bedbathandbeyond.com/c/bedroom-furniture/bedroom-sets?t=24403",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular13.jpg?imwidth=200"
+          },
+          {
+            "name": "Headboards",
+            "url": "https://www.bedbathandbeyond.com/c/beds-headboards/headboards?t=24408",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular14.jpg?imwidth=200  "
+          },
+          {
+            "name": "Dressers & Chests",
+            "url": "https://www.bedbathandbeyond.com/c/bedroom-furniture/dressers?t=24404",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular15.jpg?imwidth=200"
+          },
+          {
+            "name": "Nightstands",
+            "url": "https://www.bedbathandbeyond.com/c/bedroom-furniture/nightstands?t=24405",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular16.jpg?imwidth=200"
+          },
+          {
+            "name": "Kids Bedroom Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/kids/kids-bedroom-furniture?t=24475",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular17.jpg?imwidth=200"
+          }
+        ]
+
+      }
+    },
+
+    {
+      "category": "Rugs",
+      "sections": {
+        "Featured Categories": [
+          {
+            "name": "Shop All Rugs on Sale",
+            "url": "https://www.bedbathandbeyond.com/c/furniture?t=24352&promotion=on+sale"
+          },
+          {
+            "name": "Shop New Arrivals",
+            "url": "https://www.bedbathandbeyond.com/c/furniture?t=24352&promotion=new+products"
+          },
+          {
+            "name": "Area Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/bedroom-furniture?t=24356"
+          },
+          {
+            "name": "Rug Pads",
+            "url": "https://www.bedbathandbeyond.com/c/dining-kitchen-bar-furniture/dining-furniture?t=24414"
+          },
+          {
+            "name": "Handmade Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/dining-kitchen-bar-furniture/kitchen-furniture?t=24360"
+          },
+          {
+            "name": "Shag Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/dining-kitchen-bar-furniture/bar-furniture?t=24413"
+          },
+          {
+            "name": "Wool Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/living-room-furniture?t=24359"
+          },
+          {
+            "name": "Outdoor Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/bathroom-furniture?t=24355"
+          },
+          {
+            "name": "Machine Washable",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/home-office-furniture?t=24358"
+          },
+          {
+            "name": "Modern Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/kids/kids-bedroom-furniture?t=24475"
+          },
+          {
+            "name": "Pet Friendly Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/mattresses?t=24351"
+          },
+          {
+            "name": "Kitchen Mats",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/patio-furniture?t=7908"
+          },
+          {
+            "name": "Door Mats",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/home-office-furniture?t=24358"
+          },
+          {
+            "name": "Kids Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/kids/kids-bedroom-furniture?t=24475"
+          },
+          {
+            "name": "Bath Mats & Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/mattresses?t=24351"
+          },
+          {
+            "name": "Runner Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/patio-furniture?t=7908"
+          }
+        ],
+        "by Size": [
+          {
+            "name": "3' x 5' Area Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a1589=8225",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_TOPTAX1_3x5-480x480_2.png?imwidth=400"
+          },
+          {
+            "name": "4' x 6' Area Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a1589=3973",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_TOPTAX2_4x6-480x480_2.png?imwidth=400"
+          },
+          {
+            "name": "5' x 8' Area Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a1589=7112",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_TOPTAX3_5x8-480x480_2.png?imwidth=400"
+          },
+          {
+            "name": "6' x 9' Area Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a1589=7113",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_TOPTAX4_6x9-480x480_2.png?imwidth=400"
+          },
+          {
+            "name": "7' x 9' Area Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a1589=3688",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_TOPTAX5_7x9-480x480_2.png?imwidth=400"
+          },
+          {
+            "name": "8' x 10' Area Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a1589=7152",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_TOPTAX6_8x10-480x480_2.png?imwidth=400"
+          },
+          {
+            "name": "9' x 12' Area Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a1589=4386",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_TOPTAX7_9x12-480x480_2.png?imwidth=400"
+          },
+          {
+            "name": "10' x 14' Area Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a1589=7151",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_TOPTAX8_10x14-480x480_2.png?imwidth=400"
+          }
+        ],
+        "Popular Colors": [
+          {
+              "name": "Ivory Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a2415=3912",
+            "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_MULTITAXA3_Ivory_Rugs-336x336_2.png?imwidth=400"
+          },
+          {
+              "name": "Grey Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a2415=2926",
+               "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_MULTITAXA2_Grey_Rugs-336x336_2.png?imwidth=400"
+          },
+          {
+              "name": "Blue Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a2415=2915",
+               "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_MULTITAXA1_Blue_Rugs-336x336_2.png?imwidth=400"
+          },
+          {
+              "name": "Red Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a2415=2947",
+               "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_MULTITAXA4_Red_Rugs-336x336_2.png?imwidth=400"
+          }
+        ],
+        "Popular Categories": [
+          {
+              "name": "Bohemian & Eclectic Area Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a2046=415769",
+              "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_MULTITAXB1_Bohemian-Eclectic-lifestyle-336x336.png?imwidth=400"
+          },
+          {
+              "name": "Modern & Contemporary Area Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a2046=415812",
+              "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_MULTITAXB2_Modern-Contemporary-lifestyle-336x336.png?imwidth=400"
+          },
+          {
+              "name": "Vintage Area Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a2046=3613",
+              "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_MULTITAXB3_Vintage-336x336.png?imwidth=400"
+          },
+          {
+              "name": "Shag Area Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a1135=3974",
+              "image_url":"https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_MULTITAXB4_Shag-336x336.png?imwidth=400"
+          }
+         ],
+         "Shop More": [
+          {
+              "name": "Shop All Rugs on Sale",
+              "url": "https://www.bedbathandbeyond.com/c/rugs?t=17602&promotion=on+sale",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08012023-SPMOD-Sale.jpg?imwidth=200"
+          },
+          {
+              "name": "Area Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_OTHER1_Area-rugs-267x267.png?imwidth=200"
+          },
+          {
+              "name": "Rug Pads",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/rug-pads?t=17606",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_OTHER2_Rug-Pads-267x267.png?imwidth=200"
+          },
+          {
+              "name": "Shag Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs?t=17602&a1135=3974",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_OTHER3_Shag-rugs-267x267.png?imwidth=200"
+          },
+          {
+              "name": "Kitchen Mats",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/kitchen-mats?t=17615",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_OTHER4_Kitchen-rugs-mats-267x267.png?imwidth=200"
+          },
+          {
+              "name": "Stair Treads",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/stair-tread-rugs?t=17607",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-rugs_otherPopular4.jpg?imwidth=200"
+          },
+          {
+              "name": "One of a Kind Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/one-of-a-kind-rugs?t=17604",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_OTHER6_One-of-a-kind-267x267.png?imwidth=200"
+          },
+          {
+              "name": "Washable",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a2466=8961",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_OTHER7_Machine-Washable-267x267.png?imwidth=200"
+          },
+          {
+              "name": "Handmade Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a1135=10675",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-rugs_otherPopular7.jpg?imwidth=200"
+          },
+          {
+              "name": "Flat Weave Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a2058=6939",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-rugs_otherPopular8.jpg?imwidth=200"
+          },
+          {
+              "name": "Outdoor Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/outdoor-rugs?t=17608",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_OTHER10_Outdoor-rugs-267x267.png?imwidth=200"
+          },
+          {
+              "name": "Runner Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a2077=571806",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_OTHER11_Runner-rugs-267x267.png?imwidth=200"
+          },
+          {
+              "name": "Kids Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/kids-decor/kids-rugs?t=28552",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_OTHER12_Kids-tween-rugs-267x267.png?imwidth=200"
+          },
+          {
+              "name": "Door Mats",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/doormats?t=28554",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-rugs_otherPopular12.jpg?imwidth=200"
+          },
+          {
+              "name": "Bath Mats & Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/bath/bathroom-rugs-bath-mats?t=19459",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_OTHER14_Bath-mats-rugs-267x267.png?imwidth=200"
+          },
+          {
+              "name": "Persian Rugs",
+              "url": "https://www.bedbathandbeyond.com/c/rugs/area-rugs?t=17603&a2046=516625",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_OTHER15_Persian-rugs-267x267.png?imwidth=200"
+          },
+          {
+              "name": "Shop New Arrivals",
+              "url": "https://www.bedbathandbeyond.com/c/rugs?t=17602&promotion=new+products",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_OTHER16_Shop-new-arrivals-267x267.png?imwidth=200"
+          }
+        ]
+
+      }
+    },
+
+    {
+      "category": "Outdoor",
+      "sections": {
+        "Featured Categories": [
+          {
+            "name": "Shop All Outdoor on Sale",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor?t=7907&promotion=on+sale"
+          },
+          {
+            "name": "Patio Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/patio-furniture?t=7908"
+          },
+          {
+            "name": "Outdoor Dining Sets",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor-dining-furniture/outdoor-dining-sets?t=7924"
+          },
+          {
+            "name": "Chaise Lounges",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor-seating/outdoor-chaise-lounges?t=7936"
+          },
+          {
+            "name": "Outdoor Shades and Structures",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/outdoor-shade-structures?t=22598"
+          },
+          {
+            "name": "Outdoor Cushions and Pillows",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor-decor/outdoor-cushions-throw-pillows?t=22497"
+          },
+          {
+            "name": "Outdoor Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/rugs/outdoor-rugs?t=17608"
+          },
+          {
+            "name": "Planters",
+            "url": "https://www.bedbathandbeyond.com/c/garden/planters?t=22470"
+          },
+          {
+            "name": "Outdoor Decor",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/outdoor-decor?t=22439"
+          },
+          {
+            "name": "Outdoor Storage",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization/outdoor-storage?t=31377"
+          },
+          {
+            "name": "Greenhouses",
+            "url": "https://www.bedbathandbeyond.com/c/garden/greenhouses?t=22463"
+          },
+          {
+            "name": "Garden",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/garden?t=22440"
+          },
+          {
+            "name": "Grills and Outdoor Cooking",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/grills-outdoor-cooking?t=22477"
+          },
+          {
+            "name": "Outdoor Lighting",
+            "url": "https://www.bedbathandbeyond.com/c/lighting/outdoor-lighting?t=31288"
+          },
+          {
+            "name": "Swimming Pools",
+            "url": "https://www.bedbathandbeyond.com/c/hot-tubs-pools-saunas/swimming-pools?t=31260"
+          },
+          {
+            "name": "Outdoor Play",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/outdoor-play?t=31275"
+          }
+        ],
+        "Popular Categories": [
+          {
+            "name": "Patio Furniture",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/09112023-FALLEGREEN-OUTDOOR-PopCat_1.jpg?imwidth=400"
+          },
+          {
+            "name": "Outdoor Dining Sets",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/09112023-FALLEGREEN-OUTDOOR-PopCat_2.jpg?imwidth=400"
+          },
+          {
+            "name": "Outdoor Decor",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/09112023-FALLEGREEN-OUTDOOR-PopCat_3.jpg?imwidth=400"
+          },
+          {
+            "name": "Fire Pits",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/09112023-FALLEGREEN-OUTDOOR-PopCat_8.jpg?imwidth=400"
+          },
+          {
+            "name": "Outdoor Cushions & Pillows",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/10172023-HOL-EGREEN-OUTDOOR-PopCat_1.jpg?imwidth=400"
+          },
+          {
+            "name": "Gazebos, Pergolas & Shades",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/09112023-FALLEGREEN-OUTDOOR-PopCat_4.jpg?imwidth=400"
+          },
+          {
+            "name": "Outdoor Storage",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/05152023-SUMEGREEN-Outdoor-PopCat_6.jpg?imwidth=400"
+          },
+          {
+            "name": "Garden",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/2024WINEGREEN-Outdoor-PopCat_1.jpg?imwidth=400"
+          },
+          {
+            "name": "Grills & Outdoor Cooking",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/09112023-FALLEGREEN-OUTDOOR-PopCat_6.jpg?imwidth=400"
+          },
+          {
+            "name": "Outdoor Lighting",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/09112023-FALLEGREEN-OUTDOOR-PopCat_7.jpg?imwidth=400"
+          },
+          {
+            "name": "Swing Sets",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/05152023-SUMEGREEN-Outdoor-PopCat_10.jpg?imwidth=400"
+          },
+          {
+            "name": "Hot Tubs",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/05152023-SUMEGREEN-Outdoor-PopCat_11.jpg?imwidth=400"
+          }
+        ],
+        "by Price": [
+          {
+            "name": "Grilling Essentials",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/grills-outdoor-cooking?t=22477&price=:50",
+            "price": "under $50"
+          },
+          {
+            "name": "Outdoor Decor",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/outdoor-decor?t=22439&price=:40",
+            "price": "under $40"
+          },
+          {
+            "name": "Outdoor Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/rugs/outdoor-rugs?t=17608&price=:100",
+            "price": "under $100"
+          },
+          {
+            "name": "Outdoor Shades",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/outdoor-shade-structures?t=22598&price=:100",
+            "price": "under $100"
+          }
+        ],
+        "Shop More": [
+          {
+            "name": "Shop All Outdoor on Sale",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/08012023-SPMOD-Sale.jpg?imwidth=200"
+          },
+          {
+            "name": "Outdoor Sectionals",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular1.jpg?imwidth=200"
+          },
+          {
+            "name": "Outdoor Dining Sets",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular2.jpg?imwidth=200"
+          },
+          {
+            "name": "Hammocks & Swings",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular3.jpg?imwidth=200"
+          },
+          {
+            "name": "Outdoor Cushions and Throw Pillows",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular4.jpg?imwidth=200"
+          },
+          {
+            "name": "Outdoor Bistro Sets",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular5.jpg?imwidth=200"
+          },
+          {
+            "name": "Outdoor Tables",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular6.jpg?imwidth=200"
+          },
+          {
+            "name": "Outdoor Chaise Lounges",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular7.jpg?imwidth=200"
+          },
+          {
+            "name": "Outdoor Bar Carts",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular8.jpg?imwidth=200"
+          },
+          {
+            "name": "Outdoor Club Chairs",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular9.jpg?imwidth=200"
+          },
+          {
+            "name": "Adirondack Chairs",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular10.jpg?imwidth=200"
+          },
+          {
+            "name": "Outdoor Benches",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular11.jpg?imwidth=200"
+          },
+          {
+            "name": "Planters",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/12102022_219x219_shop_more01.jpg?imwidth=200"
+          },
+          {
+            "name": "Outdoor Fountains",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular13.jpg?imwidth=200"
+          },
+          {
+            "name": "Outdoor Lighting",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular14.jpg?imwidth=200"
+          },
+          {
+            "name": "Garden",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular17.jpg?imwidth=200"
+          }
+        ]
+      }
+    },
+
+    {
+      "category": "Bedding",
+      "sections": {
+        "Featured Categories": [
+          {
+            "name": "Shop All Bedding on Sale",
+            "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&promotion=on+sale"
+          },
+          {
+            "name": "Shop New Arrivals",
+            "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&promotion=new+products"
+          },
+          {
+            "name": "Bed Sheets and Pillowcases",
+            "url": "https://www.bedbathandbeyond.com/c/bedding/bed-sheets-pillowcases?t=5"
+          },
+          {
+            "name": "Quilts and Bedspreads",
+            "url": "https://www.bedbathandbeyond.com/c/bedding/quilts-bedspreads?t=11"
+          },
+          {
+            "name": "Duvet Covers and Sets",
+            "url": "https://www.bedbathandbeyond.com/c/bedding/duvet-covers-and-sets?t=42"
+          },
+          {
+            "name": "Comforters and Sets",
+            "url": "https://www.bedbathandbeyond.com/c/bedding/comforters-and-sets?t=50"
+          },
+          {
+            "name": "Bed-in-a-Bag",
+            "url": "https://www.bedbathandbeyond.com/c/bedding/bed-in-a-bag?t=47"
+          },
+          {
+            "name": "Blankets",
+            "url": "https://www.bedbathandbeyond.com/c/bedding/blankets?t=275"
+          },
+          {
+            "name": "Down Comforters and Duvet Inserts",
+            "url": "https://www.bedbathandbeyond.com/c/bedding/comforters-duvet-inserts?t=4"
+          },
+          {
+            "name": "Mattresses",
+            "url": "https://www.bedbathandbeyond.com/c/mattresses?t=24351"
+          },
+          {
+            "name": "Mattress Pads and Toppers",
+            "url": "https://www.bedbathandbeyond.com/c/bedding/mattress-pads-toppers?t=36"
+          },
+          {
+            "name": "Bed Protectors",
+            "url": "https://www.bedbathandbeyond.com/c/bedding/bed-protectors?t=51"
+          },
+          {
+            "name": "Bed Pillows",
+            "url": "https://www.bedbathandbeyond.com/c/bedding/bed-pillows?t=12"
+          },
+          {
+            "name": "Bed Skirts",
+            "url": "https://www.bedbathandbeyond.com/c/bedding/bed-skirts?t=40"
+          },
+          {
+            "name": "Pillow Shams",
+            "url": "https://www.bedbathandbeyond.com/c/bedding/pillow-shams?t=35"
+          },
+          {
+            "name": "Kids Bedding",
+            "url": "https://www.bedbathandbeyond.com/c/kids/kids-bedding?t=56"
+          }
+        ],
+        "Popular Categories": [
+
+          {
+            "name": "Comforters and Sets",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/living-room-furniture?t=24359",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_bed_PopCat_1.jpg?imwidth=400"
+
+          },
+          {
+            "name": "Quilts and Bedspreads",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/bedroom-furniture?t=24356",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_bed_PopCat_2.jpg?imwidth=400"
+          },
+          {
+            "name": "Bed Sheets and Pillowcases",
+            "url": "https://www.bedbathandbeyond.com/c/dining-kitchen-bar-furniture/dining-furniture?t=24414",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_bed_PopCat_3.jpg?imwidth=400"
+          },
+          {
+            "name": "Mattress Pads and Toppers",
+            "url": "https://www.bedbathandbeyond.com/c/dining-kitchen-bar-furniture/kitchen-furniture?t=24360",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/10152024_WINTER_EG_bedding_PopCat_4.jpg?imwidth=400"
+          }
+        ],
+
+        "Top Brands": [
+            {
+              "name": "Calvin Klein",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&brand=calvin+klein",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08072024_tier1Brand_B_Mod_Section_3_1Brand_calvin_klein.jpg?imwidth=400"
+            },
+            {
+              "name": "Lacoste",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&brand=lacoste",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08072024_tier1Brand_B_Mod_Section_3_2_laoste.jpg?imwidth=400"
+            },
+            {
+              "name": "Madison Park",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&brand=madison+park",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08072024_tier1Brand_B_Mod_Section_3_3_madison_park.jpg?imwidth=400"
+            },
+            {
+              "name": "Nautica",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&brand=nautica",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08072024_tier1Brand_B_Mod_Section_3_4_nautica.jpg?imwidth=400"
+            },
+            {
+              "name": "DKNY",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&brand=dkny",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08072024_tier1Brand_B_Mod_Section_3_5_dkny.jpg?imwidth=400"
+            },
+            {
+              "name": "Eddie Bauer",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&brand=eddie+bauer",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08072024_tier1Brand_B_Mod_Section_3_6_eddie_bauer.jpg?imwidth=400"
+            },
+            {
+              "name": "Tommy Bahama",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&brand=tommy+bahama",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08072024_tier1Brand_B_Mod_Section_3_7_tommy_bahama.jpg?imwidth=400"
+            },
+            {
+              "name": "Laura Ashley",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&brand=laura+ashley",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08072024_tier1Brand_B_Mod_Section_3_8_laura_ashley.jpg?imwidth=400"
+            }
+          ],        
+        "Shop More": [
+            {
+              "name": "Shop All Bedding on Sale",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&promotion=on+sale",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08012023-SPMOD-Sale.jpg?imwidth=200"
+            },
+            {
+              "name": "Bedding Sets",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/bedding-sets?t=276",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08262024_FALL_teir1_bedding_219x219_shop_more01.jpg?imwidth=200"
+            },
+            {
+              "name": "Comforters and Sets",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/comforters-and-sets?t=50",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08262024_FALL_teir1_bedding_219x219_shop_more02.jpg?imwidth=200"
+            },
+            {
+              "name": "Quilts and Bedspreads",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/quilts-bedspreads?t=11",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08262024_FALL_teir1_bedding_219x219_shop_more03.jpg?imwidth=200"
+            },
+            {
+              "name": "Bed Sheets and Pillowcases",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/bed-sheets-pillowcases?t=5",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08262024_FALL_teir1_bedding_219x219_shop_more04.jpg?imwidth=200"
+            },
+            {
+              "name": "Mattresses",
+              "url": "https://www.bedbathandbeyond.com/c/mattresses?t=24351",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08262024_FALL_teir1_bedding_219x219_shop_more05.jpg?imwidth=200"
+            },
+            {
+              "name": "Mattress Pads and Toppers",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/mattress-pads-toppers?t=36",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more05mattresspadsandtoppers.jpg?imwidth=200"
+            },
+            {
+              "name": "Bed Protectors",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/bed-protectors?t=51",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08262024_FALL_teir1_bedding_219x219_shop_more07.jpg?imwidth=200"
+            },
+            {
+              "name": "Blankets",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/blankets?t=275",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08282024_FALL_T1_V2_219x219_shop_more06_blankets.jpg?imwidth=200"
+            },
+            {
+              "name": "Duvet Covers and Sets",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/duvet-covers-and-sets?t=42",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08262024_FALL_teir1_bedding_219x219_shop_more09.jpg?imwidth=200"
+            },
+            {
+              "name": "Down Comforters and Duvet Inserts",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/comforters-duvet-inserts?t=4",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/05122022_BEDDING_219x219_shop_more09_downcomforters.jpg?imwidth=200"
+            },
+            {
+              "name": "Bed-in-a-Bag",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/bed-in-a-bag?t=47",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08262024_FALL_teir1_bedding_219x219_shop_more11.jpg?imwidth=200"
+            },
+            {
+              "name": "Bed Pillows",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/bed-pillows?t=12",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08262024_FALL_teir1_bedding_219x219_shop_more12.jpg?imwidth=200"
+            },
+            {
+              "name": "Pillow Shams",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/pillow-shams?t=35",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08262024_FALL_teir1_bedding_219x219_shop_more13.jpg?imwidth=200"
+            },
+            {
+              "name": "Bed Skirts",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/bed-skirts?t=40",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08262024_FALL_teir1_bedding_219x219_shop_more14.jpg?imwidth=200"
+            },
+            {
+              "name": "Kids Bedding",
+              "url": "https://www.bedbathandbeyond.com/c/kids/kids-bedding?t=56",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08282024_FALL_T1_V2_219x219_shop_more15_kidsBedding.jpg?imwidth=200"
+            },
+            {
+              "name": "Daybed Cover Sets",
+              "url": "https://www.bedbathandbeyond.com/c/bedding/daybed-cover-sets?t=46",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08282024_FALL_T1_V2_219x219_shop_more16_dayBedCover.jpg?imwidth=200"
+            },
+            {
+              "name": "Shop New Arrivals",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&promotion=new+products",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08012023-SPMOD-NewArrivals.jpg?imwidth=200"
+            }
+          ]
+        
+      }
+    },
+
+    {
+      "category": "Bath",
+      "sections": {
+        "Featured Categories": [
+          {
+            "name": "Shop All Bath on Sale",
+            "url": "https://www.bedbathandbeyond.com/c/bath?t=18647&promotion=on+sale"
+          },
+          {
+            "name": "Shop Bath New Arrivals",
+            "url": "https://www.bedbathandbeyond.com/c/bath?t=18647&promotion=new+products"
+          },
+          {
+            "name": "Towels",
+            "url": "https://www.bedbathandbeyond.com/c/bath/towels?t=18650"
+          },
+          {
+            "name": "Bath Mats and Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/bath/bathroom-rugs-bath-mats?t=19459"
+          },
+          {
+            "name": "Shower Curtains and Accessories",
+            "url": "https://www.bedbathandbeyond.com/c/bath/shower-curtains-and-accessories?t=18666"
+          },
+          {
+            "name": "Bathroom Accessories",
+            "url": "https://www.bedbathandbeyond.com/c/bath/bathroom-accessories?t=18656"
+          },
+          {
+            "name": "Bath Trays and Caddies",
+            "url": "https://www.bedbathandbeyond.com/c/bathroom-accessories/shower-bath-caddies?t=18673"
+          },
+          {
+            "name": "Teak Bathroom Accessories",
+            "url": "https://www.bedbathandbeyond.com/c/bath/bathroom-accessories?t=18656&a1003=3463"
+          },
+          {
+            "name": "Bathrobes",
+            "url": "https://www.bedbathandbeyond.com/c/bath/bathrobes?t=18649"
+          },
+          {
+            "name": "Kids Bath",
+            "url": "https://www.bedbathandbeyond.com/c/kids/kids-bath?t=18675"
+          },
+          {
+            "name": "Beach Towels",
+            "url": "https://www.bedbathandbeyond.com/c/towels/beach-towels?t=18653"
+          },
+          {
+            "name": "Personal Care Appliances",
+            "url": "https://www.bedbathandbeyond.com/c/bath/personal-care-appliances?t=71655"
+          },
+          {
+            "name": "Bathroom Renovation",
+            "url": "https://www.bedbathandbeyond.com/c/home-improvement/bathroom-fixtures?t=31169"
+          }
+        ],
+
+        "Popular Categories": [
+
+          {
+            "name": "Towels",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/living-room-furniture?t=24359",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/10172023-HOL-EGREEN-BATH-PopCat_1.jpg?imwidth=400"
+
+          },
+          {
+            "name": "Bathroom Rugs & Bath Mats",
+            "url": "https://www.bedbathandbeyond.com/c/furniture/bedroom-furniture?t=24356",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/08242022_Q3_Bath_PopCat_2.jpg?imwidth=400"
+          },
+          {
+            "name": "Shower Curtains & Accessories",
+            "url": "https://www.bedbathandbeyond.com/c/dining-kitchen-bar-furniture/dining-furniture?t=24414",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/09112023-FALLEGREEN-BATH-PopCat_2.jpg?imwidth=400"
+          },
+          {
+            "name": "Bathroom Accessories",
+            "url": "https://www.bedbathandbeyond.com/c/dining-kitchen-bar-furniture/kitchen-furniture?t=24360",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/10172023-HOL-EGREEN-BATH-PopCat_2.jpg?imwidth=400"
+          }
+        ],
+        "Top Brands": [
+            {
+              "name": "DKNY",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&brand=calvin+klein",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08072024_tier1_B_Mod_Section_3_3_dkny.jpg?imwidth=400"
+            },
+            {
+              "name": "Lacoste",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&brand=lacoste",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08072024_tier1_B_Mod_Section_3_2_laoste.jpg?imwidth=400"
+            },
+            {
+              "name": "Tommy Bahama",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&brand=tommy+bahama",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08072024_tier1_B_Mod_Section_3_4_tommy_bahama.jpg?imwidth=400"
+            },
+            {
+              "name": " Calvin Klein",
+              "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&brand=laura+ashley",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08072024_tier1_B_Mod_Section_3_1_calvin_klein.jpg?imwidth=400"
+            }
+        ],
+        "Shop More":[
+          {
+            "name": "Shop All Bath on Sale",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/08012023-SPMOD-Sale.jpg?imwidth=200"
+          },
+          {
+            "name": "Towels",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/08242022_Q3_Bath_219x219_shop_more01.jpg?imwidth=200"
+          },
+          {
+            "name": "Shower Curtains and Accessories",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/06012022_BATH_219x219_shop_more02.jpg?imwidth=200"
+          },
+          {
+            "name": "Bathroom Accessories",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/05122022_BATH_219x219_shop_more03_bathroomaccessories.jpg?imwidth=200"
+          },
+          {
+            "name": "Kids Bath",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/06012022_BATH_219x219_shop_more04.jpg?imwidth=200"
+          },
+          {
+            "name": "Bathroom Rugs and Bath Mats",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/08242022_Q3_Bath_219x219_shop_more05.jpg?imwidth=200"
+          },
+          {
+            "name": "Bathrobes",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/08242022_Q3_Bath_219x219_shop_more06.jpg?imwidth=200"
+          },
+          {
+            "name": "Shop Bath New Arrivals",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/08012023-SPMOD-NewArrivals.jpg?imwidth=200"
+          }
+        ]
+
+      }
+    },
+
+    {
+      "category": "Kitchen",
+      "sections": {
+        "Featured Categories": [
+          {
+            "name": "Shop Kitchen & Dining on Sale",
+            "url": "https://www.bedbathandbeyond.com/c/kitchen-dining?t=24566&promotion=on+sale"
+          },
+            {
+              "name": "Kitchen Furniture",
+              "url": "https://www.bedbathandbeyond.com/c/dining-kitchen-bar-furniture/kitchen-furniture?t=24360"
+            },
+            {
+              "name": "Small Kitchen Appliances",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-dining/small-kitchen-appliances?t=24635"
+            },
+            {
+              "name": "Cookware",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-dining/cookware?t=24666"
+            },
+            {
+              "name": "Dinnerware",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-dining/dinnerware?t=24766"
+            },
+            {
+              "name": "Flatware",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-dining/flatware?t=24765"
+            },
+            {
+              "name": "Drinkware",
+              "url": "https://www.bedbathandbeyond.com/c/barware-drinkware/drinkware?t=24769"
+            },
+            {
+              "name": "Serveware",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-dining/serveware?t=24770"
+            },
+            {
+              "name": "Cutlery",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-tools/cutlery?t=24764"
+            },
+            {
+              "name": "Kitchen Storage",
+              "url": "https://www.bedbathandbeyond.com/c/storage-organization/kitchen-storage?t=24638"
+            },
+            {
+              "name": "Kitchen Tools",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-dining/kitchen-tools?t=24660"
+            },
+            {
+              "name": "Kitchen & Table Linens",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-dining/kitchen-linen?t=24639"
+            },
+            {
+              "name": "Bar & Wine",
+              "url": "https://www.bedbathandbeyond.com/c/barware-drinkware/barware?t=24768"
+            },
+            {
+              "name": "Microwaves",
+              "url": "https://www.bedbathandbeyond.com/c/large-kitchen-appliances/microwaves?t=31174"
+            },
+            {
+              "name": "Outdoor Cooking",
+              "url": "https://www.bedbathandbeyond.com/c/outdoor/grills-outdoor-cooking?t=22477"
+            },
+            {
+              "name": "Coffee & Tea",
+              "url": "https://www.bedbathandbeyond.com/c/small-kitchen-appliances/coffee-tea?t=24822"
+            },
+            {
+              "name": "Kitchen Fixtures",
+              "url": "https://www.bedbathandbeyond.com/c/home-improvement/kitchen-fixtures?t=31168"
+            }
+          
+        ],
+        "Popular Categories": [
+          {
+            "name": "Small Appliances",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_kitchen_PopCat_1.jpg?imwidth=400"
+          },
+          {
+            "name": "Dinnerware",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/01152025_T1_WINTEREVR_Kitchen_PopCat_2.jpg?imwidth=400"
+          },
+          {
+            "name": "Cookware",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_kitchen_PopCat_3.jpg?imwidth=400"
+          },
+          {
+            "name": "Mixers",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/10172023-HOL-EGREEN-KITCHEN-PopCat_3.jpg?imwidth=400"
+          },
+          {
+            "name": "Kitchen Tools",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/10152024_WINTER_EG_kitchen_PopCat_KitchenTools.jpg?imwidth=400"
+          },
+          {
+            "name": "Serveware",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_kitchen_PopCat_6.jpg?imwidth=400"
+          },
+          {
+            "name": "Bakeware",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/09112023-FALLEGREEN-KITCHEN-PopCat_5.jpg?imwidth=400"
+          },
+          {
+            "name": "Kitchen Storage",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_kitchen_PopCat_8.jpg?imwidth=400"
+          },
+          {
+            "name": "Table Linens",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/2024WINEGREEN-Kitchen-PopCat_5.jpg?imwidth=400"
+          },
+          {
+            "name": "Flatware",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/10172023-HOL-EGREEN-KITCHEN-PopCat_7.jpg?imwidth=400"
+          },
+          {
+            "name": "Coffee & Tea",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/08072024_tier1_B_Mod_Kitchen_2.jpg?imwidth=400"
+          },
+          {
+            "name": "Glasses & Barware",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_kitchen_PopCat_12.jpg?imwidth=400"
+          }
+        ],
+        "Top Brands":[
+          {
+            "name": "Ninja",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/10172023-HOL-EGREEN-KITCHEN-B_Mod_Section_3_1_Ninja.jpg?imwidth=400"
+          },
+          {
+            "name": "KitchenAid",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/08152024_B_Mod_Section_3_2_kitchen_aid.jpg?imwidth=400"
+          },
+          {
+            "name": "Cuisinart",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/08152024_B_Mod_Section_3_3_cuisinart.jpg?imwidth=400"
+          },
+          {
+            "name": "Zwilling",
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/09092024_B_Mod_Section_3_4_zwilling.jpg?imwidth=400"
+          }
+        ],
+        "Kitchen Fixtures": [
+          {
+              "name": "Kitchen Sinks",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-sinks-faucets/kitchen-sinks?t=70278",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-homeimprovment-PopCat_13.jpg?imwidth=400"
+          },
+          {
+              "name": "Kitchen Faucets",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-sinks-faucets/kitchen-faucets?t=31209",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-homeimprovment-PopCat_14.jpg?imwidth=400"
+          },
+          {
+              "name": "Kitchen Cabinets",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-fixtures/kitchen-cabinets?t=31201",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-homeimprovment-PopCat_19.jpg?imwidth=400"
+          },
+          {
+              "name": "Backsplash Tiles",
+              "url": "https://www.bedbathandbeyond.com/c/tiles/backsplash-tiles?t=31202",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/02182021-gnp-homeimprovement-kitchen-PopCat_4.jpg?imwidth=400"
+          }
+      ],
+      "Shop More": [
+          {
+              "name": "Shop All Kitchen & Dining on sale",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-dining?t=24566&promotion=on+sale",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/08012023-SPMOD-Sale.jpg?imwidth=200"
+          },
+          {
+              "name": "Kitchen Storage",
+              "url": "https://www.bedbathandbeyond.com/c/storage-organization/kitchen-storage?t=24638",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular7.jpg?imwidth=200"
+          },
+          {
+              "name": "Kitchen Canisters",
+              "url": "https://www.bedbathandbeyond.com/c/food-storage/kitchen-canisters?t=24738",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular8.jpg?imwidth=200"
+          },
+          {
+              "name": "Dish Racks",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-storage/dish-racks?t=24733",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular9.jpg?imwidth=200"
+          },
+          {
+              "name": "Trash Cans",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-storage/kitchen-trash-cans?t=24739",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular10.jpg?imwidth=200"
+          },
+          {
+              "name": "Wine Racks",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-storage/wine-racks?t=24880",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular11.jpg?imwidth=200"
+          },
+          {
+              "name": "Wine Glasses",
+              "url": "https://www.bedbathandbeyond.com/c/barware/wine-glasses?t=24778",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/09112023-FALLEGREEN-KITCHEN-200x200_shop_more.jpg?imwidth=200"
+          },
+          {
+              "name": "Pot Racks",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-storage/pot-racks?t=24736",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular12.jpg?imwidth=200"
+          },
+          {
+              "name": "Kitchen Islands and Carts",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-furniture/kitchen-islands-carts?t=24429",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular13.jpg?imwidth=200"
+          },
+          {
+              "name": "Pantry Cabinets",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-furniture/pantry-cabinets?t=24428",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular14.jpg?imwidth=200"
+          },
+          {
+              "name": "Butcher Blocks",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-furniture/kitchen-islands-carts?t=24429&a2317=8842",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular15.jpg?imwidth=200"
+          },
+          {
+              "name": "Bakers Racks",
+              "url": "https://www.bedbathandbeyond.com/c/kitchen-furniture/bakers-racks?t=24430",
+              "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular17.jpg?imwidth=200"
+          }
+      ]
+
+      }
+    },
+
+    {
+      "category": "Decor",
+      "sections": {
+        "Featured Categories": [
+          {
+            "name": "Shop All Home Decor on Sale",
+            "url": "https://www.bedbathandbeyond.com/c/home-decor?t=28396&promotion=on+sale"
+          },
+          {
+            "name": "Mirrors",
+            "url": "https://www.bedbathandbeyond.com/c/home-decor/mirrors?t=28403"
+          },
+          {
+            "name": "Art",
+            "url": "https://www.bedbathandbeyond.com/c/art?t=28454"
+          },
+          {
+            "name": "Outdoor Decor",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor/outdoor-decor?t=22439"
+          },
+          {
+            "name": "Throw Pillows",
+            "url": "https://www.bedbathandbeyond.com/c/home-decor/throw-pillows?t=28447"
+          },
+          {
+            "name": "Accent Pieces",
+            "url": "https://www.bedbathandbeyond.com/c/decorative-accessories/decorative-objects?t=28432"
+          },
+          {
+            "name": "Faux Plants and Flowers",
+            "url": "https://www.bedbathandbeyond.com/c/home-decor/artificial-plants-flowers?t=28397"
+          },
+          {
+            "name": "Wall Decor",
+            "url": "https://www.bedbathandbeyond.com/c/home-decor/wall-decor?t=28401"
+          },
+          {
+            "name": "Indoor Fireplaces",
+            "url": "https://www.bedbathandbeyond.com/c/heating/indoor-fireplaces?t=28408"
+          },
+          {
+            "name": "Window Treatments",
+            "url": "https://www.bedbathandbeyond.com/c/home-decor/window-treatments?t=28400"
+          },
+          {
+            "name": "Lighting",
+            "url": "https://www.bedbathandbeyond.com/c/lighting?t=31087"
+          },
+          {
+            "name": "Vases",
+            "url": "https://www.bedbathandbeyond.com/c/decorative-accessories/vases?t=28445"
+          },
+          {
+            "name": "Rugs",
+            "url": "https://www.bedbathandbeyond.com/c/rugs?t=17602"
+          },
+          {
+            "name": "Planters",
+            "url": "https://www.bedbathandbeyond.com/c/garden/planters?t=22470"
+          },
+          {
+            "name": "Decorative Accessories",
+            "url": "https://www.bedbathandbeyond.com/c/home-decor/decorative-accessories?t=28398"
+          },
+          {
+            "name": "Outdoor Cushions and Pillows",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor-decor/outdoor-cushions-throw-pillows?t=22497"
+          }
+        ],
+      "Popular Categories": [
+    {
+        "url": "https://www.bedbathandbeyond.com/c/home-decor/mirrors?t=28403",
+        "image_url": "https://ak1.ostkcdn.com/img/mxc/2024WINEGREEN-Decor-PopCat_1.jpg?imwidth=400",
+        "name": "Mirrors"
+    },
+    {
+        "url": "https://www.bedbathandbeyond.com/c/home-decor/decorative-accessories?t=28398",
+        "image_url": "https://ak1.ostkcdn.com/img/mxc/01222025_WINEVER_T1_PopCat_Art-1.jpg?imwidth=400",
+        "name": "Decorative Accessories"
+    },
+    {
+        "url": "https://www.bedbathandbeyond.com/c/home-decor/window-treatments?t=28400",
+        "image_url": "https://ak1.ostkcdn.com/img/mxc/10152024_WINTER_EG_decor_PopCat_WindowTreatments.jpg?imwidth=400",
+        "name": "Window Treatments"
+    },
+    {
+        "url": "https://www.bedbathandbeyond.com/c/home-decor/throw-pillows?t=28447",
+        "image_url": "https://ak1.ostkcdn.com/img/mxc/01152025_T1_WINTEREVR_Decor_PopCat_3.jpg?imwidth=400",
+        "name": "Throw Pillows"
+    },
+    {
+        "url": "https://www.bedbathandbeyond.com/c/art?t=28454",
+        "image_url": "https://ak1.ostkcdn.com/img/mxc/01222025_WINEVER_T1_PopCat_Art.jpg?imwidth=400",
+        "name": "Art"
+    },
+    {
+        "url": "https://www.bedbathandbeyond.com/c/home-decor/wall-decor?t=28401",
+        "image_url": "https://ak1.ostkcdn.com/img/mxc/05152023-Decor-SUMEGREEN-PopCat_6.jpg?imwidth=400",
+        "name": "Wall Decor"
+    },
+    {
+        "url": "https://www.bedbathandbeyond.com/c/decorative-accessories/decorative-objects?t=28432",
+        "image_url": "https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_decor_PopCat_7.jpg?imwidth=400",
+        "name": "Accent Pieces"
+    },
+    {
+        "url": "https://www.bedbathandbeyond.com/c/lighting?t=31087",
+        "image_url": "https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_decor_PopCat_8.jpg?imwidth=400",
+        "name": "Lighting"
+    },
+    {
+        "url": "https://www.bedbathandbeyond.com/c/rugs?t=17602",
+        "image_url": "https://ak1.ostkcdn.com/img/mxc/01222025_WINEVER_T1_PopCat_7_rugs.jpg?imwidth=400",
+        "name": "Rugs"
+    },
+    {
+        "url": "https://www.bedbathandbeyond.com/c/home-decor/slipcovers?t=28399",
+        "image_url": "https://ak1.ostkcdn.com/img/mxc/10312022_HOLIDAY2022_Decor_PopCat_11.jpg?imwidth=400",
+        "name": "Slipcovers & Furniture Covers"
+    },
+    {
+        "url": "https://www.bedbathandbeyond.com/c/garden/planters?t=22470",
+        "image_url": "https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_decor_PopCat_11.jpg?imwidth=400",
+        "name": "Planters"
+    },
+    {
+        "url": "https://www.bedbathandbeyond.com/c/outdoor/outdoor-decor?t=22439",
+        "image_url": "https://ak1.ostkcdn.com/img/mxc/09112023-FALLEGREEN-DECOR-PopCat_10.jpg?imwidth=400",
+        "name": "Outdoor Decor"
+    }
+        ],
+        "Shop More":[
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/08012023-SPMOD-Sale.jpg?imwidth=200",
+            "name": "Shop All Home Decor on Sale"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular1.jpg?imwidth=200",
+            "name": "Ceiling Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular2.jpg?imwidth=200",
+            "name": "Lamps"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular3.jpg?imwidth=200",
+            "name": "Flush Mounts"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular4.jpg?imwidth=200",
+            "name": "Wall Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular5.jpg?imwidth=200",
+            "name": "Ceiling Fans"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular6.jpg?imwidth=200",
+            "name": "Blinds & Shades"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular7.jpg?imwidth=200",
+            "name": "Curtain Rods & Hardware"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular8.jpg?imwidth=200",
+            "name": "Clocks"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular9.jpg?imwidth=200",
+            "name": "Wall Shelves"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular10.jpg?imwidth=200",
+            "name": "Artificial Plants"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular11.jpg?imwidth=200",
+            "name": "Vases"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular12.jpg?imwidth=200",
+            "name": "Picture Frames & Albums"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular13.jpg?imwidth=200",
+            "name": "Doormats"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular14.jpg?imwidth=200",
+            "name": "Canvas Art"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular15.jpg?imwidth=200",
+            "name": "Art Prints"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular16.jpg?imwidth=200",
+            "name": "Fire Pits & Chimineas"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular17.jpg?imwidth=200",
+            "name": "Planters, Hangers, & Stands"
+          }
+        ]
+      }
+    },
+
+    {
+      "category": "Storage",
+      "sections": {
+        "Featured Categories": [
+          {
+            "name": "Shop all Storage & Organization on Sale",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization?t=31157&promotion=on+sale"
+          },
+          {
+            "name": "Vacuums",
+            "url": "https://www.bedbathandbeyond.com/c/housewares/vacuum-floor-care?t=31094"
+          },
+          {
+            "name": "Home Essentials",
+            "url": "https://www.bedbathandbeyond.com/c/housewares?t=31075"
+          },
+          {
+            "name": "Decorative Storage",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization/decorative-storage?t=31298"
+          },
+          {
+            "name": "Closet Storage",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization/closet-storage?t=31159"
+          },
+          {
+            "name": "Kitchen & Pantry Storage",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization/kitchen-storage?t=24638"
+          },
+          {
+            "name": "Storage Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization/storage-furniture?t=31351"
+          },
+          {
+            "name": "Outdoor Storage",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization/outdoor-storage?t=31377"
+          }
+        ],
+        "Additional Links": [
+          {
+            "name": "Flash Price Drops",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization?t=31157&link=flash+price+drops"
+          }
+        ]
+      }
+    },
+
+    {
+      "category": "Lighting",
+      "sections": {
+        "Featured Categories": [
+          {
+            "name": "Shop All Lighting on Sale",
+            "url": "https://www.bedbathandbeyond.com/c/lighting?t=31087&promotion=on+sale"
+          },
+          {
+            "name": "Ceiling Fans & Accessories",
+            "url": "https://www.bedbathandbeyond.com/c/lighting/ceiling-fans?t=31287"
+          },
+          {
+            "name": "Chandeliers",
+            "url": "https://www.bedbathandbeyond.com/c/ceiling-lighting/chandeliers?t=31344"
+          },
+          {
+            "name": "Pendant Lights",
+            "url": "https://www.bedbathandbeyond.com/c/ceiling-lighting/pendant-lights?t=31346"
+          },
+          {
+            "name": "Outdoor Lighting",
+            "url": "https://www.bedbathandbeyond.com/c/lighting/outdoor-lighting?t=31288"
+          },
+          {
+            "name": "Table Lamps",
+            "url": "https://www.bedbathandbeyond.com/c/lamps/table-lamps?t=31332"
+          },
+          {
+            "name": "Floor Lamps",
+            "url": "https://www.bedbathandbeyond.com/c/lamps/floor-lamps?t=31333"
+          },
+          {
+            "name": "Bathroom Vanity Lights",
+            "url": "https://www.bedbathandbeyond.com/c/bathroom-lighting/vanity-lights?t=31193"
+          },
+          {
+            "name": "Sconces",
+            "url": "https://www.bedbathandbeyond.com/c/wall-lighting/wall-sconces?t=70172"
+          },
+          {
+            "name": "Flush Mount Lights",
+            "url": "https://www.bedbathandbeyond.com/c/ceiling-lighting/flush-mount-ceiling-lights?t=31345"
+          },
+          {
+            "name": "Semi-Flush Mount Lights",
+            "url": "https://www.bedbathandbeyond.com/c/ceiling-lighting/semi-flush-mount-ceiling-lights?t=31393"
+          },
+          {
+            "name": "Decorative Lighting",
+            "url": "https://www.bedbathandbeyond.com/c/lighting/decorative-lighting?t=31292"
+          },
+          {
+            "name": "Lamp Sets",
+            "url": "https://www.bedbathandbeyond.com/c/lamps/lamp-sets?t=60679"
+          },
+          {
+            "name": "Landscape Lighting",
+            "url": "https://www.bedbathandbeyond.com/c/outdoor-lighting/landscape-lighting?t=60698"
+          },
+          {
+            "name": "Light Bulbs & Lighting Accessories",
+            "url": "https://www.bedbathandbeyond.com/c/lighting/light-bulbs-lighting-accessories?t=70269"
+          }
+        ],
+        "Popular Categories":[
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/02222021-gnp-lighting-PopCat_1.jpg?imwidth=400",
+            "name": "Chandeliers"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-PopCat_3.jpg?imwidth=400",
+            "name": "Flush Mount Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/02222021-gnp-lighting-PopCat_3.jpg?imwidth=400",
+            "name": "Pendant Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-PopCat_8.jpg?imwidth=400",
+            "name": "Floor Lamps"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-PopCat_1.jpg?imwidth=400",
+            "name": "Ceiling Fans"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/02222021-gnp-lighting-PopCat_6.jpg?imwidth=400",
+            "name": "Table Lamps"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/02222021-gnp-lighting-PopCat_7.jpg?imwidth=400",
+            "name": "Lamp Sets"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-PopCat_5.jpg?imwidth=400",
+            "name": "Track Lighting"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/02222021-gnp-lighting-PopCat_9.jpg?imwidth=400",
+            "name": "Bathroom Vanity Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/02222021-gnp-lighting-PopCat_10.jpg?imwidth=400",
+            "name": "Sconces"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/02222021-gnp-lighting-PopCat_8.jpg?imwidth=400",
+            "name": "Outdoor Wall Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/09112023-FALLEGREEN-LIGHTING-PopCat_1.jpg?imwidth=400",
+            "name": "Decorative Lighting"
+          }
+        ]
+        ,
+        "Shop More":[
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/08012023-SPMOD-Sale.jpg?imwidth=200",
+            "name": "Shop All Lighting on Sale"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular1.jpg?imwidth=200",
+            "name": "Kids Ceiling Fans"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular2.jpg?imwidth=200",
+            "name": "Recessed Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular3.jpg?imwidth=200",
+            "name": "Semi-Flush Mount Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular4.jpg?imwidth=200",
+            "name": "Lamp Shades"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular5.jpg?imwidth=200",
+            "name": "Landscape Lighting"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular6.jpg?imwidth=200",
+            "name": "Post Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular7.jpg?imwidth=200",
+            "name": "Pool Table Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular8.jpg?imwidth=200",
+            "name": "Picture Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular9.jpg?imwidth=200",
+            "name": "Under Cabinet Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular10.jpg?imwidth=200",
+            "name": "Island Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular11.jpg?imwidth=200",
+            "name": "Swing Arm Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular12.jpg?imwidth=200",
+            "name": "Night Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular13.jpg?imwidth=200",
+            "name": "Salt Lamps"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular14.jpg?imwidth=200",
+            "name": "Outdoor Ceiling Lights"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular15.jpg?imwidth=200",
+            "name": "Desk Lamps"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular16.jpg?imwidth=200",
+            "name": "Tiffany Lighting"
+          },
+          {
+            "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular17.jpg?imwidth=200",
+            "name": "Kids Lighting"
+          }
+        ]
+        
+      }
+    },
+
+    {
+      "category": "Baby and Kids Home Goods",
+      "sections": {
+        "Featured Categories": [
+          {
+            "name": "Shop On Sale",
+            "url": "https://www.bedbathandbeyond.com/c/kids-and-baby/baby?t=17629&promotion=on+sale"
+          },
+          {
+            "name": "Baby Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/baby/baby-furniture?t=19426"
+          },
+          {
+            "name": "Nursery Decor",
+            "url": "https://www.bedbathandbeyond.com/c/baby/nursery-decor?t=19437"
+          },
+          {
+            "name": "Baby Bedding",
+            "url": "https://www.bedbathandbeyond.com/c/baby/baby-bedding?t=68"
+          },
+          {
+            "name": "Baby Gear",
+            "url": "https://www.bedbathandbeyond.com/c/baby/baby-gear?t=71393"
+          },
+          {
+            "name": "Nursing and Feeding",
+            "url": "https://www.bedbathandbeyond.com/c/baby/nursing-and-feeding?t=71437"
+          }
+        ]
+
+      }
+    }
+
+  ],
+
+
+    
+
   "furnitures": [
     {
       "id": 1,

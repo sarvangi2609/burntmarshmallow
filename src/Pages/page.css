@@ -1,5 +1,29 @@
 
 
+/* mainpage */
+.mainpage{
+    width: 98%;
+    height: auto;
+    /* background-color: red; */
+    margin: auto;
+}
+.mainpage .left{
+    width: 300px;
+    height: auto;
+    /* background-color: yellow; */
+}
+.category-list li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 0px;
+}
+
+.category-list li:first-child {
+    color: #ed0000ed;
+    font-weight: 700;
+  }
+
 .productcard{
 
     width: 225px;
