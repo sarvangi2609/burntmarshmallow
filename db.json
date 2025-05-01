@@ -416,7 +416,6 @@
             "image_url":"https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_PopCat_12.jpg?imwidth=400"
           }
         ],
-
         "Shop More": [
           {
             "name": "Shop All Furniture on Sale",
@@ -508,6 +507,43 @@
             "url": "https://www.bedbathandbeyond.com/c/kids/kids-bedroom-furniture?t=24475",
             "image_url":"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular17.jpg?imwidth=200"
           }
+        ],
+        "Banners":[
+          {
+            "name" :"Furniture Deals",
+            "banner_url":"https://ak1.ostkcdn.com/img/mxc/01152025_T1_WNTREVG_Hero_Desktop.jpg?imwidth=680",
+            "img1":"https://ak1.ostkcdn.com/img/mxc/06122024-MOPS-BEYOND-MM_01.png?imwidth=320",
+            "img1_title":"Shop",
+            "img1_title2":"Confidently",
+            "img2":"https://ak1.ostkcdn.com/img/mxc/10152024_WINTER_EG_furniture_MM_02.png?imwidth=320",
+            "img2_title":"Counter & Bar ",
+            "img2_title2":"Stools"
+          }
+
+        ],
+        "by Price":[
+
+          {
+            "title":"Barstools",
+            "limit":"under",
+            "price":"$80"
+          },
+          {
+            "title":"Coffee Tables",
+            "limit":"under",
+            "price":"$100"
+          },
+          {
+            "title":"Beds",
+            "limit":"under",
+            "price":"$300"
+          },
+          {
+            "title":"Accent Chairsx",
+            "limit":"under",
+            "price":"$80"
+          }
+
         ]
 
       }
@@ -754,6 +790,43 @@
               "url": "https://www.bedbathandbeyond.com/c/rugs?t=17602&promotion=new+products",
               "image_url": "https://ak1.ostkcdn.com/img/mxc/03212022_RUGS_OTHER16_Shop-new-arrivals-267x267.png?imwidth=200"
           }
+        ],
+        "Banners":[
+          {
+            "name" :"Rug Deals",
+            "banner_url":"https://ak1.ostkcdn.com/img/mxc/01102025_WINTER_EVRGN_rugs_Hero_Desktop.jpg?imwidth=680",
+            "img1":"https://ak1.ostkcdn.com/img/mxc/10152024_WINTER_EG_rugs_MM_01.png?imwidth=320",
+            "img1_title":"Handmade",
+            "img1_title2":"Rugs",
+            "img2":"https://ak1.ostkcdn.com/img/mxc/10152024_WINTER_EG_rugs_MM_02.png?imwidth=320",
+            "img2_title":"Shag",
+            "img2_title2":"Rugs"
+          }
+
+        ],
+        "by Price":[
+
+          {
+            "title":"Rugs",
+            "limit":"under",
+            "price":"$80"
+          },
+          {
+            "title":"Rugs",
+            "limit":"under",
+            "price":"$150"
+          },
+          {
+            "title":"Rugs",
+            "limit":"under",
+            "price":"$200"
+          },
+          {
+            "title":"Rugs",
+            "limit":"under",
+            "price":"$250"
+          }
+
         ]
 
       }
@@ -878,28 +951,6 @@
             "image_url": "https://ak1.ostkcdn.com/img/mxc/05152023-SUMEGREEN-Outdoor-PopCat_11.jpg?imwidth=400"
           }
         ],
-        "by Price": [
-          {
-            "name": "Grilling Essentials",
-            "url": "https://www.bedbathandbeyond.com/c/outdoor/grills-outdoor-cooking?t=22477&price=:50",
-            "price": "under $50"
-          },
-          {
-            "name": "Outdoor Decor",
-            "url": "https://www.bedbathandbeyond.com/c/outdoor/outdoor-decor?t=22439&price=:40",
-            "price": "under $40"
-          },
-          {
-            "name": "Outdoor Rugs",
-            "url": "https://www.bedbathandbeyond.com/c/rugs/outdoor-rugs?t=17608&price=:100",
-            "price": "under $100"
-          },
-          {
-            "name": "Outdoor Shades",
-            "url": "https://www.bedbathandbeyond.com/c/outdoor/outdoor-shade-structures?t=22598&price=:100",
-            "price": "under $100"
-          }
-        ],
         "Shop More": [
           {
             "name": "Shop All Outdoor on Sale",
@@ -965,6 +1016,42 @@
             "name": "Garden",
             "image_url": "https://ak1.ostkcdn.com/img/mxc/03312020-gnp-patiogarden-175x175_otherPopular17.jpg?imwidth=200"
           }
+        ],
+        "Banners":[
+          {
+            "name" :"Garden & Patio Deals",
+            "banner_url":"https://ak1.ostkcdn.com/img/mxc/01102025_WINTER_EVRGN_outdoor_Hero_Desktop.jpg?imwidth=680",
+            "img1":"https://ak1.ostkcdn.com/img/mxc/01102025_WINTER_EVRGN_outdoor_MM_01.png?imwidth=320",
+            "img1_title":"Wicker",
+            "img1_title2":"Outdoor Seating",
+            "img2":"https://ak1.ostkcdn.com/img/mxc/10152024_WINTER_EG_outdoor_MM_02.png?imwidth=320",
+            "img2_title":"Fire",
+            "img2_title2":"Pits"
+          }
+        ],
+        "by Price":[
+
+          {
+            "title":"Grilling Essentials",
+            "limit":"under",
+            "price":"$50"
+          },
+          {
+            "title":"Outdoor Decor",
+            "limit":"under",
+            "price":"$40"
+          },
+          {
+            "title":"Outdoor Rugs",
+            "limit":"under",
+            "price":"$100"
+          },
+          {
+            "title":"Outdoor Shades",
+            "limit":"under",
+            "price":"$100"
+          }
+
         ]
       }
     },
@@ -1196,6 +1283,43 @@
               "url": "https://www.bedbathandbeyond.com/c/bedding?t=1&promotion=new+products",
               "image_url": "https://ak1.ostkcdn.com/img/mxc/08012023-SPMOD-NewArrivals.jpg?imwidth=200"
             }
+          ],
+          "Banners":[
+            {
+              "name" :"on Select Bedding ",
+              "banner_url":"https://ak1.ostkcdn.com/img/mxc/04082025_T1_COOP_Desktop_Bedding.jpg?imwidth=680",
+              "img1":"https://ak1.ostkcdn.com/img/mxc/10152024_WINTER_EG_bedding_MM_01.png?imwidth=320",
+              "img1_title":"Flannel",
+              "img1_title2":"Sheets",
+              "img2":"https://ak1.ostkcdn.com/img/mxc/10152024_WINTER_EG_bedding_MM_02.png?imwidth=320",
+              "img2_title":"Heated",
+              "img2_title2":"Blankets"
+            }
+  
+          ],
+          "by Price":[
+
+            {
+              "title":"Bed Sheets and Pillowcases",
+              "limit":"under",
+              "price":"$40"
+            },
+            {
+              "title":"Quilts and Bedspreads",
+              "limit":"under",
+              "price":"$100"
+            },
+            {
+              "title":"Mattress Pads and Toppers",
+              "limit":"under",
+              "price":"$100"
+            },
+            {
+              "title":"Comforters and Sets",
+              "limit":"under",
+              "price":"$150"
+            }
+  
           ]
         
       }
@@ -1338,6 +1462,43 @@
             "name": "Shop Bath New Arrivals",
             "image_url": "https://ak1.ostkcdn.com/img/mxc/08012023-SPMOD-NewArrivals.jpg?imwidth=200"
           }
+        ],
+        "Banners":[
+          {
+            "name" :"Towels",
+            "banner_url":"https://ak1.ostkcdn.com/img/mxc/01102025_WINTER_EVRGN_bath_Hero_Desktop_Bath.jpg?imwidth=680",
+            "img1":"https://ak1.ostkcdn.com/img/mxc/01102025_WINTER_EVRGN_bath_MM_01.png?imwidth=320",
+            "img1_title":"Turkish Cotton",
+            "img1_title2":"Towels",
+            "img2":"https://ak1.ostkcdn.com/img/mxc/01132025_winterevergreen_T1_MM_02.png?imwidth=320",
+            "img2_title":"Bath",
+            "img2_title2":"Mats"
+          }
+
+        ],
+        "by Price":[
+
+          {
+            "title":"Towels",
+            "limit":"under",
+            "price":"$60"
+          },
+          {
+            "title":"Bathroom Rugs and Bath Mats",
+            "limit":"under",
+            "price":"$40"
+          },
+          {
+            "title":"Shower Curtains",
+            "limit":"under",
+            "price":"$40"
+          },
+          {
+            "title":"Shower Stools",
+            "limit":"under",
+            "price":"$150"
+          }
+
         ]
 
       }
@@ -1568,6 +1729,43 @@
               "url": "https://www.bedbathandbeyond.com/c/kitchen-furniture/bakers-racks?t=24430",
               "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-kitchendining-175x175_otherPopular17.jpg?imwidth=200"
           }
+      ],
+      "Banners":[
+        {
+          "name" :"Kitchen & Dining deals",
+          "banner_url":"https://ak1.ostkcdn.com/img/mxc/01102025_WINTER_EVRGN_kitchen_Hero_Desktop.jpg?imwidth=680",
+          "img1":"https://ak1.ostkcdn.com/img/mxc/06122024-MOPS-BEYOND-MM_01.png?imwidth=320",
+          "img1_title":"Shop",
+          "img1_title2":"Confidently",
+          "img2":"https://ak1.ostkcdn.com/img/mxc/08262024_FALL_teir1_kitchen_MM_02.png?imwidth=320",
+          "img2_title":"Kitchen",
+          "img2_title2":"Furniture"
+        }
+
+      ],
+      "by Price":[
+
+        {
+          "title":"Kitchen Appliances ",
+          "limit":"under",
+          "price":"$100"
+        },
+        {
+          "title":"Cookware",
+          "limit":"under",
+          "price":"$50"
+        },
+        {
+          "title":"Kitchen Storage ",
+          "limit":"under",
+          "price":"$100"
+        },
+        {
+          "title":"Dinnerware",
+          "limit":"under",
+          "price":"$30"
+        }
+
       ]
 
       }
@@ -1777,52 +1975,42 @@
             "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-homedecor-otherPopular17.jpg?imwidth=200",
             "name": "Planters, Hangers, & Stands"
           }
-        ]
-      }
-    },
-
-    {
-      "category": "Storage",
-      "sections": {
-        "Featured Categories": [
-          {
-            "name": "Shop all Storage & Organization on Sale",
-            "url": "https://www.bedbathandbeyond.com/c/storage-organization?t=31157&promotion=on+sale"
-          },
-          {
-            "name": "Vacuums",
-            "url": "https://www.bedbathandbeyond.com/c/housewares/vacuum-floor-care?t=31094"
-          },
-          {
-            "name": "Home Essentials",
-            "url": "https://www.bedbathandbeyond.com/c/housewares?t=31075"
-          },
-          {
-            "name": "Decorative Storage",
-            "url": "https://www.bedbathandbeyond.com/c/storage-organization/decorative-storage?t=31298"
-          },
-          {
-            "name": "Closet Storage",
-            "url": "https://www.bedbathandbeyond.com/c/storage-organization/closet-storage?t=31159"
-          },
-          {
-            "name": "Kitchen & Pantry Storage",
-            "url": "https://www.bedbathandbeyond.com/c/storage-organization/kitchen-storage?t=24638"
-          },
-          {
-            "name": "Storage Furniture",
-            "url": "https://www.bedbathandbeyond.com/c/storage-organization/storage-furniture?t=31351"
-          },
-          {
-            "name": "Outdoor Storage",
-            "url": "https://www.bedbathandbeyond.com/c/storage-organization/outdoor-storage?t=31377"
-          }
         ],
-        "Additional Links": [
+        "Banners":[
           {
-            "name": "Flash Price Drops",
-            "url": "https://www.bedbathandbeyond.com/c/storage-organization?t=31157&link=flash+price+drops"
+            "name" :"Home Decore deals",
+            "banner_url":"https://ak1.ostkcdn.com/img/mxc/01102025_WINTER_EVRGN_decor_Hero_Desktop.jpg?imwidth=680",
+            "img1":"https://ak1.ostkcdn.com/img/mxc/01102025_WINTER_EVRGN_decor_MM_01.png?imwidth=320",
+            "img1_title":"Fire Pites",
+            "img2":"https://ak1.ostkcdn.com/img/mxc/01102025_WINTER_EVRGN_decor_MM_02.png?imwidth=320",
+            "img2_title":"Throw",
+            "img2_title2":"Pillows"
           }
+  
+        ],
+        "by Price":[
+
+          {
+            "title":"Throw Pillows",
+            "limit":"under",
+            "price":"$25"
+          },
+          {
+            "title":"Blackout Curtains",
+            "limit":"under",
+            "price":"$50"
+          },
+          {
+            "title":"Wall Art",
+            "limit":"under",
+            "price":"$75"
+          },
+          {
+            "title":"Full Length Mirrors",
+            "limit":"under",
+            "price":"$150"
+          }
+
         ]
       }
     },
@@ -2016,8 +2204,91 @@
             "image_url": "https://ak1.ostkcdn.com/img/mxc/03232020-gnp-lighting-175x175_otherPopular17.jpg?imwidth=200",
             "name": "Kids Lighting"
           }
+        ],
+        "Banners":[
+          {
+            "name" :"Lighting deals",
+            "banner_url":"https://ak1.ostkcdn.com/img/mxc/01102025_WINTER_EVRGN_lighting_Hero_Desktop.jpg?imwidth=680",
+            "img1":"https://ak1.ostkcdn.com/img/mxc/06122024-MOPS-BEYOND-MM_01.png?imwidth=320",
+            "img1_title":"Shop",
+            "img1_title2":"Confidently",
+            "img2":"https://ak1.ostkcdn.com/img/mxc/01102025_WINTER_EVRGN_lighting_MM_02.png?imwidth=320",
+            "img2_title":"Ceiling",
+            "img2_title2":"Fans"
+          }
+  
+        ],
+        "by Price":[
+
+          {
+            "title":"Chandeliers",
+            "limit":"under",
+            "price":"$199"
+          },
+          {
+            "title":"Pendant Lights",
+            "limit":"under",
+            "price":"$99"
+          },
+          {
+            "title":"Ceiling Fans",
+            "limit":"under",
+            "price":"$199"
+          },
+          {
+            "title":"Lamps",
+            "limit":"under",
+            "price":"$100"
+          }
+
         ]
         
+      }
+    },
+
+    {
+      "category": "Storage",
+      "sections": {
+        "Featured Categories": [
+          {
+            "name": "Shop all Storage & Organization on Sale",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization?t=31157&promotion=on+sale"
+          },
+          {
+            "name": "Vacuums",
+            "url": "https://www.bedbathandbeyond.com/c/housewares/vacuum-floor-care?t=31094"
+          },
+          {
+            "name": "Home Essentials",
+            "url": "https://www.bedbathandbeyond.com/c/housewares?t=31075"
+          },
+          {
+            "name": "Decorative Storage",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization/decorative-storage?t=31298"
+          },
+          {
+            "name": "Closet Storage",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization/closet-storage?t=31159"
+          },
+          {
+            "name": "Kitchen & Pantry Storage",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization/kitchen-storage?t=24638"
+          },
+          {
+            "name": "Storage Furniture",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization/storage-furniture?t=31351"
+          },
+          {
+            "name": "Outdoor Storage",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization/outdoor-storage?t=31377"
+          }
+        ],
+        "Additional Links": [
+          {
+            "name": "Flash Price Drops",
+            "url": "https://www.bedbathandbeyond.com/c/storage-organization?t=31157&link=flash+price+drops"
+          }
+        ]
       }
     },
 

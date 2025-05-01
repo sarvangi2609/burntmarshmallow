@@ -1,14 +1,13 @@
 
 import React, { useEffect, useState } from 'react'
-import Menu from "../Menu.jsx"
-import LeftsideCard from './LeftsideCard.jsx';
 import { useParams } from 'react-router-dom';
+import LeftsideCard from './LeftsideCard.jsx';
 
 const LeftsideBar = () => {
 
     const { category } = useParams(); 
     const [categories, setCategories] = useState([]);
-    // const [selectedCategory, setSelectedCategory] = useState("Furniture");
+
 
     useEffect(() => {
         fetch('http://localhost:3000/dynamicPage')
@@ -18,11 +17,12 @@ const LeftsideBar = () => {
              });
       }, []);
 
-    //   const categoryData = categories.find(category => category.category === selectedCategory);  
-      
-    //   console.log(selectedCategory)
-    const selectedCategory = category?.charAt(0).toUpperCase() + category?.slice(1); // capitalize
+
+    const selectedCategory = category?.charAt(0).toUpperCase() + category?.slice(1); 
+
   const categoryData = categories.find(c => c.category === selectedCategory);
+
+  if (!categoryData) return <div>Loading...</div>
 
 
   return (

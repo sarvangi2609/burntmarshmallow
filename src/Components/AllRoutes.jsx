@@ -6,8 +6,8 @@ import Home from '../Pages/Home'
 import MyAccount from './Profile/MyAccount'
 import UserProfile from './Profile/UserProfile'
 import ProductDetails from '../Pages/Furnitures/ProductDetails'
-import MainPage from '../Pages/Furnitures/MainPage'
-import LeftsideBar from './PagesSides/LeftsideBar'
+import MainPage from '../Pages/MainPage'
+
 
 const AllRoutes = () => {
   return (

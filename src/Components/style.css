@@ -43,11 +43,11 @@
     text-align: center;
     line-height: 32px;
 }
-.right span{
+.header .right span{
     color: white;
     font-weight: 700;
 }
-.right span a{
+.header .right span a{
     color: white;
     font-weight: 500;
 }

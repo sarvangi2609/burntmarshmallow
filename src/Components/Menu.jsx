@@ -77,7 +77,7 @@ const Menu = ({  }) => {
           </li>
 
           <li>
-          <Link to="/decore" style={{textDecoration:"none"}}>
+          <Link to="/decor" style={{textDecoration:"none"}}>
           <span>Decor</span>
           </Link>
             
