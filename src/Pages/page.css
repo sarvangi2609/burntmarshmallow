@@ -5,9 +5,7 @@
     width: 98%;
     height: auto;
     display: flex;
-
     justify-content: space-between;
-    /* background-color: red; */
     margin: auto;
 }
 
@@ -341,14 +339,160 @@
     font-weight: 600;
     color: #333;
   }
+
+
+
+
+  /* more page */
+  .more-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .more-container h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #2f3337;
+    font-weight: 700;
+  }
+  
+  .more-container .section {
+    margin-bottom: 20px;
+  }
+
+  .sections{
+    width: 400px;
+    margin: 0px auto;
+  }
+  
+  .section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2f3337;
+    font-weight: 900;
+    font-size: 16px;
+    margin: 0 0 0 -5px;
+  }
+  
+  .section {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  .section ul{
+    margin: 5px 0px 5px -40px;
+
+  }
+  
+  .section li {
+    list-style: none;
+    padding: 3px 0px;
+    color: #555;
+  }
+
+  /* promotionmain */
+  .promotionmain{
+    height: auto;
+    width: 98%;
+    margin: auto;
+  }
+
+  /* top */
+.top{
+  height: 155px;
+  margin: 20px 0px;
+}
+
+.filter-box {
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  height: 100px;
+  padding: 20px;
+  border-radius: 8px;
+  width: 70%;
+  font-family: Arial, sans-serif;
+}
+
+.filter-box h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.filter-option {
+  background-color: #f5f5f5;
+  border: 1px solid #dcdcdc;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  text-align: center;
+}
+
+.filter-option:hover {
+  background-color: #0071a1;
+  color: white;
+  border-color: #005f7a;
+}
+
+.filter-option:focus {
+  outline: none;
+  border-color: #0071a1;
+  background-color: #e6f4fc;
+}
+
+.filter-btns{
+  height: 40px;
+}
+
+  .main-promo {
+    display: flex;
+  }
+
+  .main-promo .leftfiltered{
+    width: 30%;
+  }
+
+  .filtered button{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border:none;
+    border-top: 1px solid #555;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px 12px 0;
+  }
+  .dropdown-content {
+    width: 250px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+  }
+  
+  .filtered button:focus {
+    outline: none;
+  }
+
   
 
 
 
 .productcard{
 
-    width: 225px;
-    height: 470px;
+    width: 200px;
+    height: 400px;
     text-align: center;
 
 }

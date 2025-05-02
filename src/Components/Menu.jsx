@@ -121,7 +121,8 @@ const Menu = ({  }) => {
           </li>
 
           <li>
-            <span>More</span>
+            <Link to="/more"  style={{textDecoration:"none"}}><span>More</span></Link>
+            
             <div className="menu-dropdown"
             style={{left:"-600px"}}>
               <More />

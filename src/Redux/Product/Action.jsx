@@ -6,7 +6,7 @@ import { PROERROR, PROREQ, PROSUCCESS } from "../actionType"
 export const getData  =(paramObj)=> (dispatch)=>{
 
     dispatch({type:PROREQ})
-    axios.get("http://localhost:3000/furnitures",{
+    axios.get("http://localhost:3000/filterdpage",{
       params:paramObj
     })
 
@@ -17,14 +17,14 @@ export const getData  =(paramObj)=> (dispatch)=>{
     )
     .catch((err)=>{
       console.log(err)
-      toast.error(err?.message)
+      // toast.error(err?.message)
       dispatch({type:PROERROR,payload:err?.message})
     })
   }
 
 export const DeleteData =(id)=>(dispatch)=>{
 
-  axios.delete(`http://localhost:3000/furnitures/${id}`)
+  axios.delete(`http://localhost:3000/filterdpage/${id}`)
   .then((res)=>{
     console.log(res)
     getData(dispatch)
@@ -38,7 +38,7 @@ export const DeleteData =(id)=>(dispatch)=>{
 
 export const editData  =(id,editPro)=>(dispatch)=> {
 
-  axios.put(`http://localhost:3000/furnitures/${id}`,editPro)
+  axios.put(`http://localhost:3000/filterdpage/${id}`,editPro)
   .then((res)=>{
       alert("Product Update Successfully")
       getData(dispatch)
