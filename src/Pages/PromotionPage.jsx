@@ -1,11 +1,13 @@
 
 
-import React from 'react'
+import React, { useState } from 'react';
 import LeftSideCard from '../Components/FilterdPagesSides/LeftSideCard'
 import TopBox from '../Components/FilterdPagesSides/TopBox'
 import ProductDetails from './Furnitures/ProductDetails'
 
 const PromotionPage = () => {
+
+  const [sortOption, setSortOption] = useState('');
 
   return (
 
@@ -21,12 +23,12 @@ const PromotionPage = () => {
 
       <div className="filter-btns d-flex justify-content-end">
 
-        <select name="" id="">
+        <select name="" id="" onChange={(e) => setSortOption(e.target.value)}>
           <option value="">Best Selling</option>
-          <option value="">Price Low - High</option>
-          <option value="">Price High - Low</option>
-          <option value="">Customer Rating</option>
-          <option value="">New Arrives</option>
+          <option value="lowToHigh">Price Low - High</option>
+          <option value="highToLow">Price High - Low</option>
+          <option value="rating">Customer Rating</option>
+          <option value="new">New Arrives</option>
         </select>
 
       </div>
@@ -39,7 +41,7 @@ const PromotionPage = () => {
             </div>
 
             <div className="rightProducts">
-              <ProductDetails />
+              <ProductDetails  sortOption={sortOption} />
             </div>
            
         </div>
