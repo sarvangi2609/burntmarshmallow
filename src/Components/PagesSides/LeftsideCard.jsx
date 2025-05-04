@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const LeftsideCard = ({ name,category,index }) => {
 
-  const path = `/${category.toLowerCase()}/${name.toLowerCase().replace(/\s+/g, '-')}`;
+ const path = `/${category.toLowerCase()}/${name.toLowerCase().replace(/\s+/g, '-')}`;
 
 
   return (

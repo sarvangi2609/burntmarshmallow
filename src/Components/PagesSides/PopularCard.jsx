@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const PopularCard = () => {
   const { category } = useParams();
@@ -19,6 +19,7 @@ const PopularCard = () => {
 
   const categoryData = categories.find((c) => c.category === selectedCategory);
 
+
   if (!categoryData) return <div>Loading...</div>;
 
   return (
@@ -30,7 +31,9 @@ const PopularCard = () => {
             categoryData?.sections["Popular Categories"].map((item, index) => (
               <div key={index}>
                 <div className="category-card">
+                  <Link to={`/${category.toLowerCase()}/${item.name.toLowerCase().replace(/\s+/g, '-')}`}>
                   <img src={item.image_url} alt="Living Room Furniture" />
+                  </Link> 
                   <span>{item.name}</span>
                 </div>
               </div>

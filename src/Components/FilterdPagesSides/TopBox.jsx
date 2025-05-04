@@ -3,7 +3,8 @@ import { useParams } from 'react-router-dom';
 
 const TopBox = () => {
     
-    const { category } = useParams(); 
+    const {category,semicategory} = useParams();
+
     const [categories, setCategories] = useState([]);
 
 
@@ -26,8 +27,8 @@ const TopBox = () => {
 
     <>
 
-    <div className="titles">
-        <h1>{category}</h1>
+    <div className="titles" style={{width:"25%"}}>
+        <h1>{semicategory}</h1>
     </div>
 
 <div className="filter-box">

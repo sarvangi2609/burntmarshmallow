@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "../page.css";
 import { useDispatch, useSelector } from "react-redux";
 import { FaRegHeart } from "react-icons/fa";
+import { PiHeartStraightDuotone } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 const ProductCard = ({
   id,
@@ -14,27 +16,38 @@ const ProductCard = ({
 }) => {
   const { currentUser } = useSelector((state) => state.auth);
 
-  // const dispatch = useDispatch()
+  const [liked, setLiked] = useState(false); // Track heart toggle
+
+  const handleHeartClick = () => {
+    setLiked(!liked);
+  };
+
   return (
     <>
       <div className="productcard">
         <div>
+
+             
           <div className="image" style={{ position: "relative" }}>
-            <img src={proimg} alt="" height={120} width={120} />
-            <FaRegHeart
-              style={{
-                position: "absolute",
-                right: "-10px",
-                top: "10px",
-                fontSize: "22px",
-              }}
-            />
-          </div>
+          <Link to={`/description/${id}`}>   <img src={proimg} alt="" height={120} width={120} />       </Link>
+
+          <PiHeartStraightDuotone
+          onClick={handleHeartClick}
+          style={{
+            position: "absolute",
+            right: "-10px",
+            top: "10px",
+            fontSize: "30px",
+            color: liked ? "red" : "black", // Toggle color
+            cursor: "pointer",
+          }}
+        />
+            
+            </div>
+ 
 
           <div className="msg d-flex justify-content-between">
-            {/* <span style={{color:"#1a4e8a"}} >{msg}</span>
-
-      <span >{option}</span> */}
+           
           </div>
 
           <div className="prices text-start">
@@ -67,26 +80,12 @@ const ProductCard = ({
             {currentprice}
           </span> }
 
-             {/* <span
-              className="price"
-              style={{
-                fontSize: "12px",
-                textDecoration: "line-through",
-                borderBottom: "1px dashed",
-                color: "#626669",
-              }}
-            >
-             {currentprice}
-            </span> */}
-
           </div>
 
           {sale ? <div className="salebtn">Sale</div> : <div></div>}
           <div className="rate p-2">{rating}</div>
 
           <p>{title}</p>
-
-          {/* <h4 className='fs-6'>{price}</h4> */}
 
           {currentUser?.role == "admin" && (
             <button

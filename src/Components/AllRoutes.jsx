@@ -9,6 +9,9 @@ import ProductDetails from '../Pages/Furnitures/ProductDetails'
 import MainPage from '../Pages/MainPage'
 import More from '../Pages/More'
 import PromotionPage from '../Pages/PromotionPage'
+import Description from './Description'
+import Cart from './Cart'
+import Registry from '../Pages/Registry'
 
 
 
@@ -27,6 +30,12 @@ const AllRoutes = () => {
         <Route path='/more' element={<More />}></Route>
 
         <Route path='/:category/:semicategory' element={<PromotionPage />} />
+
+        <Route path='/description/:id' element={<Description />} />
+
+        <Route path='/cartpage' element={<Cart />}/>
+
+        <Route path='/registry' element={<Registry />}/>        
 
 
         

@@ -527,3 +527,261 @@
     width: 95%;
     text-align: start;
  }
+
+
+ /* desccription page */
+
+
+.desc {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.product-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+}
+
+.product-image img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.product-info .title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.product-info .subtitle {
+  color: #555;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.product-info .price {
+  color: #1b8a4e;
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.product-info .meta {
+  font-size: 0.875rem;
+  color: #888;
+  margin-bottom: 1.5rem;
+}
+
+.add-to-cart {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.add-to-cart:hover {
+  background-color: #1e40af;
+}
+
+.listbtns button{
+      width: 48%;
+      height: 42px;
+      font-weight: 500;
+      border-radius: 12px;
+      border: none;
+      background-color: white;
+      border: 1px solid black;
+      
+}
+.plans-container {
+  background: #e3f3ff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  margin-top: 2rem;
+  max-width: 600px;
+}
+
+.plans-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.plan {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.plan input[type="radio"] {
+  margin-right: 0.5rem;
+  transform: scale(1.2);
+}
+
+.plan-text {
+  color: #333;
+}
+
+.tag {
+  background-color: #facc15;
+  color: #1a1a1a;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.15rem 0.5rem;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+}
+
+.add-plan-button {
+  width: 100%;
+  background-color: white;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid black;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.add-plan-button:hover {
+  background-color: #1e40af;
+}
+
+
+.desc-page h2,.page-section h2{
+  color: #333;
+}
+
+.desc-page p,.page-section p{
+  color: #444;
+}
+
+
+/* cartPage */
+
+
+.cart-card{
+  height: auto;
+  background-color: #f9fafb;
+}
+
+.quanbtn button{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border: 1px solid #555;
+}
+
+.quanbtn span{
+    padding: 0px 10px;
+}
+
+/* registry */
+
+.registry-hero{
+  display: flex;
+  justify-content: space-between;
+}
+
+.registry-hero .div-1{
+  height: 480px;
+  width: 35%;
+  background-color: #fdf9f5;
+}
+
+.registry-hero .div-2{
+  height: 480px;
+  width: 65%;
+  margin: 2%;
+}
+
+.div-2 img{
+  height: 100%;
+  width: 100%;
+}
+
+.registry-hero .div-1 h1{
+  color: #0079d2;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 1;
+    padding: 0 10px;
+    width: 100%;
+    max-width: 428px;
+    margin: 0 8%;
+    padding-top: 15%;
+
+}
+
+.registry-hero div h2{
+  color: #00a496;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 1;
+    padding: 0 10px;
+    width: 100%;
+    max-width: 428px;
+    margin: 0 8%;
+}
+
+.registry-box-container{
+  width: 98%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.registry-box{
+  height: 230px;
+  width: 390px;
+  padding: 25px;
+  border: 1px solid #dadcdf;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.registry-box input{
+  width: 275px;
+  height: 40px;
+  padding-left: 20px;
+  border-radius: 4px;
+  border: 1px solid #dadcdf;
+  margin: 10px 0px;
+}
+
+.registry-box select{
+  width: 275px;
+  height: 40px;
+  padding-left: 20px;
+  border-radius: 4px;
+  border: 1px solid #dadcdf;
+  margin: 10px 0px;
+}
+
+.registry-box button{
+  width: 275px;
+  height: 40px;
+  margin: 10px 0px;
+  background-color: #0079d2;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(47,51,55,.2);
+}
