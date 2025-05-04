@@ -785,3 +785,27 @@
   border: none;
   box-shadow: 0 2px 2px 0 rgba(47,51,55,.2);
 }
+
+
+.faq-box{
+  width: 98%;
+  margin: auto;
+  height: 55px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  text-align: start;
+  padding: 10px 30px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-ans{
+  width: 98%;
+  margin: auto;
+  height: 55px;
+  border: none;
+  text-align: start;
+  padding-left: 30px;
+}

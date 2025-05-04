@@ -3,6 +3,9 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { IoMdArrowDropdown } from "react-icons/io";
+import { IoMdArrowDropup } from "react-icons/io";
+
 
 const NAV_LINKS = [
   "Gift Registry",
@@ -130,19 +133,19 @@ export function FAQSection() {
   return (
     <section className="bg-white py-8">
       <div className="max-w-3xl mx-auto">
-        <h3 className="text-lg font-semibold mb-4">Registry FAQ</h3>
-        <div className="divide-y divide-gray-200 border border-gray-100 rounded overflow-hidden">
+        <h1 className="text-lg font-semibold mb-4 text-center">Registry FAQs</h1>
+        <div className="faqs">
           {FAQS.map((faq, i) => (
             <div key={i}>
               <button
-                className="w-full text-left px-5 py-3 focus:outline-none hover:bg-gray-100 flex justify-between items-center"
+                className="faq-box"
                 onClick={() => setActive(active === i ? null : i)}
               >
                 <span className="font-medium text-gray-800">{faq.q}</span>
-                <span>{active === i ? "−" : "+"}</span>
+                <span>{active === i ? <IoMdArrowDropup /> : <IoMdArrowDropdown />}</span>
               </button>
               {active === i && (
-                <div className="px-6 pb-4 text-gray-600 text-sm bg-gray-50">{faq.a}</div>
+                <div className="px-6 pb-4 text-gray-600 text-sm bg-gray-50 faq-ans">{faq.a}</div>
               )}
             </div>
           ))}
