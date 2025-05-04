@@ -102,18 +102,6 @@ const Home = () => {
         />
       </div>
 
-      {/* things we know you'll love */}
-
-      <div className="think-product">
-        <div className="contnent text-center">
-          <h1>things we know you'll love</h1>
-        </div>
-
-        <div className="think-pro">
-          
-        </div>
-      </div>
-
       {/* trending this season */}
 
       <div className="trending-product">

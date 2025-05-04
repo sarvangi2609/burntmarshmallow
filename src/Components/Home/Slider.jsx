@@ -464,6 +464,8 @@ export const TrendingPro = () => {
             </div>
             <div className="col-6 col-md-3">
               <img src="https://ak1.ostkcdn.com/img/mxc/12222023_WinterEvergreen_HomePageEditorial7.jpg?imwidth=1920" className="d-block w-100" alt="Slide 8" />
+              <h2>Kitchen Appliances</h2>
+              <p> Save on small appliances and convenient kitchen gadgets.</p>
             </div>
           </div>
         </div>
@@ -482,9 +484,13 @@ export const TrendingPro = () => {
             </div>
             <div className="col-6 col-md-3">
               <img src="https://ak1.ostkcdn.com/img/mxc/12222023_WinterEvergreen_HomePageEditorial7.jpg?imwidth=1920" className="d-block w-100" alt="Slide 11" />
+              <h2>Kitchen Appliances</h2>
+              <p> Save on small appliances and convenient kitchen gadgets.</p>
             </div>
             <div className="col-6 col-md-3">
               <img src="https://ak1.ostkcdn.com/img/mxc/12222023_WinterEvergreen_HomePageEditorial8.jpg?imwidth=1920" className="d-block w-100" alt="Slide 12" />
+              <h2>Living Room Seating</h2>
+              <p>Relax in style with cozy sofas, chairs, and more.</p>
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ export function UserDropDown() {
 
             <hr />
 
-            <li> <h4>My Account</h4> </li>
+            <li>  <Link to="/myaccount" style={{textDecoration:"none"}}><h4>My Account</h4></Link>  </li>
             <li> <h4>My Order</h4> </li>
             <li> <h4>Explore Pro</h4> </li>
             <li> <h4>Help</h4> </li>
