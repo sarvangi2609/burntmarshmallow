@@ -11,6 +11,8 @@ const Registry = () => {
 
     <>
 
+    <div className="faqpage mb-5">
+
     <Hero />
     {/* <Perks />
       <RegistryTools />
@@ -19,6 +21,8 @@ const Registry = () => {
       <RecentlyAddedGifts />
       <BrandsGrid /> */}
       <FAQSection />
+
+    </div>
     
     </>
 

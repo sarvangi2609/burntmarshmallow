@@ -640,12 +640,28 @@ margin-top: 30px;
   width: 98%;
   margin: auto;
   margin-top: 50px;
-  background-color: red;
+  /* background-color: red; */
 }
 .trending-pro{
   height: 430px;
   margin-top: 40px;
-  background-color: yellow;
+  /* background-color: yellow; */
+}
+
+.trend-slide{
+  width: 24%;
+  height: 450px;
+  margin:auto;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.trend-slide h2{
+  padding: 5px 10px;
+
+}
+.trend-slide p{
+  padding: 0px 10px;
+
 }
 
 .category-product{

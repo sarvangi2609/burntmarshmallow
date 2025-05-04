@@ -68,7 +68,7 @@ const Navbar = () => {
 
                 <li><Link to="/"><CiBellOn style={{height:"30px",width:"30px",color: "#2f3337"}} /></Link><span style={{display:"block"}}>Notifications</span></li>
 
-                <li><Link to="/"><CiGift style={{height:"30px",width:"30px",color: "#2f3337"}} /></Link><span style={{display:"block"}}>Registry</span></li>
+                <li><Link to="/registry"><CiGift style={{height:"30px",width:"30px",color: "#2f3337"}} /></Link><span style={{display:"block"}}>Registry</span></li>
 
                 <li><Link to="/cartpage"><LiaCartArrowDownSolid style={{height:"30px",width:"30px",color: "#2f3337"}} /></Link><span style={{display:"block"}}>Cart</span></li>
             </ul>

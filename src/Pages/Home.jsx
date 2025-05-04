@@ -1,5 +1,5 @@
 import React from "react";
-import { HeroSection, HostingPro, LimitedPro } from "../Components/Home/Slider";
+import { HeroSection, HostingPro, LimitedPro, TrendingPro } from "../Components/Home/Slider";
 import UnderFooter from "../Components/UnderFooter";
 
 const Home = () => {
@@ -122,6 +122,8 @@ const Home = () => {
         </div>
 
         <div className="trending-pro">
+
+          <TrendingPro />
           
         </div>
       </div>
