@@ -13,8 +13,13 @@ import UnderBanner from './UnderBanner';
 import Popup from 'reactjs-popup';
 import UserProfile from './Profile/UserProfile';
 import PopUp from './PopUp';
+import { useSelector } from 'react-redux';
 
 const Navbar = () => {
+
+    const { currentUser } = useSelector(state => state.auth);
+    console.log(currentUser)
+
   return (
 
     <>
@@ -42,21 +47,16 @@ const Navbar = () => {
         <div className="lists">
 
             <ul className="icons">
+                
                 <li className='icons-list'>
-                    {/* <Link to="/"> */}
                     <Popup trigger={<CiUser style={{height:"30px",width:"30px",color: "#2f3337"}} className='popup' />} position="right center">
                     <div className="popup-card">
                     <PopUp />
                     </div>
                     </Popup>
-
-                    {/* <CiUser style={{height:"30px",width:"30px",color: "#2f3337"}} /> */}
-                    
-                    {/* </Link> */}
                     <span style={{display:"block"}}>Account</span>
                     <div className="nav-dropdown">
-                    <UserDropDown />
-                    {/* <UserDropDownAfterSignin /> */}
+                    { currentUser ? <UserDropDownAfterSignin /> : <UserDropDown />}
                     </div>
                 </li>
                 

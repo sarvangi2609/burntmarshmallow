@@ -36,6 +36,12 @@ const SignUp = () => {
  
   }
 
+  
+    //  password show/hide:
+  
+    const [showPassword, setShowPassword] = useState(false);
+    const togglePassword = () => setShowPassword(!showPassword);
+
 
   return (
     <>
@@ -49,13 +55,28 @@ const SignUp = () => {
         <input type="email" placeholder='Email'
         value={email} name="email" onChange={handleChange} /> <br />
 
-        <input type="password" 
-        value={password} name="password" onChange={handleChange}
-        placeholder='password' style={{position:"relative"}}/>
-        <span style={{position:"absolute" ,top:"502px",left:"600px"}}>
-          <FaEye />
-        {/* <FaEyeSlash /> */}
-        </span>
+        <div style={{ position: "relative" }}>
+          <input
+            type={showPassword ? "text" : "password"}
+            value={password}
+            name="password"
+            onChange={handleChange}
+            placeholder="Password"
+            style={{ paddingRight: "40px" }}
+          />
+          <span
+            onClick={togglePassword}
+            style={{
+              position: "absolute",
+              right: "35px",
+              top: "28px",
+              transform: "translateY(-50%)",
+              cursor: "pointer",
+            }}
+          >
+            {showPassword ? <FaEyeSlash /> : <FaEye />}
+          </span>
+        </div>
         <br />
 
         <div className="checkbox d-flex ">
