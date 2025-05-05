@@ -53,8 +53,36 @@ const HandleCart = async()=>{
       
     }
 
+}
+
+// handle List
+
+const HandleList = async()=>{
+
+  try {
+    const {data} = await axios.get(`http://localhost:3000/Wishlist`)
+    console.log(data)
+    const ListItem =data.find((item)=>item.id ==id)
+
+    if(ListItem){
+      alert("Product Is Already Exist in Your List")
+    }else{
+
+      axios.post("http://localhost:3000/Wishlist",{...oneData})
+      .then((res)=>{
+        console.log(res.data)
+        alert("Product Added to Your List")
+      })
+      .catch((error)=>{
+        console.log(error)
+      })
+      
+    }
+
+  } catch (error) {
   }
 
+}
 
   useEffect(() => {
     getProduct();
@@ -156,7 +184,7 @@ const HandleCart = async()=>{
             </div>
 
             <div className="listbtns d-flex mt-4 mb-4 justify-content-between">
-              <button>
+              <button onClick={HandleList}>
                 <CiHeart style={{ fontSize: "23px" }} /> Add To List
               </button>
               <button>

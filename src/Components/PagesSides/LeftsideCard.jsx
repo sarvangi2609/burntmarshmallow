@@ -9,7 +9,6 @@ const LeftsideCard = ({ name,category,index }) => {
 
   return (
     <div className="leftside-card">
-      {/* `/${category.toLowerCase()}/promotion` */}
 
       <Link  to={path} style={{textDecoration:"none",color:'black'}}>
       <span>{name}</span>

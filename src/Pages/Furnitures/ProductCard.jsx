@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "../page.css";
 import { useDispatch, useSelector } from "react-redux";
-import { FaRegHeart } from "react-icons/fa";
 import { PiHeartStraightDuotone } from "react-icons/pi";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 const ProductCard = ({
   id,
@@ -18,7 +18,7 @@ const ProductCard = ({
 
   const [liked, setLiked] = useState(false); // Track heart toggle
 
-  const handleHeartClick = () => {
+  const handleHeartClick = async() => {
     setLiked(!liked);
   };
 

@@ -1,6 +1,8 @@
-import React from "react";
+
 import { HeroSection, HostingPro, LimitedPro, TrendingPro } from "../Components/Home/Slider";
 import UnderFooter from "../Components/UnderFooter";
+import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -157,66 +159,88 @@ const Home = () => {
         <div className="category-pro">
 
           <div className="cat-product">
-            <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame3.jpg?imwidth=1920" alt="" />
+          <Link to="/bedding"><img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame3.jpg?imwidth=1920" alt="" /></Link>
             <span>Bedding</span>
           </div>
 
           <div className="cat-product">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame6.jpg?imwidth=1920" alt="" />
+          <Link to="/kitchen">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame6.jpg?imwidth=1920" alt="" /></Link>
+         
           <span>Kitchen</span>
           </div>
 
           <div className="cat-product">
-          <img src="https://ak1.ostkcdn.com/img/mxc/07252023_MOPS_HP_Bath.jpg?imwidth=1920" alt="" />
+          <Link to="/bath"><img src="https://ak1.ostkcdn.com/img/mxc/07252023_MOPS_HP_Bath.jpg?imwidth=1920" alt="" /></Link>
+          
           <span>Bath</span>
           </div>
 
           <div className="cat-product">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame7.jpg?imwidth=1920" alt="" />
+          <Link to="/outdoor">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame7.jpg?imwidth=1920" alt="" /></Link>
+          
           <span>Outdoor</span>
           </div>
 
           <div className="cat-product">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame1.jpg?imwidth=1920" alt="" />
+          <Link to="/furniture">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame1.jpg?imwidth=1920" alt="" /></Link>
+          
           <span>Furniture</span>
           </div>
 
           <div className="cat-product">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame2.jpg?imwidth=1920" alt="" />
+          <Link to="/rugs">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame2.jpg?imwidth=1920" alt="" /></Link>
+         
           <span>Area Rugs</span>
           </div>
 
           <div className="cat-product">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame8.jpg?imwidth=1920" alt="" />
+          <Link to="/kitchen">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame8.jpg?imwidth=1920" alt="" /></Link>
+          
           <span>Home Improvement</span>
           </div>
 
           <div className="cat-product">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame10.jpg?imwidth=1920" alt="" />
+          <Link to="/rugs">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame10.jpg?imwidth=1920" alt="" /></Link>
+          
           <span>Mattresses</span>
           </div>
 
           <div className="cat-product">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame4.jpg?imwidth=1920" alt="" />
+          <Link to="/decor">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame4.jpg?imwidth=1920" alt="" /></Link>
+          
           <span>Home Decor</span>
           </div>
 
           <div className="cat-product">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame11.jpg?imwidth=1920" alt="" />
+          <Link to="/lighting">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame11.jpg?imwidth=1920" alt="" /></Link>
+          
           <span>Lighting</span>
           </div>
 
           <div className="cat-product">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame9_v2.jpg?imwidth=1920" alt="" />
+          <Link to="/storage">
+          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame9_v2.jpg?imwidth=1920" alt="" /></Link>
+          
           <span>Storage</span>
           </div>
 
           <div className="cat-product">
-          <img src="https://ak1.ostkcdn.com/img/mxc/07272023_516x516_BeautifulFinds_ShopAllDeals.jpg?imwidth=1920" alt="" />
+          <Link to="/more">
+          <img src="https://ak1.ostkcdn.com/img/mxc/07272023_516x516_BeautifulFinds_ShopAllDeals.jpg?imwidth=1920" alt="" /></Link>
+          
           <span>Shop All Deals</span>
           </div>
           
         </div>
+
 
       </div>
 

@@ -13,7 +13,12 @@ import More from "./Dropdowns/More";
 import Ideas from "./Dropdowns/Ideas";
 import { Link } from "react-router-dom";
 
-const Menu = ({  }) => {
+const Menu = ({ name,category }) => {
+  // console.log(name ,category)
+
+  // const path = `/${category.toLowerCase()}/${name.toLowerCase().replace(/\s+/g, '-')}`;
+
+
   return (
     <>
       <div className="menu">
@@ -88,7 +93,7 @@ const Menu = ({  }) => {
           </li>
 
           <li>
-          <Link to="/storage" style={{textDecoration:"none"}}>
+          <Link to="/storage/promotion" style={{textDecoration:"none"}}>
           <span>Storage & Cleaning</span>
           </Link>
             
@@ -110,7 +115,7 @@ const Menu = ({  }) => {
           </li>
 
           <li>
-          <Link to="/Baby and Kids Home Goods" style={{textDecoration:"none"}}>
+          <Link to="/Baby and Kids Home Goods/promotion" style={{textDecoration:"none"}}>
           <span>Baby&Kids</span>
           </Link>
            
@@ -130,12 +135,6 @@ const Menu = ({  }) => {
           </li>
 
           <li>
-            {/* <ul>
-  <li>Living Room</li>
-  <li>Bedroom</li>
-  <li>Dining Room</li>
-  <li>Patio</li>
-</ul> */}
             <span>Ideas</span>
             <div className="menu-dropdown"
             style={{left:"-700px"}}>

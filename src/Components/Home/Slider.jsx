@@ -387,7 +387,6 @@ export const HostingPro = () => {
   );
 };
 
-
 export const TrendingPro = () => {
   return (
     <div
@@ -418,9 +417,9 @@ export const TrendingPro = () => {
         ></button>
       </div>
 
-      <div className="carousel-inner">
+      <div className="carousel-inner" style={{height:"500px"}}>
         <div className="carousel-item active">
-          <div className="row g-0 ">
+          <div className="row g-0">
             <div className="col-6 col-md-3 trend-slide">
               <img src="https://ak1.ostkcdn.com/img/mxc/12222023_WinterEvergreen_HomePageEditorial1.jpg?imwidth=1920" className="d-block w-100" alt="Slide 1" />
               <h2>Home Gym</h2>
@@ -445,24 +444,24 @@ export const TrendingPro = () => {
           </div>
         </div>
 
-        <div className="carousel-item trend-slide">
+        <div className="carousel-item">
           <div className="row g-0">
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3 trend-slide">
               <img src="https://ak1.ostkcdn.com/img/mxc/12222023_WinterEvergreen_HomePageEditorial3.jpg?imwidth=1920" className="d-block w-100" alt="Slide 5" />
               <h2>Storage & Organization</h2>
               <p>Save time and space with deals on storage solutions.</p>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3 trend-slide">
               <img src="https://ak1.ostkcdn.com/img/mxc/12222023_WinterEvergreen_HomePageEditorial4.jpg?imwidth=1920" className="d-block w-100" alt="Slide 6" />
               <h2>Entertainment Centers</h2>
               <p> Elevate your entertainment with these tasteful TV stands.</p>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3 trend-slide">
               <img src="https://ak1.ostkcdn.com/img/mxc/12222023_WinterEvergreen_HomePageEditorial6.jpg?imwidth=1920" className="d-block w-100" alt="Slide 7" />
               <h2>Mattresses</h2>
               <p>Sleep soundly again with a perfectly plush mattress.</p>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3 trend-slide">
               <img src="https://ak1.ostkcdn.com/img/mxc/12222023_WinterEvergreen_HomePageEditorial7.jpg?imwidth=1920" className="d-block w-100" alt="Slide 8" />
               <h2>Kitchen Appliances</h2>
               <p> Save on small appliances and convenient kitchen gadgets.</p>
@@ -470,24 +469,24 @@ export const TrendingPro = () => {
           </div>
         </div>
 
-        <div className="carousel-item trend-slide">
+        <div className="carousel-item">
           <div className="row g-0">
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3 trend-slide">
               <img src="https://ak1.ostkcdn.com/img/mxc/12222023_WinterEvergreen_HomePageEditorial4.jpg?imwidth=1920" className="d-block w-100" alt="Slide 9" />
               <h2>Entertainment Centers</h2>
               <p> Elevate your entertainment with these tasteful TV stands.</p>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3 trend-slide">
               <img src="https://ak1.ostkcdn.com/img/mxc/12222023_WinterEvergreen_HomePageEditorial6.jpg?imwidth=1920" className="d-block w-100" alt="Slide 10" />
               <h2>Mattresses</h2>
               <p>Sleep soundly again with a perfectly plush mattress.</p>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3 trend-slide">
               <img src="https://ak1.ostkcdn.com/img/mxc/12222023_WinterEvergreen_HomePageEditorial7.jpg?imwidth=1920" className="d-block w-100" alt="Slide 11" />
               <h2>Kitchen Appliances</h2>
               <p> Save on small appliances and convenient kitchen gadgets.</p>
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-6 col-md-3 trend-slide">
               <img src="https://ak1.ostkcdn.com/img/mxc/12222023_WinterEvergreen_HomePageEditorial8.jpg?imwidth=1920" className="d-block w-100" alt="Slide 12" />
               <h2>Living Room Seating</h2>
               <p>Relax in style with cozy sofas, chairs, and more.</p>
@@ -495,35 +494,6 @@ export const TrendingPro = () => {
           </div>
         </div>
       </div>
-
-      
-      <button
-          className="carousel-control-prev bg-dark"
-          style={{ height: "44px", width: "34px", marginTop: "10%" }}
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Previous</span>
-      </button>
-
-        <button
-          className="carousel-control-next bg-dark"
-          style={{ height: "44px", width: "34px", marginTop: "10%" }}
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Next</span>
-        </button>
 
 
     </div>

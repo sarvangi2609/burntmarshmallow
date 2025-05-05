@@ -13,6 +13,7 @@ import Description from './Description'
 import Cart from './Cart'
 import Registry from '../Pages/Registry'
 import PrivatePage from './PrivatePage'
+import Wishlist from './Wishlist'
 
 
 
@@ -36,7 +37,7 @@ const AllRoutes = () => {
         <Route path='/description/:id' element={<PrivatePage><Description /></PrivatePage>} />
 
         <Route path='/cartpage' element={<Cart />}/>
-
+        <Route path='/listpage' element={<Wishlist />}/>
         <Route path='/registry' element={<Registry />}/>        
 
 

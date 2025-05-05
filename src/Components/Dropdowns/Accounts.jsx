@@ -110,8 +110,10 @@ export function ListDropDown() {
       <div className="nav-drop">
         <ul className="navdrop-ul">
           <li>
-            {" "}
+            <Link to="/listpage" style={{textDecoration:"none"}}>
             <h4>Favorites</h4>
+            </Link>
+            
           </li>
 
           <li>
