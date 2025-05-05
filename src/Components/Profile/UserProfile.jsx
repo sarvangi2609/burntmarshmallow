@@ -57,7 +57,7 @@ const UserProfile = () => {
           <SignIn />
         </div>
 
-        <div className="lines">
+        <div className="lines pt-3">
           <div className="line1"></div>
           <span>OR</span>
           <div className="line2"></div>

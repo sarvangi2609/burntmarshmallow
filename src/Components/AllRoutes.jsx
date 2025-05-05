@@ -12,6 +12,7 @@ import PromotionPage from '../Pages/PromotionPage'
 import Description from './Description'
 import Cart from './Cart'
 import Registry from '../Pages/Registry'
+import PrivatePage from './PrivatePage'
 
 
 
@@ -22,16 +23,17 @@ const AllRoutes = () => {
    <Routes>
 
         <Route path='/' element={<Home />}></Route>
-        <Route path='/myaccount' element={<MyAccount />}></Route>
+
+        <Route path='/myaccount' element={<PrivatePage><MyAccount /></PrivatePage>}></Route>
+
         <Route path='/userprofile' element={<UserProfile />}></Route>
-        {/* <Route path="/:category" element={<LeftsideBar />} /> */}
         <Route path='/:category' element={<MainPage />}></Route>
         <Route path='/furnitureproduct' element={<ProductDetails />}></Route>
         <Route path='/more' element={<More />}></Route>
 
         <Route path='/:category/:semicategory' element={<PromotionPage />} />
 
-        <Route path='/description/:id' element={<Description />} />
+        <Route path='/description/:id' element={<PrivatePage><Description /></PrivatePage>} />
 
         <Route path='/cartpage' element={<Cart />}/>
 
