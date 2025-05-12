@@ -3,9 +3,12 @@ import { FaPlus } from "react-icons/fa6";
 import { IoIosLock } from "react-icons/io";
 import { FaPaypal } from "react-icons/fa6";
 import axios from "axios";
+import{ PaymentQRCode }from "./Stripe";
 
 export default function Cart() {
   const [cart, setcart] = useState([]);
+  const [isFirstPayment, setIsFirstPayment] = useState(true);
+
 
   const FetchCartData = async () => {
     try {
@@ -43,6 +46,12 @@ export default function Cart() {
       });
   };
 
+  // payment Gateway
+  const handleClick = () => {
+    window.location.href = "https://buy.stripe.com/test_28ofZwgougFQ8lq288"; // Replace with your real Stripe Payment Link
+  };
+
+
   useEffect(() => {
     FetchCartData();
   }, []);
@@ -57,11 +66,14 @@ export default function Cart() {
   );
   let totalPrice = totalOriginal - totalSavings;
 
+
+
   return (
+    <>
     <div className="max-w-7xl mx-auto px-4 py-8 grid md:grid-cols-3 gap-8 d-flex">
       {/* Cart Items */}
       <div className="md:col-span-2 w-75">
-        <h1 className="text-2xl font-semibold mb-6">Your Cart</h1>
+        <h1 className="text-2xl font-semibold m-3">Your Cart</h1>
         <div className="space-y-4 w-75">
           {cart.length === 0 ? (
             <p className="text-gray-500 text-center mt-5 fs-1">
@@ -71,9 +83,9 @@ export default function Cart() {
             cart.map((item) => (
               <div
                 key={item.id}
-                className="flex items-center justify-between p-4 border rounded-xl shadow-sm"
+                className="flex items-center justify-between p-4 m-3 border rounded-xl"
               >
-                <div className="flex items-center gap-4 d-flex">
+                <div className="flex items-center gap-4 d-flex m-3">
                   <img
                     src={item.proimg}
                     alt={item.title}
@@ -82,7 +94,7 @@ export default function Cart() {
                   />
 
                   <div>
-                    <h4 className="font-medium">{item.title}</h4>
+                    <h4 className="font-medium">{item.title.substring(0,20)}...</h4>
                     <p className="text-sm text-gray-500 ">
                       ${item.currentprice}
                     </p>
@@ -138,7 +150,7 @@ export default function Cart() {
       </div>
 
       {/* Summary */}
-      <div className="p-6 rounded-xl shadow-md h-fit w-25 mt-5">
+      <div className="p-6 rounded-xl shadow-md h-fit w-50 mt-5">
         <button
           style={{
             height: "50px",
@@ -155,12 +167,13 @@ export default function Cart() {
           <button
             style={{
               height: "50px",
-              width: "90%",
+              width: "100%",
               backgroundColor: "#0079D2",
               border: "none",
               margin: "20px 5%",
               color: "white",
             }}
+            onClick={handleClick}
           >
             <IoIosLock />
             Check Out
@@ -169,7 +182,7 @@ export default function Cart() {
           <button
             style={{
               height: "50px",
-              width: "90%",
+              width: "100%",
               backgroundColor: "#ffc439",
               border: "none",
               margin: "0px 5%",
@@ -208,7 +221,13 @@ export default function Cart() {
             <span>${totalPrice.toFixed(2)}</span>
           </div>
         </div>
+      
+        <PaymentQRCode />
       </div>
     </div>
+
+   
+
+    </>
   );
 }

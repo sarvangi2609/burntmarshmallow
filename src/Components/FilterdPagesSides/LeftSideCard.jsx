@@ -5,11 +5,12 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 const LeftSideCard = () => {
   const { category } = useParams();
   const [categories, setCategories] = useState([]);
-  const [openCategory, setOpenCategory] = useState(null); // Track which category is open
+  const [openCategory, setOpenCategory] = useState(null);
 
   const [searchParams, setSearchParams] = useSearchParams();
 
   const [catVal, setcatVal] = useState(searchParams.getAll("category") || []);
+  
   console.log(catVal);
 
   const handleChange = (value) => {

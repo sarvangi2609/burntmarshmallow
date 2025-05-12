@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { FaCartPlus } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";
 import { CiGift } from "react-icons/ci";
+import ProductReviews from "../Pages/Furnitures/ProductReviews";
 
 const Description = () => {
   const [oneData, setoneData] = useState([]);
@@ -106,84 +107,12 @@ const HandleList = async()=>{
 
             {/* for add to cart */}
 
-            <div className="cartsbtns d-flex">
-              <select
-                name="quantity"
-                style={{
-                  width: "15%",
-                  paddingLeft: "15px",
-                  marginRight: "20px",
-                }}
-              >
-                <option label="1" value="1">
-                  1
-                </option>
-                <option label="2" value="2">
-                  2
-                </option>
-                <option label="3" value="3">
-                  3
-                </option>
-                <option label="4" value="4">
-                  4
-                </option>
-                <option label="5" value="5">
-                  5
-                </option>
-                <option label="6" value="6">
-                  6
-                </option>
-                <option label="7" value="7">
-                  7
-                </option>
-                <option label="8" value="8">
-                  8
-                </option>
-                <option label="9" value="9">
-                  9
-                </option>
-                <option label="10" value="10">
-                  10
-                </option>
-                <option label="11" value="11">
-                  11
-                </option>
-                <option label="12" value="12">
-                  12
-                </option>
-                <option label="13" value="13">
-                  13
-                </option>
-                <option label="14" value="14">
-                  14
-                </option>
-                <option label="15" value="15">
-                  15
-                </option>
-                <option label="16" value="16">
-                  16
-                </option>
-                <option label="17" value="17">
-                  17
-                </option>
-                <option label="18" value="18">
-                  18
-                </option>
-                <option label="19" value="19">
-                  19
-                </option>
-                <option label="20" value="20">
-                  20
-                </option>
-              </select>
-
-              <button className="add-to-cart w-75"
+              <button className="add-to-cart w-100"
               onClick={HandleCart}>
                 <FaCartPlus /> Add to Cart
               </button>
-            </div>
 
-            <div className="listbtns d-flex mt-4 mb-4 justify-content-between">
+            <div className="listbtns d-flex mt-4 mb-4 justify-content-center">
               <button onClick={HandleList}>
                 <CiHeart style={{ fontSize: "23px" }} /> Add To List
               </button>
@@ -216,7 +145,7 @@ const HandleList = async()=>{
               <div className="plan badge">
                 <label>
                   <input type="radio" name="plan" />
-                  <span className="plan-text">
+                  <span className="plan-text  text-dark">
                     Add 2-Year Product Protection - $17.99{" "}
                     <span className="tag">Best Seller</span>
                   </span>
@@ -226,7 +155,7 @@ const HandleList = async()=>{
               <div className="plan badge">
                 <label>
                   <input type="radio" name="plan" />
-                  <span className="plan-text">
+                  <span className="text-dark plan-text">
                     Add 3-Year Product Protection - $26.99{" "}
                     <span className="tag">Best Value</span>
                   </span>
@@ -244,7 +173,7 @@ const HandleList = async()=>{
 
         <hr />
 
-        <div className="desc-page">
+        <div className="container desc-page">
           <h2>Product OverView</h2>
 
           <h3>Description</h3>
@@ -254,7 +183,7 @@ const HandleList = async()=>{
           </div>
         </div>
 
-        <div className="page-section">
+        <div className="container page-section mb-5">
           <h2>Shipping & Returns</h2>
           <p>
             Free shipping on orders over $39. Returns accepted within 30 days of
@@ -263,6 +192,8 @@ const HandleList = async()=>{
         </div>
 
       </div>
+
+      <ProductReviews productId={id}/>
     </>
   );
 };

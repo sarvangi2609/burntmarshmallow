@@ -6,12 +6,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { getData } from "../../Redux/Product/Action";
 import ProductCard from "./ProductCard";
 
-const ProductDetails = ({ sortOption }) => {
+const ProductDetails = ({ sortOption,search  }) => {
   const { category, semicategory } = useParams();
   const dispatch = useDispatch();
   const { isloading, iserror, data } = useSelector((state) => state.product);
 
-  const [search, setSearch] = useState("");
   const [searchParams] = useSearchParams();
 
 
@@ -54,7 +53,7 @@ const ProductDetails = ({ sortOption }) => {
   return (
     <div className="main">
       <div className="productdetails">
-        <div className="product-container" style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", gap: "20px", padding: "20px" }}>
+        <div className="product-container d-flex flex-wrap justify-content-center p-3">
           {data && data.map((el) => <ProductCard key={el.id} {...el} />)}
         </div>
       </div>

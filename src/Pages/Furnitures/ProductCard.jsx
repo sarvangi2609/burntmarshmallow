@@ -24,7 +24,7 @@ const ProductCard = ({
 
   return (
     <>
-      <div className="productcard">
+      <div className="productcard m-3">
         <div>
 
              

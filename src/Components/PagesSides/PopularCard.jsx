@@ -26,7 +26,7 @@ const PopularCard = () => {
     <>
       <div className="popular">
         <h2 className='mb-4'>Popular {categoryData.category} Categories</h2>
-        <div className="popular-categories d-flex flex-wrap">
+        <div className="popular-categories d-flex flex-wrap justify-content-center">
           {categoryData &&
             categoryData?.sections["Popular Categories"].map((item, index) => (
               <div key={index}>

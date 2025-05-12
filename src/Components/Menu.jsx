@@ -13,12 +13,8 @@ import More from "./Dropdowns/More";
 import Ideas from "./Dropdowns/Ideas";
 import { Link } from "react-router-dom";
 
-const Menu = ({ name,category }) => {
-  // console.log(name ,category)
-
-  // const path = `/${category.toLowerCase()}/${name.toLowerCase().replace(/\s+/g, '-')}`;
-
-
+const Menu = () => {
+  
   return (
     <>
       <div className="menu">

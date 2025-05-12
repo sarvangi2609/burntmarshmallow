@@ -44,12 +44,14 @@ const FAQS = [
 
 export function Hero() {
   return (
-    <section className="py-8 px-2 md:px-0">
+
+    <section className="mt-4 px-2 md:px-0">
 
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
-        <div className="md:col-span-1 flex flex-col gap-2 items-start justify-center text-left registry-hero">
 
-          <div className="text-3xl md:text-4xl font-black text-blue-700 leading-tight m-4 div-1">
+        <div className="md:col-span-1 d-flex flex-col gap-2 items-start justify-center text-left registry-hero">
+
+          <div className="text-3xl md:text-4xl font-black text-blue-700 div-1">
             <h1>registries <br /> for life’s</h1><br /> <h2>biggest <br /> moments</h2>
           </div>
 
@@ -66,7 +68,7 @@ export function Hero() {
       {/* registry area */}
 
       <div className="min-h-screen bg-gray-50 p-8">
-      <div className="registry-box-container">
+      <div className="registry-box-container ">
         {/* find a registry */}
 
     <div className="registry-box">

@@ -1,6 +1,178 @@
-
-
 :root{
     --bgcolor:#1A4E8A;
-    
+    --primary-blue: #1A4E8A;
+    --secondary-blue: #0079D2;
+    --dark-blue: #002855;
+    --text-color: #2f3337;
+    --light-gray: #f5f6f7;
+    --medium-gray: #dadcdf;
+    --dark-gray: #545658;
+    --error-red: #ed0000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    color: var(--text-color);
+}
+
+/* Fix for horizontal scrolling issues */
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow-x: hidden;
+}
+
+/* Fix for scrolling on mobile devices */
+@media (max-width: 768px) {
+    html, body {
+        font-size: 14px;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 10px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    html, body {
+        font-size: 13px;
+    }
+}
+
+/* Accessibility improvements */
+a:focus, button:focus, input:focus, select:focus {
+    outline: 2px solid var(--secondary-blue);
+    outline-offset: 2px;
+}
+
+/* Fix for global scrolling issues */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Adjust container widths to prevent overflow */
+.mainpage,
+.banners,
+.popularcat,
+.shopmore,
+.promotionmain,
+.shop-by-price,
+.bysize,
+.by-color {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Fix for price cards overflow */
+@media (max-width: 576px) {
+  .shop-by-price {
+    padding: 1rem 0;
+  }
+  
+  .price-list .pricecard {
+    margin: 0 auto 15px;
+  }
+  
+  .productcard .salebtn {
+    margin: 4px 0 4px 0;
+    display: inline-block;
+    float: left;
+  }
+}
+
+/* Fix registry responsive issues */
+@media (max-width: 576px) {
+  .registry-box-container {
+    padding: 10px;
+  }
+  
+  .registry-box {
+    padding: 10px;
+  }
+  
+  .registry-hero .div-1 h1 {
+    font-size: 2em;
+  }
+}
+
+/* Fix for banner positioning */
+.banner1 div {
+  max-width: 190px;
+}
+
+@media (max-width: 576px) {
+  .banner1 div {
+    max-width: 120px;
+  }
+}
+
+/* Fix for cart layout */
+.cart-card {
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+@media (max-width: 576px) {
+  /* Fix product card alignment */
+  .productcard {
+    margin: 0 auto;
+  }
+  
+  /* Fix description page layout */
+  .desc {
+    padding: 0.5rem;
+  }
+  
+  .product-page {
+    padding: 0.5rem;
+  }
+}
+
+/* Fix for category filters */
+@media (max-width: 576px) {
+  .category-filter {
+    justify-content: center;
+    padding: 0 5px;
+  }
+}
+
+/* Touch-friendly sizes for small screens */
+@media (max-width: 576px) {
+  .filter-option,
+  .cat-list,
+  .color-list,
+  .size-list,
+  button {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
 }

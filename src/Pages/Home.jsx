@@ -1,7 +1,11 @@
-
-import { HeroSection, HostingPro, LimitedPro, TrendingPro } from "../Components/Home/Slider";
+import {
+  HeroSection,
+  HostingPro,
+  LimitedPro,
+  TrendingPro,
+} from "../Components/Home/Slider";
 import UnderFooter from "../Components/UnderFooter";
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -17,10 +21,6 @@ const Home = () => {
       >
         <HeroSection />
       </div>
-
-      {/* <div className="salepro">
-        <Salpro />
-      </div> */}
 
       <div className="section">
         <div className="section1">
@@ -51,17 +51,6 @@ const Home = () => {
 
         <div className="limited-pro">
           <LimitedPro />
-
-          <div className="limit-protext d-flex justify-content-between">
-            <div className="protext w-25 text-center">
-              {" "}
-              Save on Safavieh rugs & <br />
-              patio furniture
-            </div>
-            <div className="protext  w-25 text-center">Bedding</div>
-            <div className="protext  w-25 text-center">Bath</div>
-            <div className="protext  w-25 text-center">Kitchen & Dining</div>
-          </div>
         </div>
       </div>
 
@@ -112,13 +101,9 @@ const Home = () => {
         </div>
 
         <div className="trending-pro">
-
           <TrendingPro />
-          
         </div>
       </div>
-
-
 
       <div className="section5">
         <img
@@ -131,120 +116,154 @@ const Home = () => {
 
       <div className="section6">
         <img
-          src="https://ak1.ostkcdn.com/img/mxc/20250421-NONMEMBER_WR_50off250_HP_1400x250.svg?imwidth=1920"
+          src="https://ak1.ostkcdn.com/img/mxc/11052024-V2-MOPS-beyond+_NONMember_Desktop1.svg?imwidth=1920"
           alt=""
           height={220}
           width={1233}
         />
       </div>
-
-      <div className="section7">
-        <img
-          src="https://ak1.ostkcdn.com/img/mxc/08212023-MOPS-SFwR-HomepagePromoBanner-1400x250_Desktop.svg?imwidth=1920"
-          alt=""
-          height={220}
-          width={1233}
-        />
-      </div>
-
 
       {/* shop by category */}
 
       <div className="category-product">
-
-      <div className="contnent text-center">
+        <div className="content text-center">
           <h1>shop by category</h1>
         </div>
 
-        <div className="category-pro">
-
-          <div className="cat-product">
-          <Link to="/bedding"><img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame3.jpg?imwidth=1920" alt="" /></Link>
+        <div className="row container text-center mx-auto">
+          <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+            <Link to="/bedding">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame3.jpg?imwidth=1920"
+                alt=""
+                className="img-fluid"
+              />
+            </Link>
             <span>Bedding</span>
           </div>
 
-          <div className="cat-product">
-          <Link to="/kitchen">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame6.jpg?imwidth=1920" alt="" /></Link>
-         
-          <span>Kitchen</span>
+          <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+            <Link to="/kitchen">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame6.jpg?imwidth=1920"
+                alt=""
+                className="img-fluid"
+              />
+            </Link>
+            <span>Kitchen</span>
           </div>
 
-          <div className="cat-product">
-          <Link to="/bath"><img src="https://ak1.ostkcdn.com/img/mxc/07252023_MOPS_HP_Bath.jpg?imwidth=1920" alt="" /></Link>
-          
-          <span>Bath</span>
+          <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+            <Link to="/bath">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/07252023_MOPS_HP_Bath.jpg?imwidth=1920"
+                alt=""
+                className="img-fluid"
+              />
+            </Link>
+            <span>Bath</span>
           </div>
 
-          <div className="cat-product">
-          <Link to="/outdoor">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame7.jpg?imwidth=1920" alt="" /></Link>
-          
-          <span>Outdoor</span>
+          <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+            <Link to="/outdoor">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame7.jpg?imwidth=1920"
+                alt=""
+                className="img-fluid"
+              />
+            </Link>
+            <span>Outdoor</span>
           </div>
 
-          <div className="cat-product">
-          <Link to="/furniture">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame1.jpg?imwidth=1920" alt="" /></Link>
-          
-          <span>Furniture</span>
+          <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+            <Link to="/furniture">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame1.jpg?imwidth=1920"
+                alt=""
+                className="img-fluid"
+              />
+            </Link>
+            <span>Furniture</span>
           </div>
 
-          <div className="cat-product">
-          <Link to="/rugs">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame2.jpg?imwidth=1920" alt="" /></Link>
-         
-          <span>Area Rugs</span>
+          <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+            <Link to="/rugs">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame2.jpg?imwidth=1920"
+                alt=""
+                className="img-fluid"
+              />
+            </Link>
+            <span>Area Rugs</span>
           </div>
 
-          <div className="cat-product">
-          <Link to="/kitchen">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame8.jpg?imwidth=1920" alt="" /></Link>
-          
-          <span>Home Improvement</span>
+          <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+            <Link to="/kitchen">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame8.jpg?imwidth=1920"
+                alt=""
+                className="img-fluid"
+              />
+            </Link>
+            <span>Home Improvement</span>
           </div>
 
-          <div className="cat-product">
-          <Link to="/rugs">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame10.jpg?imwidth=1920" alt="" /></Link>
-          
-          <span>Mattresses</span>
+          <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+            <Link to="/rugs">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame10.jpg?imwidth=1920"
+                alt=""
+                className="img-fluid"
+              />
+            </Link>
+            <span>Mattresses</span>
           </div>
 
-          <div className="cat-product">
-          <Link to="/decor">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame4.jpg?imwidth=1920" alt="" /></Link>
-          
-          <span>Home Decor</span>
+          <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+            <Link to="/decor">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame4.jpg?imwidth=1920"
+                alt=""
+                className="img-fluid"
+              />
+            </Link>
+            <span>Home Decor</span>
           </div>
 
-          <div className="cat-product">
-          <Link to="/lighting">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame11.jpg?imwidth=1920" alt="" /></Link>
-          
-          <span>Lighting</span>
+          <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+            <Link to="/lighting">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame11.jpg?imwidth=1920"
+                alt=""
+                className="img-fluid"
+              />
+            </Link>
+            <span>Lighting</span>
           </div>
 
-          <div className="cat-product">
-          <Link to="/storage">
-          <img src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame9_v2.jpg?imwidth=1920" alt="" /></Link>
-          
-          <span>Storage</span>
+          <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+            <Link to="/storage">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/02132023-MOPS-HP-Redesign-Frame9_v2.jpg?imwidth=1920"
+                alt=""
+                className="img-fluid"
+              />
+            </Link>
+            <span>Storage</span>
           </div>
 
-          <div className="cat-product">
-          <Link to="/more">
-          <img src="https://ak1.ostkcdn.com/img/mxc/07272023_516x516_BeautifulFinds_ShopAllDeals.jpg?imwidth=1920" alt="" /></Link>
-          
-          <span>Shop All Deals</span>
+          <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+            <Link to="/more">
+              <img
+                src="https://ak1.ostkcdn.com/img/mxc/07272023_516x516_BeautifulFinds_ShopAllDeals.jpg?imwidth=1920"
+                alt=""
+                className="img-fluid"
+              />
+            </Link>
+            <span>Shop All Deals</span>
           </div>
-          
         </div>
-
-
       </div>
-
-
 
       {/* trending searches */}
 
@@ -253,39 +272,60 @@ const Home = () => {
           <h1>trending searches</h1>
         </div>
 
-        <div className="tre-search">
-        
-          <div className="search-box"><span>Garden Sculptures</span></div>
+        <div className="tre-search text-center pt-3 row">
+          <div className="search-box col-lg-4 col-md-6 col-12 mb-3">
+            <span>Garden Sculptures</span>
+          </div>
 
-          <div className="search-box"><span>Patio Coffee Tables</span></div>
+          <div className="search-box col-lg-4 col-md-6 col-12 mb-3">
+            <span>Patio Coffee Tables</span>
+          </div>
 
-          <div className="search-box"><span>Outdoor Daybeds</span></div>
+          <div className="search-box col-lg-4 col-md-6 col-12 mb-3">
+            <span>Outdoor Daybeds</span>
+          </div>
 
-          <div className="search-box"><span> Adirondack Chairs</span></div>
+          <div className="search-box col-lg-4 col-md-6 col-12 mb-3">
+            <span> Adirondack Chairs</span>
+          </div>
 
-          <div className="search-box"><span>Gazebos</span></div>
+          <div className="search-box col-lg-4 col-md-6 col-12 mb-3">
+            <span>Gazebos</span>
+          </div>
 
-          <div className="search-box"><span>Outdoor Rocking Chairs</span></div>
+          <div className="search-box col-lg-4 col-md-6 col-12 mb-3">
+            <span>Outdoor Rocking Chairs</span>
+          </div>
 
-          <div className="search-box"><span>Outdoor Sectional Sofas</span></div>
+          <div className="search-box col-lg-4 col-md-6 col-12 mb-3">
+            <span>Outdoor Sectional Sofas</span>
+          </div>
 
-          <div className="search-box"><span>Gas Grills</span></div>
+          <div className="search-box col-lg-4 col-md-6 col-12 mb-3">
+            <span>Gas Grills</span>
+          </div>
 
-          <div className="search-box"><span>Patio Furniture Covers</span></div>
+          <div className="search-box col-lg-4 col-md-6 col-12 mb-3">
+            <span>Patio Furniture Covers</span>
+          </div>
 
-          <div className="search-box"><span>Trampolines</span></div>
+          <div className="search-box col-lg-4 col-md-6 col-12 mb-3">
+            <span>Trampolines</span>
+          </div>
 
-          <div className="search-box"><span>Sheds</span></div>
+          <div className="search-box col-lg-4 col-md-6 col-12 mb-3">
+            <span>Sheds</span>
+          </div>
 
-          <div className="search-box"><span>Outdoor Lighting</span></div>
-          
+          <div className="search-box col-lg-4 col-md-6 col-12 mb-3">
+            <span>Outdoor Lighting</span>
+          </div>
         </div>
       </div>
 
-        <div className="semifooter">
-          <UnderFooter />
-        </div>
-
+      <div className="semifooter">
+        <UnderFooter />
+      </div>
     </>
   );
 };

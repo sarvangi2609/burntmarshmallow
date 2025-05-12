@@ -1040,7 +1040,9 @@
         "modern"
       ],
       "description": "SAFAVIEH Orwell Nadjia Mid-Century Modern Rug.",
-      "colors": [],
+      "colors": [
+        "Grey"
+      ],
       "colorimages": [],
       "sale": true
     },
@@ -1048,7 +1050,7 @@
       "id": 45,
       "title": "Premium Washable Super Soft Abstract Contemporary Mayfield Rug",
       "proimg": "https://ak1.ostkcdn.com/images/products/is/images/direct/20606da475b4308ac4fce5719e091eec53e016e7/Premium-Washable-Super-Soft-Abstract-Contemporary-Mayfield-Rug.jpg",
-      "brand": "Unknown",
+      "brand": "Calvin Klein Rugs",
       "rating": 3.8,
       "saleprice": 28.39,
       "currentprice": 60,
@@ -2999,8 +3001,6 @@
       "colorimages": [],
       "sale": false
     },
-
-    
     {
       "id": 1,
       "title": "Corner Shower Caddy - 9.6\"D x 9.6\"W x 30.9\"H",
@@ -3494,7 +3494,13 @@
         "lighting",
         "decor"
       ],
-      "semicategory": ["Floor Lamps","Lighting","Chandeliers","Shop All Home Decor on Sale","Shop All Lighting on Sale"],
+      "semicategory": [
+        "Floor Lamps",
+        "Lighting",
+        "Chandeliers",
+        "Shop All Home Decor on Sale",
+        "Shop All Lighting on Sale"
+      ],
       "tags": [
         "elegant",
         "floor",
@@ -3518,7 +3524,11 @@
         "decor",
         "wall art"
       ],
-      "semicategory":[ "wall clock","Wall Decor","Art"],
+      "semicategory": [
+        "wall clock",
+        "Wall Decor",
+        "Art"
+      ],
       "tags": [
         "vintage",
         "wall",
@@ -3543,7 +3553,13 @@
         "rugs",
         "Baby and Kids Home Goods"
       ],
-      "semicategory": ["area rug","rugs","Modern Rugs","Kids Rugs","promotion"],
+      "semicategory": [
+        "area rug",
+        "rugs",
+        "Modern Rugs",
+        "Kids Rugs",
+        "promotion"
+      ],
       "tags": [
         "stylish",
         "area",
@@ -3568,7 +3584,11 @@
         "pillows",
         "bedding"
       ],
-      "semicategory": ["throw pillows","Pillow Shams","Bed Pillows"],
+      "semicategory": [
+        "throw pillows",
+        "Pillow Shams",
+        "Bed Pillows"
+      ],
       "tags": [
         "modern",
         "decorative",
@@ -3593,7 +3613,11 @@
         "kitchen",
         "storage"
       ],
-      "semicategory": ["kitchen island","Kitchen Furniture","promotion"],
+      "semicategory": [
+        "kitchen island",
+        "Kitchen Furniture",
+        "promotion"
+      ],
       "tags": [
         "compact",
         "kitchen",
@@ -3615,9 +3639,14 @@
       "saving": 0,
       "categories": [
         "furniture",
-        "dining","kitchen"
+        "dining",
+        "kitchen"
       ],
-      "semicategory": ["dining chair","Dinning Furniture","Kitchen Furniture"],
+      "semicategory": [
+        "dining chair",
+        "Dinning Furniture",
+        "Kitchen Furniture"
+      ],
       "tags": [
         "elegant",
         "dining",
@@ -3641,7 +3670,11 @@
         "furniture",
         "storage"
       ],
-      "semicategory": ["bookshelf","Storage Furniture","promotion"],
+      "semicategory": [
+        "bookshelf",
+        "Storage Furniture",
+        "promotion"
+      ],
       "tags": [
         "stylish",
         "bookshelf",
@@ -3651,7 +3684,7 @@
       "colors": [],
       "colorimages": [],
       "sale": false
-    },  
+    },
     {
       "id": 30,
       "title": "Rustic Farmhouse Dining Table",
@@ -3666,7 +3699,10 @@
         "outdoor",
         "dining"
       ],
-      "semicategory": ["dining table","Dinning Furniture"],
+      "semicategory": [
+        "dining table",
+        "Dinning Furniture"
+      ],
       "tags": [
         "rustic",
         "farmhouse",
@@ -3677,11 +3713,7 @@
       "colorimages": [],
       "sale": false
     }
-  
-
-
   ],
-
   "dynamicPage": [
     {
       "category": "Furniture",
@@ -5678,7 +5710,6 @@
       }
     }
   ],
-
   "filterdpage": [
     {
       "category": "Furniture",
@@ -14337,70 +14368,69 @@
       }
     }
   ],
-
   "cart": [
     {
-      "id": 2,
-      "title": "3-Tier End Table Side Table with Storage for Living Room",
-      "proimg": "https://ak1.ostkcdn.com/images/products/is/images/direct/99c00bf049ba5dd23a706a0ccc6233d703c014c6/3-Tier-End-Table-Side-Table-with-Storage-for-Living-Room.jpg",
-      "brand": "Unknown",
+      "id": 4,
+      "title": "Bali 42-inch Rattan Papasan Chair with Microsuede Cushion",
+      "proimg": "https://ak1.ostkcdn.com/images/products/is/images/direct/0ade2031cfafd73c5f4d11b9f9c39d77dd24bc11/Bali-42-inch-Rattan-Papasan-Chair-with-Microsuede-Cushion.jpg",
+      "brand": "Bali",
       "rating": 4.4,
-      "saleprice": 68.25,
-      "currentprice": 71.19,
-      "saving": 2.94,
+      "saleprice": 155.99,
+      "currentprice": 175.1,
+      "saving": 19.11,
       "categories": [
-        "living furniture"
+        "patio furniture"
       ],
       "semicategory": [
+        "Patio Furniture",
         "Living Room Furniture",
         "Shop All Furniture on Sale"
       ],
       "tags": [
-        "end table",
-        "storage",
-        "living room"
+        "papasan",
+        "rattan",
+        "cushion",
+        "microsuede"
       ],
-      "description": "3-tier side table with storage suitable for living rooms.",
-      "sale": true,
+      "description": "42-inch Rattan Papasan Chair with plush microsuede cushion, ideal for comfort in patio or casual spaces.",
       "colors": [],
+      "sale": true,
       "colorimages": [],
       "images": [
-        "https://ak1.ostkcdn.com/images/products/is/images/direct/99c00bf049ba5dd23a706a0ccc6233d703c014c6/3-Tier-End-Table-Side-Table-with-Storage-for-Living-Room.jpg"
+        "https://ak1.ostkcdn.com/images/products/is/images/direct/0ade2031cfafd73c5f4d11b9f9c39d77dd24bc11/Bali-42-inch-Rattan-Papasan-Chair-with-Microsuede-Cushion.jpg"
       ],
-      "quantity": 1
+      "quantity": 4
     },
     {
-      "id": 23,
-      "title": "Nourison Ivory Cushioned Vinyl-coated Non-slip Rug Pad",
-      "proimg": "https://ak1.ostkcdn.com/images/products/7594826/Nourison-Non-slip-Rug-Pad-Ivory-6188b7ad-27e3-4efb-a397-774c9c550f6f.jpg",
-      "brand": "Nourison",
-      "rating": 4.4,
-      "saleprice": 15.83,
-      "currentprice": 19.46,
-      "saving": 3.63,
+      "id": 42,
+      "title": "Machine Washable Indoor/ Outdoor Chantille Modern Floral Rug",
+      "proimg": "https://ak1.ostkcdn.com/images/products/is/images/direct/2fdb602a667a62fbf5d95fe46f3e5000f3adff34/Machine-Washable-Indoor--Outdoor-Chantille-Modern-Floral-Rug.jpg",
+      "brand": "Unknown",
+      "rating": 4.8,
+      "saleprice": 24.37,
+      "currentprice": 49,
+      "saving": 24.63,
       "categories": [
         "home",
         "rugs"
       ],
       "semicategory": [
-        "Shop All Rugs on Sale",
-        "Rug Pads"
+        "Modern Rugs",
+        "Shop New Arrivals"
       ],
       "tags": [
-        "non-slip",
-        "cushioned",
-        "ivory"
+        "machine washable",
+        "floral",
+        "indoor",
+        "outdoor"
       ],
-      "description": "Best Seller - Nourison Ivory Cushioned Vinyl-coated Non-slip Rug Pad.",
-      "colors": [
-        "ivory"
-      ],
+      "description": "Machine Washable Indoor/ Outdoor Chantille Modern Floral Rug.",
+      "colors": [],
       "colorimages": [],
       "sale": false,
       "quantity": 1
     }
   ],
-
   "Wishlist": [
     {
       "id": 2,
@@ -14459,15 +14489,61 @@
       ],
       "colorimages": [],
       "sale": false
+    },
+    {
+      "id": 42,
+      "title": "Machine Washable Indoor/ Outdoor Chantille Modern Floral Rug",
+      "proimg": "https://ak1.ostkcdn.com/images/products/is/images/direct/2fdb602a667a62fbf5d95fe46f3e5000f3adff34/Machine-Washable-Indoor--Outdoor-Chantille-Modern-Floral-Rug.jpg",
+      "brand": "Unknown",
+      "rating": 4.8,
+      "saleprice": 24.37,
+      "currentprice": 49,
+      "saving": 24.63,
+      "categories": [
+        "home",
+        "rugs"
+      ],
+      "semicategory": [
+        "Modern Rugs",
+        "Shop New Arrivals"
+      ],
+      "tags": [
+        "machine washable",
+        "floral",
+        "indoor",
+        "outdoor"
+      ],
+      "description": "Machine Washable Indoor/ Outdoor Chantille Modern Floral Rug.",
+      "colors": [],
+      "colorimages": [],
+      "sale": false
     }
   ],
-
+  "notifications": [
+    {
+      "id": 1,
+      "message": "Welcome to our store!",
+      "read": true
+    }
+  ],
   "Auth": [
     {
       "email": "sp@gmail.com",
       "password": "123456",
       "role": "user",
       "id": 1
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "12345678",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
     }
   ]
 }

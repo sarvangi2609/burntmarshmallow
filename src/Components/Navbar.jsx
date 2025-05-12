@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { CiUser } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
@@ -13,18 +13,34 @@ import UnderBanner from './UnderBanner';
 import Popup from 'reactjs-popup';
 import UserProfile from './Profile/UserProfile';
 import PopUp from './PopUp';
-import { useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';;
+import NotificationSidebar from './NotificationSideBar';
 
-const Navbar = () => {
+const Navbar = ({ setSearch }) => {
 
     const { currentUser } = useSelector(state => state.auth);
     console.log(currentUser)
+
+    // search
+    const [searchQuery, setSearchQuery] = useState('');
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+    setSearch(e.target.value); // Pass to the parent component if necessary
+    console.log("search:", e.target.value);
+};
+
+    // for notification
+
+    const [showNotification, setShowNotification] = useState(false);
+
+    const handleShow = () => setShowNotification(true);
+    const handleClose = () => setShowNotification(false);
 
   return (
 
     <>
 
-    <div className="navbar ps-3">
+    <div className="navbar ps-3 flex items-center justify-between px-4 py-2 md:hidden">
 
         <div className="logo">
 
@@ -35,9 +51,11 @@ const Navbar = () => {
             
         </div>
 
-        <div className="search">
-        <input type="text" placeholder="Find all things home &amp; beyond" style={{padding:"10px",borderRadius:"10px",border:"1px solid #dadcdf",width:"600px",fontSize:"16px"}}  />
-        <div className="search-icon"><IoIosSearch style={{fontSize:"25px",position:"absolute",top:"4px",left:"5px",color:"white"}} /></div>
+        <div className="search d.none d-sm-none d-md-block d-lg-block">
+        <input type="text" placeholder="Find all things home &amp; beyond" style={{padding:"10px",borderRadius:"10px",border:"1px solid #dadcdf",fontSize:"16px"}}
+        value={searchQuery}
+        onChange={handleSearchChange}
+          />
         </div>
 
         <div>
@@ -66,7 +84,7 @@ const Navbar = () => {
                     <ListDropDown />
                     </div></li>
 
-                <li><Link to="/"><CiBellOn style={{height:"30px",width:"30px",color: "#2f3337"}} /></Link><span style={{display:"block"}}>Notifications</span></li>
+                <li onClick={handleShow}><Link to="/"><CiBellOn style={{height:"30px",width:"30px",color: "#2f3337"}} /></Link><span style={{display:"block"}}>Notifications</span></li>
 
                 <li><Link to="/registry"><CiGift style={{height:"30px",width:"30px",color: "#2f3337"}} /></Link><span style={{display:"block"}}>Registry</span></li>
 
@@ -74,8 +92,12 @@ const Navbar = () => {
             </ul>
 
         </div>
+                        
+
 
     </div>
+
+    <NotificationSidebar show={showNotification} handleClose={handleClose} />
 
     <Menu />
 

@@ -13,9 +13,11 @@
   "dependencies": {
     "@headlessui/react": "^2.2.2",
     "@heroicons/react": "^2.2.0",
+    "@stripe/stripe-js": "^7.3.0",
     "axios": "^1.9.0",
     "bootstrap": "^5.3.5",
     "json-server": "^0.17.4",
+    "qrcode.react": "^4.2.0",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",

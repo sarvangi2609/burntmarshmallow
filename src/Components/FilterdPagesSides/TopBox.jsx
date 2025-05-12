@@ -27,9 +27,9 @@ const TopBox = () => {
 
     <>
 
-    <div className="titles" style={{width:"25%"}}>
-        <h1>{semicategory}</h1>
-    </div>
+<div className="titles">
+  <h1 className="fs-4 fs-md-4 fs-lg-1">{semicategory}</h1>
+</div>
 
 <div className="filter-box">
 
